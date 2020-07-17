@@ -21,17 +21,13 @@ export default function Home() {
     heroAnimation(completeAnimation);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div>
       {!animationComplete && <Overlay />}
       <Hero />
       <div className="about text-center">
-        <div className="container py-5 px-2">
-          <div className="row py-5 my-2">
+        <div className="container py-2 px-2">
+          <div className="row align-content-center">
             <div className="col-12">
               <h1>
                 The <span className="theme">Y</span>outh{" "}
@@ -49,7 +45,7 @@ export default function Home() {
                 and communicate.
               </p>
             </div>
-            <div className="col-12 pt-2 pb-2">
+            <div className="col-12 pt-2">
               <Link to="/chapters" className="action-btn main-action mx-2 mb-2">
                 Register a Chapter
               </Link>

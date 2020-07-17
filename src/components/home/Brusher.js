@@ -242,8 +242,6 @@ class BrusherClass {
    * Creates stroke from the recorded mouse steps
    */
   createStrokeFromSteps() {
-    const currentTime = Date.now();
-
     for (let counter = 1; counter < this.trailSteps.length; counter++) {
       this.brushCanvasContext.strokeStyle = `rgba(0,0,0,0.25)`;
       this.brushCanvasContext.lineWidth = this.options.brushSize;

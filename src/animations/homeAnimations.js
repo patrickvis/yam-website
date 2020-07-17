@@ -3,11 +3,7 @@ import gsap from "gsap";
 export const heroAnimation = (setAnimationComplete) => {
   // preanimation
   gsap.to("html, body", 0, {
-    height: "100vh",
-    width: "100vw",
-    css: {
-      overflow: "hidden",
-    },
+    css: { height: "100vh", width: "100vw", overflow: "hidden" },
   });
 
   gsap.to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
@@ -46,9 +42,9 @@ export const heroAnimation = (setAnimationComplete) => {
       },
     })
     .to("html, body", 0, {
-      height: "100vh",
-      width: "100vw",
       css: {
+        height: "100vh",
+        width: "100vw",
         overflowX: "hidden",
         overflowY: "auto",
       },

@@ -170,52 +170,59 @@
 }
 
 .about {
-  background-color: $light;
-  h1 {
-    font-family: "Ubuntu";
-    font-weight: 700;
-    font-size: 4em;
-    .theme {
-      color: $theme-darker;
-    }
-    @include media("<=sm") {
-      font-size: 3em;
-    }
-  }
-  p {
-    font-size: 1.7em;
-    @include media("<=sm") {
-      font-size: 1.5em;
-    }
-    b {
-      color: $theme-darker;
-    }
-  }
-
-  .action-btn {
-    background-color: $gray-dark;
-    font-size: 1.5em;
-    padding: 0.3em 1em;
-    border: 0;
-    border-radius: 2px;
-    color: $light-bright;
-    font-weight: 500;
-    transition: 0.15s ease;
+  .row {
+    height: calc(100 * var(--vh, 1vh));
+    overflow-x: hidden;
     position: relative;
-    text-decoration: none;
-    display: inline-block;
-    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
-    &:hover {
-      border: 0;
-      background-color: $gray;
-      transform: translateY(-3px);
-      filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
+    @include media(">=lg") {
+      height: calc(80 * var(--vh, 1vh));
     }
-    &.main-action {
-      background-color: $theme;
+    h1 {
+      font-family: "Ubuntu";
+      font-weight: 700;
+      font-size: 4em;
+      .theme {
+        color: $theme-darker;
+      }
+      @include media("<=sm") {
+        font-size: 3em;
+      }
+    }
+    p {
+      font-size: 1.7em;
+      @include media("<=sm") {
+        font-size: 1.5em;
+      }
+      b {
+        color: $theme-darker;
+      }
+    }
+
+    .action-btn {
+      background-color: $gray-dark;
+      font-size: 1.5em;
+      padding: 0.3em 1em;
+      border: 0;
+      border-radius: 2px;
+      color: $light-bright;
+      font-weight: 500;
+      transition: 0.15s ease;
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+      filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
       &:hover {
-        background-color: $theme-bright;
+        border: 0;
+        background-color: $gray;
         transform: translateY(-3px);
+        filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
+      }
+      &.main-action {
+        background-color: $theme;
+        &:hover {
+          background-color: $theme-bright;
+          transform: translateY(-3px);
+        }
       }
     }
   }

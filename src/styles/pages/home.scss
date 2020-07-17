@@ -1,0 +1,84 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  .hero-bg {
+    height: 100%;
+    background: url("../../assets/img/hero/lg-bw.jpg");
+    @include media("<=tablet") {
+      background: url("../../assets/img/hero/lg-color.jpg");
+    }
+  }
+
+  .hero-content {
+    height: 100vh;
+    h1 {
+      color: $light-bright;
+      font-size: 12em;
+      @include media("<=tablet") {
+        font-size: 8em;
+      }
+      font-weight: bold;
+      text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
+      .letter {
+        display: inline-block;
+      }
+    }
+
+    .line {
+      transition: 0.5s ease-in-out; // debounce resize ease
+      height: 60px;
+      position: relative;
+      overflow: hidden;
+      @include media("<=tablet") {
+        height: 50px;
+      }
+      @include media("<=phone") {
+        height: 42px;
+      }
+      span {
+        position: absolute;
+        b {
+          font-weight: 1000;
+        }
+      }
+    }
+
+    h2 {
+      color: $light-bright;
+      font-size: 3em;
+      font-weight: bold;
+      text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.69);
+      @include media("<=tablet") {
+        font-size: 2em;
+        text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
+      }
+    }
+
+    .action-btn {
+      background-color: $gray-dark;
+      font-size: 1.5em;
+      padding: 0.5em;
+      border: 0;
+      border-radius: 2px;
+      color: $light-bright;
+      font-weight: 500;
+      transition: background-color 0.55s ease, transform 0.55s ease;
+      position: relative;
+      filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+      &:hover {
+        border: 0;
+        background-color: $gray;
+        transform: translateY(-2px);
+      }
+      &.main-action {
+        background-color: $theme-bright;
+        &:hover {
+          background-color: $theme-brighter;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}

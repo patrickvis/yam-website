@@ -75,8 +75,8 @@ export default function Hero() {
               image: "lg-color.jpg", // Path of the image to be used as a brush
               brushStyle: "round", // Brush style (round, square, butt)
               keepCleared: true,
-              brushSize: 40,
-              brushBlur: 20,
+              brushSize: 70,
+              brushBlur: 30,
             }}
           >
             {heroContent}

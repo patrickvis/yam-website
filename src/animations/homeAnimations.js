@@ -50,7 +50,7 @@ export const heroAnimation = (setAnimationComplete) => {
       width: "100vw",
       css: {
         overflowX: "hidden",
-        overflowY: "scroll",
+        overflowY: "auto",
       },
     })
     .to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {

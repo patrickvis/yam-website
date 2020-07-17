@@ -1,65 +1,110 @@
 .hero {
-  height: 100vh;
+  height: calc(100 * var(--vh, 1vh));
   width: 100vw;
   overflow-x: hidden;
   position: relative;
   .hero-bg {
     height: 100%;
     background: url("../../assets/img/hero/lg-bw.jpg");
-    @include media("<=tablet") {
+    @include media("<=md") {
       background: url("../../assets/img/hero/lg-color.jpg");
+      background-size: cover;
     }
+    background-size: cover;
   }
 
   .hero-content {
-    height: 100vh;
-    h1 {
-      color: $light-bright;
-      font-size: 12em;
-      @include media("<=tablet") {
-        font-size: 8em;
+    height: 100%;
+    .title {
+      .line {
+        height: 200px;
+        overflow: hidden;
+        @include media("<=md") {
+          height: 160px;
+        }
+        @include media("<=sm") {
+          height: 130px;
+        }
       }
-      font-weight: bold;
-      text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
-      .letter {
-        display: inline-block;
-      }
-    }
-
-    .line {
-      transition: 0.5s ease-in-out; // debounce resize ease
-      height: 60px;
-      position: relative;
-      overflow: hidden;
-      @include media("<=tablet") {
-        height: 50px;
-      }
-      @include media("<=phone") {
-        height: 42px;
-      }
-      span {
-        position: absolute;
-        b {
-          font-weight: 1000;
+      h1 {
+        color: $light-bright;
+        font-size: 12em;
+        @include media("<=md") {
+          font-size: 9em;
+        }
+        @include media("<=sm") {
+          font-size: 7em;
+        }
+        font-weight: bold;
+        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
+        .letter {
+          display: inline-block;
         }
       }
     }
 
-    h2 {
-      color: $light-bright;
-      font-size: 3em;
-      font-weight: bold;
-      text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.69);
-      @include media("<=tablet") {
-        font-size: 2em;
-        text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
+    .slogan {
+      .single {
+        display: block;
+      }
+      .double,
+      .triple {
+        display: none;
+      }
+
+      @include media("<=md") {
+        .double {
+          display: block;
+        }
+        .triple,
+        .single {
+          display: none;
+        }
+      }
+
+      @include media("<=sm") {
+        .triple {
+          display: block;
+        }
+        .double,
+        .single {
+          display: none;
+        }
+      }
+
+      .line-slogan {
+        height: 66px;
+        position: relative;
+        overflow: hidden;
+        @include media("<=md") {
+          height: 63px;
+        }
+        @include media("<=sm") {
+          height: 59px;
+        }
+        @include media("<=xs") {
+          height: 60px;
+        }
+
+        h2 {
+          color: $light-bright;
+          position: absolute;
+          font-size: 3.5em;
+          font-weight: bold;
+          position: relative;
+          text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.69);
+          @include media("<=lg") {
+            font-size: 3em;
+            text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
+          }
+        }
       }
     }
 
     .action-btn {
       background-color: $gray-dark;
       font-size: 1.5em;
-      padding: 0.5em;
+      padding: 0.3em 1em;
       border: 0;
       border-radius: 2px;
       color: $light-bright;
@@ -78,6 +123,45 @@
           background-color: $theme-brighter;
           transform: translateY(-2px);
         }
+      }
+    }
+  }
+
+  @media screen and (max-height: 540px) and (orientation: landscape) {
+    // screw landscape phones but here i am being nice
+    .hero-bg {
+      background: url("../../assets/img/hero/lg-color.jpg");
+      background-size: cover;
+    }
+
+    .hero-content {
+      .title {
+        .line {
+          height: 110px;
+        }
+        h1 {
+          font-size: 6.2em;
+        }
+      }
+      .slogan {
+        .single {
+          display: block;
+        }
+        .double,
+        .triple {
+          display: none;
+        }
+        .line-slogan {
+          height: 40px;
+          h2 {
+            font-size: 2em;
+          }
+        }
+      }
+
+      .action-btn {
+        font-size: 1.1em;
+        font-weight: 500;
       }
     }
   }

@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 export const HeaderContext = createContext();
 
 const HeaderContextProvider = (props) => {
-  const [disabled, setDisabled] = useState(false);
+  const [disabled, setDisabled] = useState(true);
 
   return (
     <HeaderContext.Provider

@@ -1,31 +1,54 @@
-import React from "react";
+import React, { useContext } from "react";
 import Brusher from "./Brusher";
-
 import { Link } from "react-router-dom";
+import { HeaderContext } from "../../contexts/HeaderContext";
 
 export default function Hero() {
+  const { disabled } = useContext(HeaderContext);
+
+  React.useEffect(() => {
+    console.log(disabled);
+  });
+
   let heroContent = (
     <div className="container text-center hero-content">
       <div className="row p-1 align-content-center h-100">
         <div className="col-12">
-          <h1 className="m-0">
-            <span className="letter">Y</span>
-            <span className="letter">A</span>
-            <span className="letter">M</span>
-          </h1>
-        </div>
-        <div className="col-12">
-          <div className="two-lines d-block d-lg-none">
+          <div className="title">
             <div className="line">
-              <h2 className="slogan">A Plaform for </h2>
-            </div>
-            <div className="line">
-              <h2 className="slogan">Creative Expression.</h2>
+              <h1 className="m-0">
+                <span className="letter">Y</span>
+                <span className="letter">A</span>
+                <span className="letter">M</span>
+              </h1>
             </div>
           </div>
-          <div className="single-line d-none d-lg-block">
-            <div className="line">
-              <h2 className="slogan">A Plaform for Creative Expression.</h2>
+        </div>
+        <div className="col-12">
+          <div className="slogan">
+            <div className="triple">
+              <div className="line-slogan">
+                <h2>A Platform </h2>
+              </div>
+              <div className="line-slogan">
+                <h2>for Creative</h2>
+              </div>
+              <div className="line-slogan">
+                <h2>Expression.</h2>
+              </div>
+            </div>
+            <div className="double">
+              <div className="line-slogan">
+                <h2>A Platform for </h2>
+              </div>
+              <div className="line-slogan">
+                <h2>Creative Expression.</h2>
+              </div>
+            </div>
+            <div className="single">
+              <div className="line-slogan">
+                <h2>A Platform for Creative Expression.</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -44,17 +67,21 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-bg">
-        <Brusher
-          options={{
-            image: "lg-color.jpg", // Path of the image to be used as a brush
-            brushStyle: "round", // Brush style (round, square, butt)
-            keepCleared: true,
-            brushSize: 40,
-            brushBlur: 20,
-          }}
-        >
-          {heroContent}
-        </Brusher>
+        {disabled || window.innerWidth <= 992 || window.innerHeight <= 450 ? (
+          heroContent
+        ) : (
+          <Brusher
+            options={{
+              image: "lg-color.jpg", // Path of the image to be used as a brush
+              brushStyle: "round", // Brush style (round, square, butt)
+              keepCleared: true,
+              brushSize: 40,
+              brushBlur: 20,
+            }}
+          >
+            {heroContent}
+          </Brusher>
+        )}
       </div>
     </div>
   );

@@ -1,35 +1,62 @@
 import gsap from "gsap";
 
-export const heroAnimation = () => {
-  gsap.to(".hero .hero-content .action-btn", 0, {
-    opacity: 0,
+export const heroAnimation = (setAnimationComplete) => {
+  window.scrollTo(0, 0);
+  // preanimation
+  gsap.to("body", 0, {
+    height: "100vh",
+    width: "100vw",
+    css: {
+      overflow: "hidden",
+    },
   });
-  const tl = gsap.timeline({ defaults: { ease: "power2.inOut" } });
+  gsap.to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
+    css: {
+      position: "relative",
+      zIndex: 9000,
+    },
+  });
+
+  const tl = gsap.timeline({
+    defaults: { ease: "power2.inOut" },
+    onComplete: setAnimationComplete,
+  });
   tl.from(".hero .hero-content .letter", 1.5, {
-    opacity: 0,
     delay: 0.8,
-    y: 25,
+    y: 300,
     ease: "power3.out",
     stagger: {
       amount: 0.5,
     },
   })
-    .from(".hero .hero-content .line .slogan", 1.6, {
+    .from(".hero .hero-content .slogan .line-slogan h2 ", 1.6, {
       opacity: 0,
       y: 100,
       ease: "power4.out",
-      delay: -1,
+      delay: -0.5,
       skewY: 8,
       stagger: {
         amount: 0.5,
       },
     })
-    .to(".hero .hero-content .action-btn", 1.5, {
-      opacity: 1,
-      delay: -0.6,
-      ease: "power1.easeOut",
+    .to(".intro-overlay .overlay", 1.6, {
+      width: 0,
       stagger: {
-        amount: 0.2,
+        amount: 0.6,
+      },
+    })
+    .to("body", 0, {
+      height: "100vh",
+      width: "100vw",
+      css: {
+        overflowX: "hidden",
+        overflowY: "scroll",
+      },
+    })
+    .to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
+      css: {
+        position: "relative",
+        zIndex: 1,
       },
     });
 };

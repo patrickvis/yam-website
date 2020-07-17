@@ -3,6 +3,7 @@
 @import "./variables.scss";
 @import "./pages/header.scss";
 @import "./pages/home.scss";
+@import "./IntroOverlay.scss";
 
 body,
 html {
@@ -28,7 +29,7 @@ div[role="link"] {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  @include media("<=tablet") {
+  @include media("<=md") {
     cursor: default;
   }
   @media screen and (max-height: 540px) and (orientation: landscape) {

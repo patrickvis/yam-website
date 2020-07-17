@@ -14,9 +14,6 @@ export default function Brusher(props) {
       element: "#" + id,
     });
     brusher.init();
-    return () => {
-      console.log("ot");
-    };
   });
 
   return (

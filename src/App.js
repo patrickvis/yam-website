@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import gsap from "gsap";
 import "./styles/App.scss";
 import Header from "./components/Header";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/other/ScrollToTop";
 import HeaderContextProvider from "./contexts/HeaderContext";
 
 // page components

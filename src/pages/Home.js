@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import Hero from "../components/home/Hero";
 
 import { heroAnimation } from "../animations/homeAnimations";
-import IntroOverlay from "../components/IntroOverlay";
+import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      {!animationComplete && <IntroOverlay />}
+      {!animationComplete && <Overlay />}
       <Hero />
     </div>
   );

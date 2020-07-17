@@ -9,11 +9,15 @@ export default function Brusher(props) {
     parentEl.style.zIndex = 1;
     parentEl.style.position = "relative";
     parentEl.style.backgroundSize = "cover";
-    const brusher = new BrusherClass({
+    let brusher = new BrusherClass({
       ...props.options,
       element: "#" + id,
     });
     brusher.init();
+    return () => {
+      console.log("out boy");
+      brusher = null;
+    };
   });
 
   return (
@@ -68,7 +72,6 @@ class BrusherClass {
     wrapperEl.appendChild(innerBgEl);
     this.domNode = innerBgEl;
     this.domNode.style.zIndex = -2;
-
     this.drawTail = this.drawTail.bind(this);
     this.validateOptions();
   }
@@ -99,25 +102,22 @@ class BrusherClass {
     this.bind();
   }
 
+  handler = (e) => {
+    if (!e.clientX || !e.clientY) {
+      return;
+    }
+
+    // Keep the co-ordinates and time, this will be used while drawing
+    // the stroke. Time helps us decrease the length of stroke over time.
+    this.trailSteps.unshift({
+      time: Date.now(),
+      ...this.getMousePositionInCanvas(e),
+    });
+    this.drawTail();
+  };
+
   bind() {
-    document.addEventListener("mousemove", (e) => {
-      if (!e.clientX || !e.clientY) {
-        return;
-      }
-
-      // Keep the co-ordinates and time, this will be used while drawing
-      // the stroke. Time helps us decrease the length of stroke over time.
-      this.trailSteps.unshift({
-        time: Date.now(),
-        ...this.getMousePositionInCanvas(e),
-      });
-
-      this.drawTail();
-    });
-
-    window.addEventListener("resize", () => {
-      this.prepareCanvas();
-    });
+    document.addEventListener("mousemove", this.handler);
   }
 
   /**
@@ -245,12 +245,7 @@ class BrusherClass {
     const currentTime = Date.now();
 
     for (let counter = 1; counter < this.trailSteps.length; counter++) {
-      const timeDiff =
-        (currentTime - this.trailSteps[counter].time) /
-        this.options.clearTrailTime;
-      const strokeAlpha = Math.max(1 - timeDiff, 0);
-
-      this.brushCanvasContext.strokeStyle = `rgba(0,0,0,${strokeAlpha})`;
+      this.brushCanvasContext.strokeStyle = `rgba(0,0,0,0.25)`;
       this.brushCanvasContext.lineWidth = this.options.brushSize;
       this.brushCanvasContext.beginPath();
       this.brushCanvasContext.moveTo(

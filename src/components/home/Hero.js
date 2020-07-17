@@ -6,10 +6,6 @@ import { HeaderContext } from "../../contexts/HeaderContext";
 export default function Hero() {
   const { disabled } = useContext(HeaderContext);
 
-  React.useEffect(() => {
-    console.log(disabled);
-  });
-
   let heroContent = (
     <div className="container text-center hero-content">
       <div className="row p-1 align-content-center h-100">
@@ -75,8 +71,8 @@ export default function Hero() {
               image: "lg-color.jpg", // Path of the image to be used as a brush
               brushStyle: "round", // Brush style (round, square, butt)
               keepCleared: true,
-              brushSize: 70,
-              brushBlur: 30,
+              brushSize: 55,
+              brushBlur: 50,
             }}
           >
             {heroContent}

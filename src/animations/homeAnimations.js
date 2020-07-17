@@ -10,6 +10,7 @@ export const heroAnimation = (setAnimationComplete) => {
       overflow: "hidden",
     },
   });
+
   gsap.to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
     css: {
       position: "relative",
@@ -39,7 +40,7 @@ export const heroAnimation = (setAnimationComplete) => {
         amount: 0.5,
       },
     })
-    .to(".intro-overlay .overlay", 1.6, {
+    .to(".overlays .overlay", 1.6, {
       width: 0,
       stagger: {
         amount: 0.6,

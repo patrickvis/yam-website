@@ -27,16 +27,18 @@
         }
       }
       h1 {
+        font-family: "Raleway";
         color: $light-bright;
         font-size: 12em;
+        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
         @include media("<=md") {
           font-size: 9em;
         }
         @include media("<=sm") {
           font-size: 7em;
+          text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.55);
         }
         font-weight: bold;
-        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
         .letter {
           display: inline-block;
         }
@@ -109,13 +111,14 @@
       border-radius: 2px;
       color: $light-bright;
       font-weight: 500;
-      transition: background-color 0.55s ease, transform 0.55s ease;
+      transition: 0.15s ease;
       position: relative;
       filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
       &:hover {
         border: 0;
         background-color: $gray;
-        transform: translateY(-2px);
+        transform: translateY(-3px);
+        filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
       }
       &.main-action {
         background-color: $theme-bright;

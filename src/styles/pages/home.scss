@@ -177,6 +177,7 @@
     @include media(">=lg") {
       height: calc(80 * var(--vh, 1vh));
     }
+
     h1 {
       font-family: "Ubuntu";
       font-weight: 700;
@@ -223,6 +224,16 @@
           background-color: $theme-bright;
           transform: translateY(-3px);
         }
+      }
+    }
+
+    @media screen and (max-height: 540px) and (orientation: landscape) {
+      min-height: calc(100 * var(--vh), 1vh);
+      h1 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1.3em;
       }
     }
   }

@@ -45,8 +45,7 @@ export const heroAnimation = (setAnimationComplete) => {
       css: {
         height: "100vh",
         width: "100vw",
-        overflowX: "hidden",
-        overflowY: "auto",
+        overflowY: "initial",
       },
     })
     .to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {

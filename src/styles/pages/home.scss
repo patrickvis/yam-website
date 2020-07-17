@@ -1,150 +1,51 @@
-.hero {
-  height: calc(100 * var(--vh, 1vh));
-  width: 100vw;
-  overflow-x: hidden;
-  position: relative;
-  .hero-bg {
-    height: 100%;
-    background: url("../../assets/img/hero/lg-bw.jpg");
-    @include media("<=md") {
-      background: url("../../assets/img/hero/lg-color.jpg");
-      background-size: cover;
-    }
-    background-size: cover;
-  }
-
-  .hero-content {
-    height: 100%;
-    .title {
-      .line {
-        height: 200px;
-        overflow: hidden;
-        @include media("<=md") {
-          height: 160px;
-        }
-        @include media("<=sm") {
-          height: 130px;
-        }
-      }
-      h1 {
-        font-family: "Raleway";
-        color: $light-bright;
-        font-size: 12em;
-        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
-        @include media("<=md") {
-          font-size: 9em;
-        }
-        @include media("<=sm") {
-          font-size: 7em;
-          text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.55);
-        }
-        font-weight: bold;
-        .letter {
-          display: inline-block;
-        }
-      }
-    }
-
-    .slogan {
-      .single {
-        display: block;
-      }
-      .double,
-      .triple {
-        display: none;
-      }
-
-      @include media("<=md") {
-        .double {
-          display: block;
-        }
-        .triple,
-        .single {
-          display: none;
-        }
-      }
-
-      @include media("<=sm") {
-        .triple {
-          display: block;
-        }
-        .double,
-        .single {
-          display: none;
-        }
-      }
-
-      .line-slogan {
-        height: 66px;
-        position: relative;
-        overflow: hidden;
-        @include media("<=md") {
-          height: 63px;
-        }
-        @include media("<=sm") {
-          height: 59px;
-        }
-        @include media("<=xs") {
-          height: 60px;
-        }
-
-        h2 {
-          color: $light-bright;
-          position: absolute;
-          font-size: 3.5em;
-          font-weight: bold;
-          position: relative;
-          text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.69);
-          @include media("<=lg") {
-            font-size: 3em;
-            text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
-          }
-        }
-      }
-    }
-
-    .action-btn {
-      background-color: $gray-dark;
-      font-size: 1.5em;
-      padding: 0.3em 1em;
-      border: 0;
-      border-radius: 2px;
-      color: $light-bright;
-      font-weight: 500;
-      transition: 0.15s ease;
-      position: relative;
-      filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
-      &:hover {
-        border: 0;
-        background-color: $gray;
-        transform: translateY(-3px);
-        filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
-      }
-      &.main-action {
-        background-color: $theme-bright;
-        &:hover {
-          background-color: $theme-brighter;
-          transform: translateY(-3px);
-        }
-      }
-    }
-  }
-  @media screen and (max-height: 540px) and (orientation: landscape) {
-    // screw landscape phones but here i am being nice
+#homepage {
+  .hero {
+    height: calc(100 * var(--vh, 1vh));
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
     .hero-bg {
-      background: url("../../assets/img/hero/lg-color.jpg");
+      height: 100%;
+      background: url("../../assets/img/hero/lg-bw.jpg");
+      @include media("<=md") {
+        background: url("../../assets/img/hero/lg-color.jpg");
+        background-size: cover;
+      }
       background-size: cover;
     }
 
     .hero-content {
+      height: 100%;
       .title {
         .line {
-          height: 110px;
+          height: 200px;
+          overflow: hidden;
+          @include media("<=md") {
+            height: 160px;
+          }
+          @include media("<=sm") {
+            height: 130px;
+          }
         }
         h1 {
-          font-size: 6.2em;
+          font-family: "Raleway";
+          color: $light-bright;
+          font-size: 12em;
+          text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.55);
+          @include media("<=md") {
+            font-size: 9em;
+          }
+          @include media("<=sm") {
+            font-size: 7em;
+            text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.55);
+          }
+          font-weight: bold;
+          .letter {
+            display: inline-block;
+          }
         }
       }
+
       .slogan {
         .single {
           display: block;
@@ -153,87 +54,270 @@
         .triple {
           display: none;
         }
+
+        @include media("<=md") {
+          .double {
+            display: block;
+          }
+          .triple,
+          .single {
+            display: none;
+          }
+        }
+
+        @include media("<=sm") {
+          .triple {
+            display: block;
+          }
+          .double,
+          .single {
+            display: none;
+          }
+        }
+
         .line-slogan {
-          height: 40px;
+          height: 66px;
+          position: relative;
+          overflow: hidden;
+          @include media("<=md") {
+            height: 63px;
+          }
+          @include media("<=sm") {
+            height: 59px;
+          }
+          @include media("<=xs") {
+            height: 60px;
+          }
+
           h2 {
-            font-size: 2em;
+            color: $light-bright;
+            position: absolute;
+            font-size: 3.5em;
+            font-weight: bold;
+            position: relative;
+            text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.69);
+            @include media("<=lg") {
+              font-size: 3em;
+              text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
+            }
           }
         }
       }
 
       .action-btn {
-        font-size: 1.1em;
-        font-weight: 500;
-      }
-    }
-  }
-}
-
-.about {
-  .row {
-    height: calc(100 * var(--vh, 1vh));
-    overflow-x: hidden;
-    position: relative;
-    @include media(">=lg") {
-      height: calc(80 * var(--vh, 1vh));
-    }
-
-    h1 {
-      font-family: "Ubuntu";
-      font-weight: 700;
-      font-size: 4em;
-      .theme {
-        color: $theme-darker;
-      }
-      @include media("<=sm") {
-        font-size: 3em;
-      }
-    }
-    p {
-      font-size: 1.7em;
-      @include media("<=sm") {
+        background-color: $gray-dark;
         font-size: 1.5em;
-      }
-      b {
-        color: $theme-darker;
-      }
-    }
-
-    .action-btn {
-      background-color: $gray-dark;
-      font-size: 1.5em;
-      padding: 0.3em 1em;
-      border: 0;
-      border-radius: 2px;
-      color: $light-bright;
-      font-weight: 500;
-      transition: 0.15s ease;
-      position: relative;
-      text-decoration: none;
-      display: inline-block;
-      filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
-      &:hover {
+        padding: 0.3em 1em;
         border: 0;
-        background-color: $gray;
-        transform: translateY(-3px);
-        filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
-      }
-      &.main-action {
-        background-color: $theme;
+        border-radius: 2px;
+        color: $light-bright;
+        font-weight: 500;
+        transition: 0.15s ease;
+        position: relative;
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
         &:hover {
-          background-color: $theme-bright;
+          border: 0;
+          background-color: $gray;
           transform: translateY(-3px);
+          filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
+        }
+        &.main-action {
+          background-color: $theme-bright;
+          &:hover {
+            background-color: $theme-brighter;
+            transform: translateY(-3px);
+          }
         }
       }
     }
-
     @media screen and (max-height: 540px) and (orientation: landscape) {
-      min-height: calc(100 * var(--vh), 1vh);
+      // screw landscape phones but here i am being nice
+      .hero-bg {
+        background: url("../../assets/img/hero/lg-color.jpg");
+        background-size: cover;
+      }
+
+      .hero-content {
+        .title {
+          .line {
+            height: 110px;
+          }
+          h1 {
+            font-size: 6.2em;
+          }
+        }
+        .slogan {
+          .single {
+            display: block;
+          }
+          .double,
+          .triple {
+            display: none;
+          }
+          .line-slogan {
+            height: 40px;
+            h2 {
+              font-size: 2em;
+            }
+          }
+        }
+
+        .action-btn {
+          font-size: 1.1em;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .about {
+    .row {
+      min-height: calc(100 * var(--vh, 1vh));
+      overflow-x: hidden;
+      position: relative;
+      @include media(">=md") {
+        min-height: calc(75 * var(--vh, 1vh));
+      }
+      @include media(">=lg") {
+        min-height: calc(69 * var(--vh, 1vh));
+      }
+
       h1 {
-        font-size: 3em;
+        font-family: "Ubuntu";
+        font-weight: 700;
+        font-size: 4em;
+        .theme {
+          color: $theme;
+        }
+        @include media("<=sm") {
+          font-size: 3em;
+        }
       }
       p {
-        font-size: 1.3em;
+        font-size: 1.7em;
+        @include media("<=sm") {
+          font-size: 1.5em;
+        }
+        b {
+          color: $theme-darker;
+        }
+      }
+
+      .action-btn {
+        background-color: $gray-dark;
+        font-size: 1.5em;
+        padding: 0.3em 1em;
+        border: 0;
+        border-radius: 2px;
+        color: $light-bright;
+        font-weight: 500;
+        transition: 0.15s ease;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+        &:hover {
+          border: 0;
+          background-color: $gray;
+          transform: translateY(-3px);
+          filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
+        }
+        &.main-action {
+          background-color: $theme;
+          &:hover {
+            background-color: $theme-bright;
+            transform: translateY(-3px);
+          }
+        }
+      }
+
+      @media screen and (max-height: 540px) and (orientation: landscape) {
+        min-height: calc(100 * var(--vh), 1vh);
+        h1 {
+          font-size: 3em;
+        }
+        p {
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+
+  .blm-about {
+    background-color: black;
+    color: $light-bright;
+    .row {
+      min-height: calc(100 * var(--vh, 1vh));
+      overflow-x: hidden;
+      position: relative;
+      @include media(">=md") {
+        min-height: calc(75 * var(--vh, 1vh));
+      }
+      @include media(">=lg") {
+        min-height: calc(69 * var(--vh, 1vh));
+      }
+
+      h1 {
+        font-family: "Ubuntu";
+        font-weight: 700;
+        font-size: 4em;
+        @include media("<=sm") {
+          font-size: 3em;
+        }
+      }
+
+      h2 {
+        font-family: "Courgette";
+        font-size: 2.1em;
+        @include media("<=sm") {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        font-size: 1.7em;
+        @include media("<=sm") {
+          font-size: 1.5em;
+        }
+        b {
+          color: white;
+        }
+      }
+
+      .action-btn {
+        background-color: black;
+        font-size: 1.5em;
+        padding: 0.3em 1em;
+        border: 0.15em $light-bright solid;
+        border-radius: 2px;
+        color: $light-bright;
+        font-weight: 500;
+        transition: 0.15s ease;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        filter: drop-shadow(6px 6px 0 rgba(255, 255, 255, 0.69));
+        &:hover {
+          transform: translateY(-3px);
+          filter: drop-shadow(7px 9px 0 rgba(255, 255, 255, 0.55));
+        }
+        &.main-action {
+          background-color: $light-bright;
+          color: black;
+        }
+      }
+
+      @media screen and (max-height: 540px) and (orientation: landscape) {
+        min-height: calc(100 * var(--vh), 1vh);
+        h1 {
+          font-size: 3em;
+        }
+        h2 {
+          font-size: 2em;
+        }
+        p {
+          font-size: 1.3em;
+        }
       }
     }
   }

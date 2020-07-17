@@ -49,15 +49,15 @@ export default function Home() {
               <Link to="/chapters" className="action-btn main-action mx-2 mb-2">
                 Register a Chapter
               </Link>
+              <Link to="/about" className="action-btn mx-2 mb-2">
+                About Us
+              </Link>
               <a
                 href="mailto:official.youthartsmovement@gmail.com"
                 className="action-btn mx-2 mb-2"
               >
                 Contact Us
               </a>
-              <Link to="/about" className="action-btn mx-2 mb-2">
-                More About Us
-              </Link>
             </div>
           </div>
         </div>

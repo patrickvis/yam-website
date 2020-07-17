@@ -15,7 +15,6 @@ export default function Brusher(props) {
     });
     brusher.init();
     return () => {
-      console.log("out boy");
       brusher = null;
     };
   });

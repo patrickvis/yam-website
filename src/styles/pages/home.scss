@@ -171,6 +171,8 @@
   }
 
   .about {
+    max-width: 100vw;
+    overflow-x: hidden;
     .row {
       min-height: calc(100 * var(--vh, 1vh));
       overflow-x: hidden;
@@ -246,6 +248,8 @@
   .blm-about {
     background-color: black;
     color: $light-bright;
+    max-width: 100vw;
+    overflow-x: hidden;
     .row {
       min-height: calc(100 * var(--vh, 1vh));
       overflow-x: hidden;

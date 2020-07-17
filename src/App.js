@@ -18,6 +18,7 @@ import Blm from "./pages/gallery/Blm";
 import CreativeWriting from "./pages/gallery/CreativeWriting";
 import Photography from "./pages/gallery/Photography";
 import Music from "./pages/gallery/Music";
+import Footer from "./components/Footer";
 
 function debounce(fn, ms) {
   let timer;
@@ -96,6 +97,7 @@ function App() {
             <Redirect to="/" />
           </Switch>
         </div>
+        <Footer />
       </HeaderContextProvider>
     </div>
   );

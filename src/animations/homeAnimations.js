@@ -1,9 +1,8 @@
 import gsap from "gsap";
 
 export const heroAnimation = (setAnimationComplete) => {
-  window.scrollTo(0, 0);
   // preanimation
-  gsap.to("body", 0, {
+  gsap.to("html, body", 0, {
     height: "100vh",
     width: "100vw",
     css: {
@@ -46,7 +45,7 @@ export const heroAnimation = (setAnimationComplete) => {
         amount: 0.6,
       },
     })
-    .to("body", 0, {
+    .to("html, body", 0, {
       height: "100vh",
       width: "100vw",
       css: {

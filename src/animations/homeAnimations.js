@@ -1,6 +1,9 @@
 import gsap from "gsap";
 
 export const heroAnimation = (setAnimationComplete) => {
+  setTimeout(function () {
+    window.scrollTo(0, 0);
+  }, 200);
   const tl = gsap.timeline({
     defaults: { ease: "power2.inOut" },
     onComplete: setAnimationComplete,

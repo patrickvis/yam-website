@@ -1,5 +1,6 @@
 #homepage {
   .hero {
+    user-select: none;
     height: calc(100 * var(--vh, 1vh));
     width: 100vw;
     overflow-x: hidden;
@@ -125,7 +126,6 @@
           background-color: $theme-bright;
           &:hover {
             background-color: $theme-brighter;
-            transform: translateY(-3px);
           }
         }
       }

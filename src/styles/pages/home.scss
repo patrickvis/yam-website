@@ -201,6 +201,9 @@
         @include media("<=sm") {
           font-size: 2.69em;
         }
+        .theme {
+          color: $theme-darker;
+        }
       }
 
       h2 {

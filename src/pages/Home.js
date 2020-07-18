@@ -12,12 +12,14 @@ export default function Home() {
 
   const [animationComplete, setAnimationComplete] = useState(false);
   const completeAnimation = () => {
-    setDisabled(false);
     setAnimationComplete(true);
   };
 
   useEffect(() => {
     setDisabled(true);
+    setTimeout(function () {
+      setDisabled(false);
+    }, 3300);
     heroAnimation(completeAnimation);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

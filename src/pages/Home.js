@@ -25,7 +25,7 @@ export default function Home() {
     <div id="homepage">
       {!animationComplete && <Overlay />}
       <Hero />
-      <section className="about text-center">
+      <section className="about about-section text-center">
         <div className="container py-4 px-2">
           <div className="row align-content-center">
             <div className="col-12">
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="blm-about text-center">
+      <section className="blm-about about-section text-center">
         <div className="container py-4 px-2">
           <div className="row align-content-center">
             <div className="col-12">

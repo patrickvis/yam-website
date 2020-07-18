@@ -1,19 +1,29 @@
 import gsap from "gsap";
 
 export const heroAnimation = (setAnimationComplete) => {
-  setTimeout(function () {
-    window.scrollTo(0, 0);
-  }, 200);
+  window.scrollTo({ top: 0, behavior: "smooth" });
   const tl = gsap.timeline({
     defaults: { ease: "power2.inOut" },
     onComplete: setAnimationComplete,
   });
-  tl.to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
+  tl.to(".navbar", 0, {
     css: {
-      position: "relative",
-      zIndex: 5000,
+      zIndex: 200,
     },
+    delay: -0.9,
   })
+    .to(".overlays", 0, {
+      css: {
+        display: "block",
+        width: "100%",
+      },
+    })
+    .to(".hero .hero-content .letter, .hero .hero-content .slogan", 0, {
+      css: {
+        position: "relative",
+        zIndex: 5000,
+      },
+    })
     .from(".hero .hero-content .letter", 1.1, {
       delay: 0.69,
       y: 300,
@@ -57,5 +67,11 @@ export const heroAnimation = (setAnimationComplete) => {
         position: "relative",
         zIndex: 1,
       },
+    })
+    .to(".navbar", 0, {
+      css: {
+        zIndex: 200,
+      },
+      delay: -0.9,
     });
 };

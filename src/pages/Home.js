@@ -19,7 +19,7 @@ export default function Home() {
     setDisabled(true);
     setTimeout(function () {
       setDisabled(false);
-    }, 3300);
+    }, 3950);
     heroAnimation(completeAnimation);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 

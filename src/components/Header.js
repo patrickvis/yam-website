@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import $ from "jquery";
+import { HeaderContext } from "../contexts/HeaderContext";
 
 export default function Header() {
   const path = useLocation().pathname; // to determine which is active
+
+  const { setDisabled } = useContext(HeaderContext);
 
   useEffect(() => {
     // clicking outside the navbar closes it
@@ -16,6 +19,7 @@ export default function Header() {
         }
       });
     });
+    if (path !== "/") setDisabled(true);
   });
 
   return (

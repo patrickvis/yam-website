@@ -1,5 +1,6 @@
 #homepage {
   .hero {
+    transition: 0.55s ease;
     user-select: none;
     height: calc(100 * var(--vh, 1vh));
     width: 100vw;
@@ -172,6 +173,7 @@
 
   // general about section
   .about-section {
+    transition: 0.55s ease;
     padding: 0 10px;
     max-width: 100vw;
     overflow-x: hidden;
@@ -265,7 +267,9 @@
 
   // color customizations
   .about {
+    transition: 0.55s ease;
     .row {
+      transition: 0.55s ease;
       .action-btn {
         background-color: $gray-dark;
         color: $light-bright;
@@ -285,9 +289,11 @@
   }
 
   .blm-about {
+    transition: 0.55s ease;
     background-color: black;
     color: $light-bright;
     .row {
+      transition: 0.55s ease;
       p {
         b {
           color: white;

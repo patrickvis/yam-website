@@ -2,7 +2,7 @@
   position: absolute;
   height: calc(var(--vh, 1vh) * 100);
   .overlay {
-    position: absolute;
+    position: fixed;
     z-index: 1030;
     height: 25%;
     width: 100vw;

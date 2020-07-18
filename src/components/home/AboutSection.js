@@ -8,7 +8,7 @@ export default function AboutSection() {
       <section className="about about-section text-center">
         <div className="container py-4 px-2">
           <div className="row align-content-center">
-            <Fade duration={1738} delay={250}>
+            <Fade duration={1738} delay={100}>
               <div className="col-12">
                 <h1>
                   The <span className="theme">Y</span>outh{" "}
@@ -50,7 +50,7 @@ export default function AboutSection() {
       <section className="blm-about about-section text-center">
         <div className="container py-4 px-2">
           <div className="row align-content-center">
-            <Fade duration={1738} delay={250}>
+            <Fade duration={1738} delay={100}>
               <div className="col-12">
                 <h1>BLM Virtual Art Gallery</h1>
               </div>

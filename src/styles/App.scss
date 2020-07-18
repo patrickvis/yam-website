@@ -40,3 +40,25 @@ div[role="link"] {
 * {
   -webkit-tap-highlight-color: transparent;
 }
+
+// scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $gray-bright;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $theme;
+  transition: all 0.55s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $theme-bright;
+}

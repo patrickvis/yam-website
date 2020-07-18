@@ -13,30 +13,14 @@ export default function Header() {
     $(document).ready(() => {
       $(document).click(function (event) {
         var click = $(event.target);
-        var _open = $(".navbar-collapse").hasClass("show");
+        var _open =
+          $(".navbar-collapse").hasClass("show") &&
+          !$(".nav-item").hasClass("show");
         if (_open === true && !click.hasClass("navbar-toggler")) {
           $(".navbar-toggler").click();
         }
       });
     });
-    $(".navbar .dropdown").hover(
-      function () {
-        $(this)
-          .find(".dropdown-menu")
-          .first()
-          .stop(true, true)
-          .delay(250)
-          .slideDown();
-      },
-      function () {
-        $(this)
-          .find(".dropdown-menu")
-          .first()
-          .stop(true, true)
-          .delay(100)
-          .slideUp();
-      }
-    );
     if (path !== "/") setDisabled(true);
   });
 
@@ -78,6 +62,7 @@ export default function Header() {
               >
                 <Link
                   className="nav-link dropdown-toggle"
+                  to="/gallery"
                   id="navbarDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -87,27 +72,66 @@ export default function Header() {
                   Galleries
                 </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link className="dropdown-item" to="/gallery">
-                    Overview
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/gallery" && "active")
+                    }
+                    to="/gallery"
+                  >
+                    <b>Overview</b>
                   </Link>
                   <div className="dropdown-divider"></div>
-                  <Link className="dropdown-item" to="/gallery/submit">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/gallery/submit" && "active")
+                    }
+                    to="/gallery/submit"
+                  >
                     Submit
                   </Link>
                   <div className="dropdown-divider"></div>
-                  <Link className="dropdown-item" to="/gallery/blm">
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/gallery/blm" && "active")
+                    }
+                    to="/gallery/blm"
+                  >
                     BLM Gallery
                   </Link>
-                  <Link className="dropdown-item" to="/gallery/visualarts">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/gallery/visualarts" && "active")
+                    }
+                    to="/gallery/visualarts"
+                  >
                     Visual Arts
                   </Link>
-                  <Link className="dropdown-item" to="/gallery/creativewriting">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/gallery/creativewriting" && "active")
+                    }
+                    to="/gallery/creativewriting"
+                  >
                     Creative Writing
                   </Link>
-                  <Link className="dropdown-item" to="/gallery/photography">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/gallery/photography" && "active")
+                    }
+                    to="/gallery/photography"
+                  >
                     Photography
                   </Link>
-                  <Link className="dropdown-item" to="/gallery/music">
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/gallery/music" && "active")
+                    }
+                    to="/gallery/music"
+                  >
                     Music
                   </Link>
                 </div>

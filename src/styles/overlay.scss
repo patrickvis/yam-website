@@ -8,6 +8,7 @@
     width: 100vw;
     top: 0;
     background-color: $black;
+    transition: height 0.55s ease;
     &:nth-child(2) {
       top: 25%;
     }

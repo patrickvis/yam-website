@@ -5,6 +5,7 @@
 @import "./pages/home.scss";
 @import "./overlay.scss";
 @import "./pages/footer.scss";
+@import "./pages/gallery.scss";
 
 *::selection {
   background-color: $gray-bright;
@@ -39,6 +40,9 @@ div[role="link"] {
   @media screen and (max-height: 540px) and (orientation: landscape) {
     cursor: default;
   }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 * {
@@ -65,4 +69,9 @@ div[role="link"] {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: $theme-bright;
+}
+
+.page {
+  min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
+  margin-top: 62px;
 }

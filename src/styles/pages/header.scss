@@ -2,8 +2,8 @@
   background-color: $black;
   font-size: 1.2em;
   font-weight: 400;
-  -webkit-box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.21) !important;
-  box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.21) !important;
+  -webkit-box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.16) !important;
+  box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.16) !important;
 
   .navbar-brand {
     color: $light-bright;
@@ -74,17 +74,38 @@
     -webkit-transition: all 0.3s ease;
     color: $gray;
   }
+
+  .show > .dropdown-menu {
+    max-height: 100vh;
+    visibility: visible;
+  }
+
   .dropdown-menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    overflow: hidden;
+  }
+
+  .dropdown-menu {
+    -webkit-box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.25) !important;
+    box-shadow: 0 0.69rem 1rem rgba(0, 0, 0, 0.25) !important;
     background: $black-bright;
     .dropdown-divider {
       border: 0.069px $black solid;
     }
     .dropdown-item {
       color: $gray;
-      transition: 0.55s ease;
-      &:hover,
-      &:active,
-      &:visited {
+      transition: 0.69s ease;
+      &.active {
+        color: $light-bright;
+        background-color: $black-bright;
+        transition: inherit;
+      }
+      &:hover {
         background-color: $black;
       }
     }

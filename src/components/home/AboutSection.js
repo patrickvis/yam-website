@@ -68,7 +68,10 @@ export default function AboutSection() {
                 </p>
               </div>
               <div className="col-12 pt-2">
-                <Link to="/submit" className="action-btn main-action mx-2 mb-2">
+                <Link
+                  to="/gallery/submit"
+                  className="action-btn main-action mx-2 mb-2"
+                >
                   Fight for Your Voice
                 </Link>
                 <Link to="/chapters" className="action-btn mx-2 mb-2">

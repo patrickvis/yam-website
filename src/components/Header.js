@@ -19,6 +19,24 @@ export default function Header() {
         }
       });
     });
+    $(".navbar .dropdown").hover(
+      function () {
+        $(this)
+          .find(".dropdown-menu")
+          .first()
+          .stop(true, true)
+          .delay(250)
+          .slideDown();
+      },
+      function () {
+        $(this)
+          .find(".dropdown-menu")
+          .first()
+          .stop(true, true)
+          .delay(100)
+          .slideUp();
+      }
+    );
     if (path !== "/") setDisabled(true);
   });
 
@@ -54,12 +72,45 @@ export default function Header() {
               </li>
               <li
                 className={
-                  "nav-item " + (path.startsWith("/gallery") && "active")
+                  "nav-item dropdown " +
+                  (path.startsWith("/gallery") && "active")
                 }
               >
-                <Link className="nav-link" to="/gallery">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Galleries
                 </Link>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/gallery">
+                    Overview
+                  </Link>
+                  <div className="dropdown-divider"></div>
+                  <Link className="dropdown-item" to="/gallery/submit">
+                    Submit
+                  </Link>
+                  <div className="dropdown-divider"></div>
+                  <Link className="dropdown-item" to="/gallery/blm">
+                    BLM Gallery
+                  </Link>
+                  <Link className="dropdown-item" to="/gallery/visualarts">
+                    Visual Arts
+                  </Link>
+                  <Link className="dropdown-item" to="/gallery/creativewriting">
+                    Creative Writing
+                  </Link>
+                  <Link className="dropdown-item" to="/gallery/photography">
+                    Photography
+                  </Link>
+                  <Link className="dropdown-item" to="/gallery/music">
+                    Music
+                  </Link>
+                </div>
               </li>
               <li className={"nav-item " + (path === "/about" && "active")}>
                 <Link className="nav-link" to="/about">

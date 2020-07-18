@@ -68,10 +68,26 @@
       }
     }
   }
+
   .nav-link {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     color: $gray;
+  }
+  .dropdown-menu {
+    background: $black-bright;
+    .dropdown-divider {
+      border: 0.069px $black solid;
+    }
+    .dropdown-item {
+      color: $gray;
+      transition: 0.55s ease;
+      &:hover,
+      &:active,
+      &:visited {
+        background-color: $black;
+      }
+    }
   }
 
   .active .nav-link {

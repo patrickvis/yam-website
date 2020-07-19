@@ -43,7 +43,7 @@
             font-size: 7em;
             text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.55);
           }
-          @include media("<=450") {
+          @include media("<=450px") {
             font-size: 6.5em;
             text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.55);
           }

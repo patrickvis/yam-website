@@ -8,9 +8,9 @@
     position: relative;
     .hero-bg {
       height: 100%;
-      background: url("../../assets/img/hero/lg-bw.jpg");
+      background: $black-bright url("../../assets/img/hero/lg-bw.jpg");
       @include media("<=md") {
-        background: url("../../assets/img/hero/lg-color.jpg");
+        background: $black-bright url("../../assets/img/hero/lg-color.jpg");
         background-size: cover;
       }
       background-size: cover;

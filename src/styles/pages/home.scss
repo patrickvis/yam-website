@@ -140,7 +140,7 @@
     @media screen and (max-height: 540px) and (orientation: landscape) {
       // screw landscape phones but here i am being nice
       .hero-bg {
-        background: url("../../assets/img/hero/lg-color.jpg");
+        background: $black-bright url("../../assets/img/hero/lg-color.jpg");
         background-size: cover;
       }
 

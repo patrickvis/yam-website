@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 import Hero from "../components/home/Hero";
 
 import { heroAnimation } from "../animations/homeAnimations";
@@ -6,21 +6,20 @@ import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
 
-export default function Home() {
+export default function Home({ animationComplete, completeAnimation }) {
   // disabling header
   const { setDisabled } = useContext(HeaderContext);
 
-  const [animationComplete, setAnimationComplete] = useState(false);
-  const completeAnimation = () => {
-    setAnimationComplete(true);
-  };
-
   useEffect(() => {
-    setDisabled(true);
-    setTimeout(function () {
+    if (animationComplete === false) {
+      setDisabled(true);
+      heroAnimation(() => {
+        completeAnimation();
+        setDisabled(false);
+      });
+    } else {
       setDisabled(false);
-    }, 4000);
-    heroAnimation(completeAnimation);
+    }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (

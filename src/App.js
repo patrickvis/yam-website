@@ -32,9 +32,20 @@ function debounce(fn, ms) {
 }
 
 function App() {
+  const [animationComplete, setAnimationComplete] = useState(false);
+  const completeAnimation = () => {
+    setAnimationComplete(true);
+  };
   // routes
   const routes = [
-    { path: "/", Component: Home },
+    {
+      path: "/",
+      Component: Home,
+      props: {
+        animationComplete: animationComplete,
+        completeAnimation: completeAnimation,
+      },
+    },
     { path: "/about", Component: About },
     { path: "/events", Component: Events },
     { path: "/chapters", Component: Chapters },

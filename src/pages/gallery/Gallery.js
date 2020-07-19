@@ -8,7 +8,7 @@ export default function Gallery() {
           {/* content begins here */}
           {/* first column */}
           <div className="col-5">
-            <div className="container bg-primary">sdf</div>
+            <div className="flex-container">sdf</div>
           </div>
           {/* second column */}
           <div className="col-7">sfd</div>

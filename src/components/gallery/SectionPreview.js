@@ -20,12 +20,12 @@ export default function SectionPreview(props) {
     );
   else
     return (
-      <>
+      <div className="submit">
         <h1>Submit Art</h1>
         <h2>Inspire others and empower your voice</h2>
         <Link to="/gallery/submit" className="action-btn">
           Submit
         </Link>
-      </>
+      </div>
     );
 }

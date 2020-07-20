@@ -14,11 +14,13 @@
     @include media("<=lg") {
       font-size: 1.6em;
     }
+    @include media("<=sm") {
+      display: none;
+    }
   }
 
   .content-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
     min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
     justify-content: center;
@@ -28,6 +30,10 @@
         position: relative;
         min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
         padding-top: 2em;
+        a {
+          display: block;
+          min-height: calc(calc(var(--vh, 1vh) * 80));
+        }
       }
     }
     .rest-column {
@@ -35,48 +41,73 @@
       flex-flow: column nowrap;
       min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
       flex: 1 60%;
-      .submit-row {
-        user-select: none;
-        background-color: $theme-darker;
-        text-align: center;
-        padding: 1em;
-        h1 {
-          padding: 0;
-        }
-        .action-btn {
-          background-color: $theme-bright;
-          color: $light-bright;
-          filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
-          &:hover {
-            background-color: $theme-brighter;
-            filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.55));
-          }
+    }
+    .submit {
+      user-select: none;
+      text-align: center;
+      padding: 1em;
+      background-color: $theme-darker;
+      h1 {
+        padding: 0;
+      }
+      .action-btn {
+        background-color: $theme-bright;
+        color: $light-bright;
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+        &:hover {
+          background-color: $theme-brighter;
+          filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.55));
         }
       }
-      .art-sections {
+    }
+
+    .art-sections {
+      display: flex;
+      flex-flow: column nowrap;
+      flex: 4;
+      .row1 {
         display: flex;
-        flex-flow: column nowrap;
-        flex: 4;
-        .row1 {
+        flex: 1;
+        .visualarts {
+          flex: 0 50%;
           display: flex;
-          flex: 1;
-          .visualarts {
-            flex: 0 50%;
-            display: flex;
-          }
-          .creativewriting {
-            flex: 0 50%;
-          }
         }
-        .row2 {
-          display: flex;
-          flex: 1;
-          .photography {
-            flex: 0 50%;
-          }
-          .music {
-            flex: 0 50%;
-          }
+        .creativewriting {
+          flex: 0 50%;
+        }
+      }
+      .row2 {
+        display: flex;
+        flex: 1;
+        .photography {
+          flex: 0 50%;
+        }
+        .music {
+          flex: 0 50%;
+        }
+      }
+    }
+  }
+
+  .submit {
+    @include media("<=sm") {
+      user-select: none;
+      text-align: center;
+      padding: 2em 1em;
+      background-color: $theme-darker;
+      h1 {
+        padding: 0;
+      }
+      h4 {
+        color: $gray-bright;
+      }
+      .action-btn {
+        background-color: $theme-bright;
+        color: $light-bright;
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+        &:hover {
+          background-color: $theme-brighter;
+          filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.55));
         }
       }
     }
@@ -87,6 +118,12 @@
     padding: 0 2em;
     overflow: hidden;
     user-select: none;
+    @include media("<=sm") {
+      padding: 3.3em 1.3em;
+      h1 {
+        padding: 0;
+      }
+    }
     .section-bg {
       background: $black-bright;
       position: absolute;

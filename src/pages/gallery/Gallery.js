@@ -6,7 +6,7 @@ export default function Gallery() {
   return (
     <div className="gallery page">
       <div className="largeContainer">
-        <div className="d-none d-md-flex content-container flex-row">
+        <div className="content-container flex-row">
           <div className="blm-column">
             <SectionPreview
               name="blm"
@@ -32,7 +32,7 @@ export default function Gallery() {
         </div>
       </div>
 
-      <div className="d-block d-md-none container-fluid m-0 p-0">
+      <div className="container-fluid m-0 p-0 smallContainer">
         <div className="flex-container flex-column text-center">
           <div className="submit">
             <h1>Submit Art</h1>

@@ -1,4 +1,29 @@
 .gallery {
+  @include media("<sm") {
+    .smallContainer {
+      display: block;
+    }
+    .largeContainer {
+      display: none;
+    }
+  }
+  @include media(">=sm") {
+    .smallContainer {
+      display: none;
+    }
+    .largeContainer {
+      display: block;
+    }
+  }
+
+  @media screen and (max-height: 540px) and (orientation: landscape) {
+    .smallContainer {
+      display: block;
+    }
+    .largeContainer {
+      display: none;
+    }
+  }
   h1 {
     padding: 1em 0 0 0;
     font-weight: 800;
@@ -17,6 +42,9 @@
     @include media("<=sm") {
       display: none;
     }
+    @media screen and (max-height: 540px) and (orientation: landscape) {
+      display: none;
+    }
   }
 
   .content-container {
@@ -32,7 +60,7 @@
         padding-top: 2em;
         a {
           display: block;
-          min-height: calc(calc(var(--vh, 1vh) * 80));
+          min-height: 75vh;
         }
       }
     }
@@ -111,6 +139,27 @@
         }
       }
     }
+    @media screen and (max-height: 540px) and (orientation: landscape) {
+      user-select: none;
+      text-align: center;
+      padding: 2em 1em;
+      background-color: $theme-darker;
+      h1 {
+        padding: 0;
+      }
+      h4 {
+        color: $gray-bright;
+      }
+      .action-btn {
+        background-color: $theme-bright;
+        color: $light-bright;
+        filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+        &:hover {
+          background-color: $theme-brighter;
+          filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.55));
+        }
+      }
+    }
   }
 
   .section {
@@ -120,6 +169,15 @@
     user-select: none;
     @include media("<=sm") {
       padding: 3.3em 1.3em;
+      min-height: 33.33vh;
+      h1 {
+        padding: 0;
+      }
+    }
+
+    @media screen and (max-height: 540px) and (orientation: landscape) {
+      min-height: 50vh;
+      padding: 3.3em 1.5em;
       h1 {
         padding: 0;
       }

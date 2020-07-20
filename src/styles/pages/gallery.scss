@@ -1,4 +1,21 @@
 .gallery {
+  h1 {
+    padding: 1em 0 0 0;
+    font-weight: 800;
+    color: white;
+    @include media("<=lg") {
+      font-size: 2.2em;
+    }
+  }
+  h2 {
+    font-size: 1.8em;
+    padding: 0.25em 0 0 0;
+    color: $gray-bright;
+    @include media("<=lg") {
+      font-size: 1.6em;
+    }
+  }
+
   .content-container {
     display: flex;
     flex-direction: row;
@@ -6,18 +23,11 @@
     min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
     justify-content: center;
     .blm-column {
-      min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
       flex: 1 40%;
-      color: $light-bright;
-      padding: 1.5em;
-      position: relative;
-      h1 {
-        padding: 1em 0 0 0;
-        font-weight: 800;
-      }
-      h2 {
-        padding: 0.25em 0 0 0;
-        color: $gray-bright;
+      .section {
+        position: relative;
+        min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
+        padding-top: 2em;
       }
     }
     .rest-column {
@@ -26,19 +36,35 @@
       min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
       flex: 1 60%;
       .submit-row {
-        flex: 1;
+        user-select: none;
+        background-color: $theme-darker;
+        text-align: center;
+        padding: 1em;
+        h1 {
+          padding: 0;
+        }
+        .action-btn {
+          background-color: $theme-bright;
+          color: $light-bright;
+          filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+          &:hover {
+            background-color: $theme-brighter;
+            filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.55));
+          }
+        }
       }
       .art-sections {
         display: flex;
         flex-flow: column nowrap;
-        flex: 3;
+        flex: 4;
         .row1 {
           display: flex;
           flex: 1;
-          .visual-arts {
+          .visualarts {
             flex: 0 50%;
+            display: flex;
           }
-          .creative-writing {
+          .creativewriting {
             flex: 0 50%;
           }
         }
@@ -57,9 +83,12 @@
   }
 
   .section {
-    overflow: hidden;
     position: relative;
+    padding: 0 2em;
+    overflow: hidden;
+    user-select: none;
     .section-bg {
+      background: $black-bright;
       position: absolute;
       z-index: -1;
       width: 100%;
@@ -68,13 +97,14 @@
       right: 0;
       width: 100%;
       object-fit: cover;
-      transition: 0.75s ease-in-out;
+      transition: all 0.55s ease-in-out;
       filter: brightness(75%);
+      transform: scale3d(1.01, 1.01, 1.01);
     }
     &:hover {
       cursor: pointer;
       .section-bg {
-        transform: scale(1.1) rotate(1deg);
+        transform: scale3d(1.035, 1.035, 1.035) rotate(0.2deg);
         filter: brightness(100%);
       }
     }

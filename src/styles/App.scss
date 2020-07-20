@@ -28,6 +28,7 @@ body {
 a,
 button,
 div[role="link"] {
+  text-decoration: none;
   outline: none !important;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -74,4 +75,24 @@ div[role="link"] {
 .page {
   min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
   margin-top: 62px;
+}
+
+.action-btn {
+  font-size: 1.5em;
+  padding: 0.3em 1em;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: 0.21s ease;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    transform: translateY(-3px);
+    text-decoration: none;
+  }
+  &.main-action {
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
 }

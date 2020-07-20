@@ -114,19 +114,10 @@
 
       .action-btn {
         background-color: $gray-dark;
-        font-size: 1.5em;
-        padding: 0.3em 1em;
-        border: 0;
-        border-radius: 2px;
         color: $light-bright;
-        font-weight: 500;
-        transition: 0.25s ease;
-        position: relative;
         filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
         &:hover {
-          border: 0;
           background-color: $gray;
-          transform: translateY(-3px);
           filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
         }
         &.main-action {
@@ -240,25 +231,6 @@
         }
         b {
           color: $theme-darker;
-        }
-      }
-
-      .action-btn {
-        font-size: 1.5em;
-        padding: 0.3em 1em;
-        border-radius: 2px;
-        font-weight: 500;
-        transition: 0.25s ease;
-        position: relative;
-        text-decoration: none;
-        display: inline-block;
-        &:hover {
-          transform: translateY(-3px);
-        }
-        &.main-action {
-          &:hover {
-            transform: translateY(-3px);
-          }
         }
       }
 

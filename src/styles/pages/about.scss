@@ -67,6 +67,7 @@
     margin-bottom: 1.5em;
     h1 {
       font-size: 3em;
+      margin-bottom: 0;
       font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI",
         "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
@@ -75,10 +76,10 @@
       content: "";
       display: block;
       text-align: center;
-      width: 3em;
+      width: 3.5em;
       height: 0.55em;
       background-color: $theme;
-      margin: 0.69em auto;
+      margin: 0.42em auto 0.69em auto;
     }
   }
   /*--------------------------------------------------------------
@@ -157,12 +158,22 @@
         opacity: 1;
         bottom: 15px;
       }
-      // @include media("<=sm") {
-      //   .social {
-      //     opacity: 1;
-      //     bottom: 15px;
-      //   }
-      // }
+      @include media("<=sm") {
+        .social {
+          opacity: 1;
+          bottom: 15px;
+          a {
+            padding: 12px;
+            margin: 0 3px;
+            border-radius: 4px;
+            width: 55px;
+            height: 55px;
+            i {
+              font-size: 30px;
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Image } from "cloudinary-react";
 
 export default function SectionPreview(props) {
   if (props.name !== "submit")
@@ -7,10 +8,16 @@ export default function SectionPreview(props) {
       <div className={`section ${props.name}`}>
         <Link to={`/gallery/${props.name}`} style={{ textDecoration: "none" }}>
           <div style={{ height: "100%", width: "100%" }}>
-            <img
-              src={require(`../../assets/img/gallery/${props.name}-cover.jpeg`)}
-              alt={props.name}
+            <Image
+              cloudName="masonwang"
+              publicId={`https://res.cloudinary.com/masonwang/image/upload/${
+                props.name === "visualarts" ? "v1595458581" : "v1595458066"
+              }/yam-website/gallery/previews/${props.name.replace(
+                " ",
+                "-"
+              )}-cover.jpg`}
               className="section-bg"
+              style={{ backgroundColor: "#222" }}
             />
             <h1>{props.h1}</h1>
             {props.h2 && <h2>{props.h2}</h2>}

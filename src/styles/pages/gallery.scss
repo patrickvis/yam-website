@@ -194,12 +194,12 @@
       object-fit: cover;
       transition: all 0.55s ease-in-out;
       filter: brightness(75%);
-      transform: scale3d(1.01, 1.01, 1.01);
+      transform: scale3d(1.03, 1.03, 1.03);
     }
     &:hover {
       cursor: pointer;
       .section-bg {
-        transform: scale3d(1.035, 1.035, 1.035) rotate(0.2deg);
+        transform: scale3d(1.045, 1.045, 1.045) rotate(0.2deg);
         filter: brightness(100%);
       }
     }

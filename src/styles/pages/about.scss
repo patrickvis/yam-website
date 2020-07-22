@@ -40,7 +40,7 @@
   }
 
   .who-we-are {
-    padding: 2.69em 1em;
+    padding: 0.42em 1em 2.69em 1em;
     .container {
       .lead-p {
         font-size: 1.4em;
@@ -99,7 +99,17 @@
       border-radius: 4px;
       background: #fff;
       box-shadow: 0px 2px 15px rgba(0, 20, 51, 0.21);
+      transition: 0.55s ease-in-out;
+      &:hover {
+        transform: translateY(-4.2px);
+        box-shadow: 3px 2px 21px rgba(0, 20, 51, 0.31);
+        .member-img {
+          filter: brightness(1.05);
+        }
+      }
       .member-img {
+        filter: brightness(0.95);
+        transition: 0.55s ease-in-out;
         background: $black-bright;
         position: relative;
         overflow: hidden;
@@ -168,6 +178,7 @@
             border-radius: 4px;
             width: 55px;
             height: 55px;
+            background-color: $theme-bright;
             i {
               font-size: 30px;
             }

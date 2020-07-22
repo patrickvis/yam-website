@@ -9,15 +9,27 @@ export default function Footer() {
           <div className="col-12">
             <p className="email">
               <span className="d-none d-sm-block">
-                <a href="mailto:official.youthartsmovement@gmail.com">
+                <a
+                  href="mailto:official.youthartsmovement@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   official.youthartsmovement@gmail.com
                 </a>
               </span>
               <span className="d-block d-sm-none">
-                <a href="mailto:official.youthartsmovement@gmail.com">
+                <a
+                  href="mailto:official.youthartsmovement@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   official.youthartsmovement
                 </a>
-                <a href="mailto:official.youthartsmovement@gmail.com">
+                <a
+                  href="mailto:official.youthartsmovement@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   @gmail.com
                 </a>
               </span>
@@ -26,7 +38,13 @@ export default function Footer() {
               <Link to="/">Home</Link> ~{" "}
               <Link to="/gallery/submit">Submit</Link> ~{" "}
               <Link to="/gallery/blm">BLM Gallery</Link> ~{" "}
-              <a href="mailto:official.youthartsmovement@gmail.com">Contact</a>
+              <a
+                href="mailto:official.youthartsmovement@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact
+              </a>
             </p>
             <p className="copyright">
               &copy; Copyright 2020 Youth Arts Movement. All Rights Reserved.

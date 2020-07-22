@@ -39,6 +39,8 @@ export default function AboutSection() {
                 <a
                   href="mailto:official.youthartsmovement@gmail.com"
                   className="action-btn mx-2 mb-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Contact Us
                 </a>

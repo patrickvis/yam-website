@@ -141,10 +141,10 @@
         bottom: 30px;
         right: 0;
         opacity: 0;
-        transition: ease-in-out 0.3s;
+        transition: ease-in-out 0.55s;
         text-align: center;
         a {
-          transition: color 0.3s;
+          transition: color 0.55s;
           color: $black;
           margin: 0 3px;
           padding-top: 7px;
@@ -153,7 +153,7 @@
           height: 36px;
           background: $theme-bright-translucent;
           display: inline-block;
-          transition: ease-in-out 0.3s;
+          transition: ease-in-out 0.55s;
           color: $light-bright;
           &:hover {
             background: $theme-bright;

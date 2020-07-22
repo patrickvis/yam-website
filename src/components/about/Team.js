@@ -4,15 +4,15 @@ import Profile from "./Profile";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Jonathan Li",
-      position: "Co-founder and CEO",
-      instagram: "https://www.instagram.com/jonathan_jli/",
-      facebook: "https://www.facebook.com/jonathan.li.758399",
-    },
-    {
       name: "Brook Chuang",
       position: "Co-founder and COO",
       linkedin: "https://www.linkedin.com/in/chuangbrook ",
+    },
+    {
+      name: "Jonathan Li",
+      position: "Co-founder and CFO",
+      instagram: "https://www.instagram.com/jonathan_jli/",
+      facebook: "https://www.facebook.com/jonathan.li.758399",
     },
     {
       name: "Isabella Lee",

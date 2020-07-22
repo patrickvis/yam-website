@@ -40,8 +40,8 @@
   }
 
   .who-we-are {
+    padding: 2.69em 1em;
     .container {
-      padding-bottom: 1.5em;
       .lead-p {
         font-size: 1.4em;
         color: $black;
@@ -85,7 +85,7 @@
   # Team
   --------------------------------------------------------------*/
   .team {
-    background: #eee;
+    background: $gray-brightest;
     .row {
       padding-top: 0.5em;
     }

@@ -14,6 +14,7 @@ export default function WhoWeAre() {
           <b>providing a platform for your voice</b> through music, art,
           literature, and all aspects of the arts.
         </p>
+
         <p>
           Based in a community very much influenced in STEM, we saw the arts
           develop a stigma of instability and unintelligence. We’ve all been

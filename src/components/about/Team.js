@@ -58,6 +58,7 @@ export default function Team() {
         <div className="row justify-content-center text-center">
           {teamMembers.map((member) => (
             <Profile
+              key={member.name}
               name={member.name}
               position={member.position}
               instagram={member.instagram}

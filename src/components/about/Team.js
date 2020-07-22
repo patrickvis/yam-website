@@ -20,17 +20,18 @@ export default function Team() {
       instagram: "https://www.instagram.com/isabella.lee13/",
     },
     {
-      name: "Charlie Williams",
-      position: "CMO",
-      linkedin: "https://linkedin.com/in/charlie-williams-1bb4021b3",
-    },
-    {
       name: "Mason Wang",
       position: "Tech Director and Webmaster",
       linkedin: "https://www.linkedin.com/in/mason-wang-7b2758176/",
       github: "https://github.com/MasonWang025",
       instagram: "https://www.instagram.com/masonwang025/",
     },
+    {
+      name: "Charlie Williams",
+      position: "CMO",
+      linkedin: "https://linkedin.com/in/charlie-williams-1bb4021b3",
+    },
+
     {
       name: "Katie Chen",
       position: "Outreach and West Coast Branch President",

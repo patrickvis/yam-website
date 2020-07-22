@@ -10,27 +10,27 @@ export default function Footer() {
             <p className="email">
               <span className="d-none d-sm-block">
                 <a
-                  href="mailto:official.youthartsmovement@gmail.com"
+                  href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  official.youthartsmovement@gmail.com
+                  official@youthartsmovement.org
                 </a>
               </span>
               <span className="d-block d-sm-none">
                 <a
-                  href="mailto:official.youthartsmovement@gmail.com"
+                  href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  official.youthartsmovement
+                  official
                 </a>
                 <a
-                  href="mailto:official.youthartsmovement@gmail.com"
+                  href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  @gmail.com
+                  @youthartsmovement.org
                 </a>
               </span>
             </p>
@@ -39,7 +39,7 @@ export default function Footer() {
               <Link to="/gallery/submit">Submit</Link> ~{" "}
               <Link to="/gallery/blm">BLM Gallery</Link> ~{" "}
               <a
-                href="mailto:official.youthartsmovement@gmail.com"
+                href="mailto:official@youthartsmovement.org"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -3,6 +3,9 @@ import { Image } from "cloudinary-react";
 
 export default function Profile(props) {
   let escapedName = props.name.replace(/\s+/g, "-").toLowerCase();
+  let firstName = props.name
+    .substring(0, props.name.indexOf(" "))
+    .toLowerCase();
   return (
     <div className="col-lg-3 col-sm-6 d-flex align-items-stretch">
       <div className="member">
@@ -14,15 +17,6 @@ export default function Profile(props) {
             style={{ backgroundColor: "#222" }}
           />
           <div className="social">
-            {props.instagram && (
-              <a
-                href={props.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fa fa-instagram"></i>
-              </a>
-            )}
             {props.facebook && (
               <a
                 href={props.facebook}
@@ -46,6 +40,22 @@ export default function Profile(props) {
                 <i className="fa fa-github"></i>
               </a>
             )}
+            {props.instagram && (
+              <a
+                href={props.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+            )}
+            <a
+              href={`mailto:${firstName}@youthartsmovement.org`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-envelope"></i>
+            </a>
           </div>
         </div>
         <div className="member-info">

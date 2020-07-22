@@ -20,8 +20,8 @@ export default function WhoWeAre() {
           develop a stigma of instability and unintelligence. We’ve all been
           there, your poetry award or art prize never seemed to stack up against
           a robotics championship. YAM strives to{" "}
-          <b>close this gap between the STEAM field and the arts</b>,
-          emphasizing the importance of both in our society today.
+          <b>close this gap between the STEM field and the arts</b>, emphasizing
+          the importance of both in our society today.
         </p>
         <p>
           YAM provides students with opportunities to{" "}

@@ -1,44 +1,4 @@
 .about {
-  .hero {
-    user-select: none;
-    background: $black-bright url("../../assets/img/about.png");
-    background-size: cover;
-    position: relative;
-    color: $light-bright;
-    .container {
-      padding: 6.9em 2em;
-      @include media("<=md") {
-        padding: 5em 1em;
-      }
-      h1 {
-        margin: auto;
-        margin-bottom: 0.18em;
-        max-width: 80vw;
-        font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        color: white;
-        font-weight: 700;
-        border-top: 4px white solid;
-        border-bottom: 4px white solid;
-        font-size: 6em;
-        @include media("<=md") {
-          font-size: 5em;
-        }
-      }
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 2em;
-      background: $black;
-      opacity: 0.3;
-      z-index: 1;
-    }
-  }
-
   .who-we-are {
     padding: 0.42em 1em 2.69em 1em;
     .container {
@@ -168,7 +128,7 @@
         opacity: 1;
         bottom: 15px;
       }
-      @include media("<=sm") {
+      @include media("<=575px") {
         .social {
           opacity: 1;
           bottom: 15px;

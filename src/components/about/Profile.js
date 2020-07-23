@@ -14,7 +14,7 @@ export default function Profile(props) {
             cloudName="masonwang"
             publicId={`https://res.cloudinary.com/masonwang/image/upload/v1595421639/yam-website/team/${escapedName}`}
             className="img-fluid"
-            style={{ backgroundColor: "#222" }}
+            style={{ backgroundColor: "#152828" }}
           />
           <div className="social">
             {props.facebook && (

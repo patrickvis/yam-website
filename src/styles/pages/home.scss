@@ -98,6 +98,9 @@
           @include media("<=xs") {
             height: 60px;
           }
+          @include media("<=385px") {
+            height: 55px;
+          }
 
           h2 {
             color: $light-bright;
@@ -109,6 +112,11 @@
             @include media("<=lg") {
               font-size: 3em;
               text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.69);
+            }
+
+            @include media("<=385px") {
+              font-size: 2.5em;
+              text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.69);
             }
           }
         }
@@ -232,6 +240,12 @@
           font-size: 1.3em;
         }
         b {
+          color: $theme-darker;
+        }
+      }
+
+      .email {
+        * {
           color: $theme-darker;
         }
       }

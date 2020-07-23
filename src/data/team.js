@@ -17,7 +17,7 @@ const teamMembers = [
   },
   {
     name: "Mason Wang",
-    position: "Tech Director and Webmaster",
+    position: "Tech President and Webmaster",
     linkedin: "https://www.linkedin.com/in/mason-wang-7b2758176/",
     github: "https://github.com/MasonWang025",
     instagram: "https://www.instagram.com/masonwang025/",

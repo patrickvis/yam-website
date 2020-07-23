@@ -25,25 +25,44 @@ export default function AboutSection() {
                   We seek to create <b>a community for artists</b> to
                   collaborate and communicate.
                 </p>
+                <p className="email">
+                  <span className="d-none d-sm-block">
+                    <a
+                      href="mailto:official@youthartsmovement.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      official@youthartsmovement.org
+                    </a>
+                  </span>
+                  <span className="d-block d-sm-none">
+                    <a
+                      href="mailto:official@youthartsmovement.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      official
+                    </a>
+                    <a
+                      href="mailto:official@youthartsmovement.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      @youthartsmovement.org
+                    </a>
+                  </span>
+                </p>
               </div>
               <div className="col-12 pt-2">
-                <Link
-                  to="/chapters"
-                  className="action-btn main-action mx-2 mb-2"
-                >
-                  Register a Chapter
-                </Link>
-                <Link to="/about" className="action-btn mx-2 mb-2">
+                <Link to="/about" className="action-btn main-action  mx-2 mb-2">
                   About Us
                 </Link>
-                <a
-                  href="mailto:official@youthartsmovement.org"
-                  className="action-btn mx-2 mb-2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Contact Us
-                </a>
+                <Link to="/chapters" className="action-btn mx-2 mb-2">
+                  Register a Chapter
+                </Link>
               </div>
             </Fade>
           </div>

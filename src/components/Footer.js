@@ -13,6 +13,7 @@ export default function Footer() {
                   href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="underline"
                 >
                   official@youthartsmovement.org
                 </a>
@@ -22,6 +23,7 @@ export default function Footer() {
                   href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="underline"
                 >
                   official
                 </a>
@@ -29,19 +31,30 @@ export default function Footer() {
                   href="mailto:official@youthartsmovement.org"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="underline"
                 >
                   @youthartsmovement.org
                 </a>
               </span>
             </p>
             <p>
-              <Link to="/">Home</Link> ~{" "}
-              <Link to="/gallery/submit">Submit</Link> ~{" "}
-              <Link to="/gallery/blm">BLM Gallery</Link> ~{" "}
+              <Link to="/" className="underline">
+                Home
+              </Link>{" "}
+              ~{" "}
+              <Link to="/gallery/submit" className="underline">
+                Submit
+              </Link>{" "}
+              ~{" "}
+              <Link to="/gallery/blm" className="underline">
+                BLM Gallery
+              </Link>{" "}
+              ~{" "}
               <a
                 href="mailto:official@youthartsmovement.org"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="underline"
               >
                 Contact
               </a>

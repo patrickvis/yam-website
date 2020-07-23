@@ -68,7 +68,8 @@ export default function Hero() {
         ) : (
           <Brusher
             options={{
-              image: "lg-color.jpg", // Path of the image to be used as a brush
+              image:
+                "https://res.cloudinary.com/masonwang/image/upload/v1595467829/yam-website/hero/lg-color.jpg", // Path of the image to be used as a brush
               brushStyle: "round", // Brush style (round, square, butt)
               keepCleared: true,
               brushSize: 55,

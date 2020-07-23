@@ -8,9 +8,11 @@
     position: relative;
     .hero-bg {
       height: 100%;
-      background: $black-bright url("../../assets/img/hero/lg-bw.jpg");
+      background: $black-bright
+        url("https://res.cloudinary.com/masonwang/image/upload/v1595467829/yam-website/hero/lg-bw.jpg");
       @include media("<=md") {
-        background: $black-bright url("../../assets/img/hero/lg-color.jpg");
+        background: $black-bright
+          url("https://res.cloudinary.com/masonwang/image/upload/v1595467829/yam-website/hero/lg-color.jpg");
         background-size: cover;
       }
       background-size: cover;

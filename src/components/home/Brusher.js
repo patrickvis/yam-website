@@ -191,7 +191,7 @@ class BrusherClass {
     }
 
     this.image = new Image();
-    this.image.src = require("../../assets/img/hero/" + this.options.image);
+    this.image.src = this.options.image;
     this.image.addEventListener("load", () => this.drawTail());
     this.image.addEventListener("error", (e) =>
       console.error("Failed to load image", e)

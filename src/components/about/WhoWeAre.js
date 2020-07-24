@@ -14,10 +14,9 @@ export default function WhoWeAre() {
           <div className="col">
             <p className="lead-p">
               {tab}We a <b>501(c)(3) nonprofit organization</b> dedicated in
-              serving <b>today's youth</b> and <b>tomorrow's future.</b>
-            </p>
-            <p className="lead-p">
-              {tab}The Youth Arts Movement is focused on{" "}
+              serving <b>today's youth</b> and <b>tomorrow's future. </b>
+              <br className="d-block d-md-none" />
+              The Youth Arts Movement is focused on{" "}
               <b>providing a platform for your voice</b> through music, art,
               literature, and all aspects of the arts.
             </p>

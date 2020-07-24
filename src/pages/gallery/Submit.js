@@ -5,7 +5,7 @@ import Guidelines from "../../components/gallery/submit/Guidelines";
 
 export default function Submit() {
   return (
-    <div className="submit page text-center text-md-left">
+    <div className="submit page">
       <SectionHero
         title="Submit Art"
         subtitle="Express Your Voice Through Art"

@@ -26,7 +26,7 @@ export default function Guidelines() {
         <h1>Guidelines</h1>
       </div>
       <div className="container text-center">
-        <div className="row pb-5">
+        <div className="row pb-5 justify-content-center">
           <div className="col-12 mb-2">
             <p className="lead-p">
               <b>No purchase necessary</b> to enter.
@@ -34,9 +34,9 @@ export default function Guidelines() {
               Rules that do not follow guidelines <b>will not be shown</b>.
             </p>
           </div>
-          <div className="col text-md-left text-center">
+          <div className="col-11 col-md-9 text-md-left text-center">
             {rules.map((rule, index) => (
-              <p className="">
+              <p className="" key={index}>
                 <span className="number">{index + 1}. </span> {rule}
                 <br />
               </p>

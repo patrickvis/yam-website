@@ -47,7 +47,7 @@ function App() {
       },
     },
     { path: "/about", Component: About },
-    { path: "/events", Component: Events },
+    // { path: "/events", Component: Events },
     { path: "/chapters", Component: Chapters },
     { path: "/gallery", Component: Gallery },
     { path: "/gallery/submit", Component: Submit },

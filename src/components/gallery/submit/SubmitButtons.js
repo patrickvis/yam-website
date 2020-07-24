@@ -8,7 +8,7 @@ export default function SubmitButtons() {
       </div>
 
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 px-2">
           <p className="lead-p mb-2">
             Innovate. Inspire others. Empower your voice.
           </p>

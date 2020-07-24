@@ -3,6 +3,24 @@
   color: $light-bright;
   padding: 2.5em 0 1em 0;
   transition: 0.55s ease;
+
+  .social {
+    font-size: 2em;
+    a {
+      padding: 0;
+    }
+    * {
+      padding: 0 0.2em;
+    }
+    .fa {
+      transition: 0.55s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        color: $gray;
+      }
+    }
+  }
+
   a {
     color: $light-bright;
   }

@@ -5,6 +5,38 @@ export default function Footer() {
   return (
     <section className="container-fluid footer text-center">
       <div className="container">
+        <div className="row social mb-1">
+          <div className="col-12">
+            <a
+              href="https://www.instagram.com/youthartsmovement/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/youth-arts-movement/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/Youth-Arts-Movement-108983467514325"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-facebook"></i>
+            </a>
+            <a
+              href="mailto:official@youthartsmovement.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-envelope"></i>
+            </a>
+          </div>
+        </div>
         <div className="row">
           <div className="col-12">
             <p className="email">
@@ -50,14 +82,6 @@ export default function Footer() {
                 BLM Gallery
               </Link>{" "}
               ~{" "}
-              <a
-                href="mailto:official@youthartsmovement.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                Contact
-              </a>
             </p>
             <p className="copyright">
               &copy; Copyright 2020 Youth Arts Movement. All Rights Reserved.

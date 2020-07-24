@@ -1,4 +1,4 @@
-.submit {
+.chapters {
   .action-btn {
     background-color: $gray-dark;
     color: $light-bright;
@@ -12,19 +12,6 @@
       &:hover {
         background-color: $theme-bright;
       }
-    }
-  }
-
-  .guidelines {
-    p {
-      line-height: 1.69em;
-      .number {
-        color: $theme-bright;
-        font-size: 2.5em;
-        font-weight: bold;
-        font-family: "Courgette";
-      }
-      color: $black;
     }
   }
 }

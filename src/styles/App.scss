@@ -8,6 +8,7 @@
 @import "./pages/gallery.scss";
 @import "./pages/about.scss";
 @import "./pages/submit.scss";
+@import "./pages/chapters.scss";
 
 *::selection {
   background-color: $gray-bright;
@@ -77,6 +78,21 @@ div[role="link"] {
 .page {
   min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
   margin-top: 62px;
+  .lead-p {
+    font-size: 1.5em;
+    color: $black;
+    b {
+      color: $theme-darker;
+      font-size: 1.03em;
+    }
+  }
+  p {
+    font-size: 1.2em;
+    color: #555;
+    b {
+      color: #444;
+    }
+  }
 }
 
 .action-btn {
@@ -153,6 +169,10 @@ a.underline {
       font-size: 6em;
       @include media("<=md") {
         font-size: 5em;
+      }
+
+      @include media("<=sm") {
+        font-size: 4.2em;
       }
     }
   }

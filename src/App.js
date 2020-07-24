@@ -9,7 +9,7 @@ import HeaderContextProvider from "./contexts/HeaderContext";
 // page components
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Events from "./pages/Events";
+// import Events from "./pages/Events";
 import Chapters from "./pages/Chapters";
 import Gallery from "./pages/gallery/Gallery";
 import Submit from "./pages/gallery/Submit";

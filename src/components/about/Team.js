@@ -4,7 +4,7 @@ import teamMembers from "../../data/team";
 
 export default function Team() {
   return (
-    <section className="team">
+    <section className="team gray-bg">
       <div className="container text-center mb-3">
         <div className="section-header">
           <h1>Meet Our Team</h1>

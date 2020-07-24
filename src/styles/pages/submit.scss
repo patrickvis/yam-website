@@ -1,0 +1,45 @@
+.submit {
+  .lead-p {
+    font-size: 1.5em;
+    color: $black;
+    b {
+      color: $theme-darker;
+      font-size: 1.03em;
+    }
+  }
+  p {
+    font-size: 1.2em;
+    color: #555;
+    b {
+      color: #444;
+    }
+  }
+  .action-btn {
+    background-color: $gray-dark;
+    color: $light-bright;
+    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+    &:hover {
+      border: 0;
+      filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
+    }
+    &.main-action {
+      background-color: $theme;
+      &:hover {
+        background-color: $theme-bright;
+      }
+    }
+  }
+
+  .guidelines {
+    p {
+      line-height: 1.69em;
+      .number {
+        color: $theme-bright;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-family: "Courgette";
+      }
+      color: $black;
+    }
+  }
+}

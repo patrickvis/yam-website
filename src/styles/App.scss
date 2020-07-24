@@ -7,6 +7,7 @@
 @import "./pages/footer.scss";
 @import "./pages/gallery.scss";
 @import "./pages/about.scss";
+@import "./pages/submit.scss";
 
 *::selection {
   background-color: $gray-bright;
@@ -176,4 +177,31 @@ a.underline {
     z-index: -1;
     user-select: none;
   }
+}
+
+.section-header {
+  text-align: center;
+  padding-top: 2.5em;
+  position: relative;
+  margin-bottom: 1.5em;
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  &::after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 3.5em;
+    height: 0.55em;
+    background-color: $theme;
+    margin: 0.42em auto 0.69em auto;
+  }
+}
+
+.gray-bg {
+  background: $gray-brightest;
 }

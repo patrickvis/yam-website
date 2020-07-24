@@ -38,8 +38,8 @@ export default function Footer() {
               </span>
             </p>
             <p>
-              <Link to="/" className="underline">
-                Home
+              <Link to="/about" className="underline">
+                About
               </Link>{" "}
               ~{" "}
               <Link to="/gallery/submit" className="underline">

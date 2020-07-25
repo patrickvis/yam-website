@@ -12,7 +12,7 @@ const teamMembers = [
   },
   {
     name: "Isabella Lee",
-    position: "Program VP",
+    position: "CNO",
     instagram: "https://www.instagram.com/isabella.lee13/",
   },
   {

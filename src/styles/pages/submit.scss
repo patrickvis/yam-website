@@ -16,8 +16,18 @@
   }
 
   .guidelines {
-    p {
+    .rules {
+      @include media(">=md") {
+        margin-left: -60px;
+      }
       line-height: 1.69em;
+      font-size: 1.2em;
+      * {
+        color: #555;
+      }
+      b {
+        color: #444;
+      }
       .number {
         color: $theme-bright;
         font-size: 2.5em;

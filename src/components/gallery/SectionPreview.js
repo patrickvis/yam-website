@@ -5,8 +5,12 @@ import { Image } from "cloudinary-react";
 export default function SectionPreview(props) {
   if (props.name !== "submit")
     return (
-      <div className={`section ${props.name}`}>
-        <Link to={`/gallery/${props.name}`} style={{ textDecoration: "none" }}>
+      <Link
+        to={`/gallery/${props.name}`}
+        className={`section ${props.name}`}
+        style={{ textDecoration: "none" }}
+      >
+        <div>
           <div style={{ height: "100%", width: "100%" }}>
             <Image
               cloudName="masonwang"
@@ -22,8 +26,8 @@ export default function SectionPreview(props) {
             <h1>{props.h1}</h1>
             {props.h2 && <h2>{props.h2}</h2>}
           </div>
-        </Link>
-      </div>
+        </div>{" "}
+      </Link>
     );
   else
     return (

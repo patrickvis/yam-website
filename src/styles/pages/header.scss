@@ -79,6 +79,7 @@
     max-height: 100vh;
     visibility: visible;
     opacity: 1;
+    pointer-events: all;
 
     @include media("<=md") {
       padding: 8px 0;
@@ -86,6 +87,7 @@
   }
 
   .dropdown-menu {
+    pointer-events: none;
     display: block;
     margin: 0;
     padding: 0;

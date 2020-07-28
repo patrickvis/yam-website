@@ -1,4 +1,6 @@
 // ALL GALLERY CSS
+
+// GALLERY OVERVIEW CSS
 .gallery {
   @include media("<sm") {
     .smallContainer {
@@ -204,6 +206,25 @@
       .section-bg {
         transform: scale3d(1.045, 1.045, 1.045) rotate(0.2deg);
         filter: brightness(100%);
+      }
+    }
+  }
+}
+
+// GRID CSS
+.grid-layout {
+  padding: 4.2em 0;
+  .img-col {
+    padding: 15px;
+    a {
+      overflow: hidden;
+      .gallery-image {
+        object-fit: cover;
+        transition: 0.42s ease-in-out;
+        transform: scale(1.05);
+        &:hover {
+          transform: scale(1.1) rotate(0.69deg);
+        }
       }
     }
   }

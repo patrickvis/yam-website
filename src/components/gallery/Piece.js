@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import artists from "../../data/artists";
+// import artists from "../../data/artists";
 import { visualarts } from "../../data/galleries";
 
 export default function Piece() {

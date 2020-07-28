@@ -214,32 +214,51 @@
 // GRID CSS
 .grid-layout {
   .img-col {
-    .wrapper {
-      box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.42);
-
-      &:hover {
-        .gallery-image {
-          transform: scale(1.1) rotate(0.69deg);
-          filter: brightness(1.05);
-        }
-      }
-    }
     padding: 15px;
-    a {
-      overflow: hidden;
-      border-top-left-radius: 0.2em;
-      border-top-right-radius: 0.2em;
+    &:hover {
       .gallery-image {
-        object-fit: cover;
-        transition: 0.42s ease-in-out;
-        transform: scale(1.05);
-        filter: brightness(0.95);
+        transform: scale(1.1);
+        filter: brightness(1.05);
+      }
+      .title {
+        opacity: 1;
+        bottom: 0;
       }
     }
     .title {
-      padding: 6.9px 2px;
-      font-size: 0.75em;
-      background-color: $gray-bright;
+      position: absolute;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      bottom: -10em;
+      min-height: 4.2em;
+      height: 25%;
+      transition: 0.55s ease-out;
+      opacity: 0;
+      padding: 2em 1em;
+      background-color: rgba(0, 0, 0, 0.69);
+      color: $gray-bright;
+      b {
+        color: white;
+      }
+      @include media("<=md") {
+        opacity: 1;
+        bottom: 0;
+      }
+    }
+  }
+  a {
+    position: relative;
+    text-decoration: none;
+    color: $black;
+    overflow: hidden;
+    border-radius: 0.2em;
+    .gallery-image {
+      object-fit: cover;
+      transition: 0.42s ease-in-out;
+      transform: scale(1.025);
+      filter: brightness(0.95);
     }
   }
 }
@@ -247,7 +266,7 @@
 .filter-grid {
   input {
     font-size: 1.2em;
-    padding: 0.25em 0.69em;
+    padding: 0.5em 0.69em;
     width: 100%;
     border: $gray-bright 1px solid;
     border-radius: 2.5em;

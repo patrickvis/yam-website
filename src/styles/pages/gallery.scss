@@ -213,7 +213,6 @@
 
 // GRID CSS
 .grid-layout {
-  padding: 4.2em 0;
   .img-col {
     .wrapper {
       box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.42);
@@ -241,6 +240,20 @@
       padding: 6.9px 2px;
       font-size: 0.75em;
       background-color: $gray-bright;
+    }
+  }
+}
+
+.filter-grid {
+  input {
+    font-size: 1.2em;
+    padding: 0.25em 0.69em;
+    width: 100%;
+    border: $gray-bright 1px solid;
+    border-radius: 2.5em;
+    box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.13);
+    &:focus {
+      outline: none;
     }
   }
 }

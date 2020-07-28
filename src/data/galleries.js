@@ -62,6 +62,13 @@ export const visualarts = [
     description:
       "This piece titled “Current” is roughly 22×30 inches and it is for graduating an art studio I’ve gone to for a large part of my life. It is a mixed media piece with marker, pastel, watercolor, acrylic, ink, and gold leaf. The girl in the middle symbolizes who I am. To break it down, her dress merges into my old art pieces and a wolf’s tail, meaning that my past struggles and effort is always part of what my art is today. You can see her drawing the end of the wolf’s tail— which symbolizes that despite artistic expression being such a scary thing for me, it also protects me and makes me feel comfortable and safe. A lot of the other smaller components are for visuals. This piece took me around 15 hours, and it really emphasizes that artists use a ton of effort to create something they’re proud of and it takes years for them to build themselves up in order to be proud and keep improving. It challenges the misconception that art is easy and effortless and really points out the journey an artist takes.",
   },
+
+  {
+    imageURL: `${originalBase}rishabhanand1.jpg`,
+    artist: "Rishabh Anand",
+    title: "Pencil Sketch",
+    description: "The artist has not provided a description for this piece.",
+  },
   {
     imageURL: `${originalBase}kadennguyen2.jpg`,
     artist: "Kaden Nguyen",
@@ -70,17 +77,19 @@ export const visualarts = [
       "The piece is called “Number 6.” It is an homage to a member of the 12-member Kpop group known as LOONA. It is an oil painting that is meant to display a futuristic, ethereal concept, characterized by high saturation and vibrance. The artist in the painting, Kim Lip, debuted 6th out of all 12 members with the hit-single, “Eclipse,” a K R&B masterpiece. The painting is aesthetically regal in order to match the concept of this particular member. She is engulfed in a warm lighting which is a reference to her representative color, red.",
   },
   {
-    imageURL: `${originalBase}rishabhanand1.jpg`,
-    artist: "Rishabh Anand",
-    title: "Pencil Sketch",
-    description: "The artist has not provided a description for this piece.",
-  },
-  {
     imageURL: `${originalBase}lancewong1.jpg`,
     artist: "Lance Wong",
     title: "Eagle (Pencil Sketch)",
     description:
       "A simple charcoal sketch of an eagle, the challenge being that charcoal is for me, hard to work with, as I am not an expert in the specific techniques charcoal drawings tend to use (i.e smudging).",
+  },
+
+  {
+    imageURL: `${originalBase}kadennguyen3.jpg`,
+    artist: "Kaden Nguyen",
+    title: "Chungking Express",
+    description:
+      "The painting is called “Chungking Express,” named after the movie from which this scene is based. It is an oil portrait that portrays complex layers and painting techniques. This was a challenge for me as I typically paint in very saturated colors.",
   },
   {
     imageURL: `${originalBase}lancewong2.jpg`,
@@ -88,13 +97,6 @@ export const visualarts = [
     title: "River Landscape (Pastel)",
     description:
       "A pastel drawing of a river landscape. This was also my first attempt at using pastels, which can be fun to use in blending colors, but on the other hand, mistakes can’t be completely erased. For a first attempt, I certainly found it difficult, and the drawing shows my initial struggle (bottom half) and progression to familiarity with the style (top half).",
-  },
-  {
-    imageURL: `${originalBase}kadennguyen3.jpg`,
-    artist: "Kaden Nguyen",
-    title: "Chungking Express",
-    description:
-      "The painting is called “Chungking Express,” named after the movie from which this scene is based. It is an oil portrait that portrays complex layers and painting techniques. This was a challenge for me as I typically paint in very saturated colors.",
   },
   {
     imageURL: `${originalBase}lancewong3.jpg`,

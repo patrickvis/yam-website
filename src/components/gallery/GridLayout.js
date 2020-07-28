@@ -8,21 +8,25 @@ export default function GridLayout(props) {
       <div className="row no-gutters gallery-row justify-content-center">
         {props.images.map((img) => {
           let id = /[^/]*$/.exec(img.imageURL)[0];
-          console.log(img);
           return (
             <div
-              className="col-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col"
+              className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-center img-col"
               id={id}
               key={id}
             >
-              <Link className="d-flex align-items-stretch">
-                <Image
-                  cloudName="masonwang"
-                  publicId={img.imageURL}
-                  className="img-fluid gallery-image"
-                  style={{ backgroundColor: "#152828" }}
-                />
-              </Link>
+              <div className="wrapper d-flex flex-column align-items-stretch text-center">
+                <Link>
+                  <Image
+                    cloudName="masonwang"
+                    publicId={img.imageURL}
+                    className="img-fluid gallery-image"
+                    style={{ backgroundColor: "#152828" }}
+                  />
+                </Link>
+                <div className="title">
+                  <i>{img.title}</i> by <b className="theme">{img.artist}</b>
+                </div>
+              </div>
             </div>
           );
         })}

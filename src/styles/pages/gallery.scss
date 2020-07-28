@@ -215,17 +215,32 @@
 .grid-layout {
   padding: 4.2em 0;
   .img-col {
+    .wrapper {
+      box-shadow: 0 0.2em 0.3em rgba(0, 0, 0, 0.42);
+
+      &:hover {
+        .gallery-image {
+          transform: scale(1.1) rotate(0.69deg);
+          filter: brightness(1.05);
+        }
+      }
+    }
     padding: 15px;
     a {
       overflow: hidden;
+      border-top-left-radius: 0.2em;
+      border-top-right-radius: 0.2em;
       .gallery-image {
         object-fit: cover;
         transition: 0.42s ease-in-out;
         transform: scale(1.05);
-        &:hover {
-          transform: scale(1.1) rotate(0.69deg);
-        }
+        filter: brightness(0.95);
       }
+    }
+    .title {
+      padding: 6.9px 2px;
+      font-size: 0.75em;
+      background-color: $gray-bright;
     }
   }
 }

@@ -32,7 +32,7 @@ export default function VisualArts() {
           }}
         />
       </div>
-      <GridLayout images={images} />
+      <GridLayout images={images} category="visualarts" />
     </div>
   );
 }

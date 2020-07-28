@@ -89,7 +89,8 @@ export default function Header() {
                   <div className="dropdown-divider"></div>
                   <Link
                     className={
-                      "dropdown-item " + (path === "/gallery/blm" && "active")
+                      "dropdown-item " +
+                      (path.startsWith("/gallery/blm") && "active")
                     }
                     to="/gallery/blm"
                   >

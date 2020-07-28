@@ -19,6 +19,7 @@ import CreativeWriting from "./pages/gallery/CreativeWriting";
 import Photography from "./pages/gallery/Photography";
 import Music from "./pages/gallery/Music";
 import Footer from "./components/Footer";
+import Piece from "./components/gallery/Piece";
 
 function debounce(fn, ms) {
   let timer;
@@ -105,6 +106,9 @@ function App() {
                 <Component {...props} />
               </Route>
             ))}
+            <Route path="/gallery">
+              <Piece />
+            </Route>
             <Redirect to="/" />
           </Switch>
         </div>

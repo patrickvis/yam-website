@@ -16,7 +16,7 @@ export default function GridLayout(props) {
                 key={id}
               >
                 <Link
-                  to="/gallery/visualarts"
+                  to={`/gallery/${props.category}/piece/${id}`}
                   className="d-flex align-items-stretch flex-row"
                 >
                   <Image

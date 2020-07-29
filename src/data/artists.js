@@ -35,6 +35,14 @@ const artists = {
     age: 16,
     school: "Saratoga High School, CA",
   },
+  "Elizabeth Cheng": {
+    age: 15,
+    school: "Lynbrook High School, CA",
+  },
+  "Jacquelyn Ryu": {
+    age: 15,
+    school: "Saratoga High School, CA",
+  },
 };
 
 export default artists;

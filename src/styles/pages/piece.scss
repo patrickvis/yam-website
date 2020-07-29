@@ -1,11 +1,24 @@
 .piece {
-  .row {
+  .container {
     padding: 2.5em 0;
   }
-  .btn {
+  .button {
     background-color: $gray-bright;
     margin: 0.42em 0;
     transition: 0.42s ease-in-out;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    color: $black-bright;
+    margin-bottom: 0.5em;
     &:hover {
       background-color: #ccc;
     }
@@ -48,10 +61,15 @@
     }
   }
   img {
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
     width: 100%;
     border-radius: 0.25em;
     box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.25);
+  }
+  .writing {
+    background-color: white;
+    border-radius: 0;
+    border: 2px $theme solid;
   }
 }

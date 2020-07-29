@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import artists from "../../data/artists";
-import { visualarts, photos } from "../../data/galleries";
+import { visualarts, photos, blm } from "../../data/galleries";
 
 export default function Piece() {
   const notFound = (
@@ -21,6 +21,7 @@ export default function Piece() {
   let data;
   if (category === "visualarts") data = visualarts;
   else if (category === "photography") data = photos;
+  else if (category === "blm") data = blm;
 
   const piece = data.find((image) => image.imageURL.endsWith(title));
   const artist = artists[piece.artist];
@@ -33,18 +34,40 @@ export default function Piece() {
     return (
       <div className="piece page">
         <div className="container">
-          <div className="row justify-content-center align-items-center text-center text-lg-left">
-            <div className="col-lg-6 col-12">
-              <Link to="/gallery/visualarts" className="btn">
+          <div className="row">
+            <div className="col-12">
+              <Link to={`/gallery/${category}`} className="button">
                 <i className="fa fa-arrow-left"></i> Back to all
               </Link>
-              <div className="card card-body">
+            </div>
+          </div>
+          <div className="row justify-content-center align-items-center">
+            <div
+              className={
+                "col-lg-6 col-12 text-center " +
+                (!piece.writing && " text-lg-left")
+              }
+            >
+              <div
+                className={
+                  "card card-body text-center " +
+                  (!piece.writing && " text-lg-left")
+                }
+              >
                 <h1>{piece.title}</h1>
                 <h2>
                   By <span className="artist">{piece.artist}</span> (
                   {artist.age})
                 </h2>
                 <h3>{artist.school}</h3>
+                <a
+                  href={piece.imageURL}
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View image <i className="fa fa-external-link-square"></i>
+                </a>
                 <p className="description">{piece.description}</p>
                 {otherPiecesByArtist.length > 0 && (
                   <div className="other">
@@ -69,13 +92,36 @@ export default function Piece() {
                 )}
               </div>
             </div>
-            <div className="img-col col-lg-6 col-12 mt-4 mt-lg-0">
-              <Image
-                cloudName="masonwang"
-                publicId={piece.imageURL}
-                className="img-fluid"
-                style={{ backgroundColor: "#152828" }}
-              />
+            <div
+              className={
+                piece.writing
+                  ? "img-col col-12 mt-4"
+                  : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
+              }
+            >
+              {piece.writing ? (
+                <div className="card px-1 py-4 writing">{piece.writing}</div>
+              ) : (
+                <a
+                  href={piece.imageURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    cloudName="masonwang"
+                    publicId={piece.imageURL}
+                    className="img-fluid"
+                    style={{ backgroundColor: "#152828" }}
+                  />
+                </a>
+              )}
+              {piece.writing && (
+                <div className="text-center mt-2">
+                  <Link to={`/gallery/${category}`} className="button">
+                    <i className="fa fa-arrow-left"></i> Back to all
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>

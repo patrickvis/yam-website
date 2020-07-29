@@ -53,5 +53,5 @@ export default function GridLayout(props) {
 function youtube_parser(url) {
   var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
   var match = url.match(regExp);
-  return match && match[7].length == 11 ? match[7] : false;
+  return match && match[7].length === 11 ? match[7] : false;
 }

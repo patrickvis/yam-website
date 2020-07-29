@@ -228,6 +228,10 @@
   .img-col {
     text-align: center;
     padding: 6.9px;
+    max-height: 90vh;
+    @include media(">=md") {
+      max-height: 59vh;
+    }
     &:hover {
       .gallery-image {
         transform: scale(1.1);

@@ -1,6 +1,6 @@
 .piece {
-  .container {
-    padding: 2.5em 0;
+  .main-container {
+    margin: 5em auto 2.5em auto;
   }
   .button {
     background-color: $gray-bright;
@@ -60,7 +60,8 @@
       }
     }
   }
-  img {
+  .image {
+    // don't include writing images
     height: 90vh;
     object-fit: cover;
     width: 100%;

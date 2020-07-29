@@ -43,6 +43,10 @@ const artists = {
     age: 15,
     school: "Saratoga High School, CA",
   },
+  "Jonathan Li": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
 };
 
 export default artists;

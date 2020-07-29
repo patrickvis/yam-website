@@ -241,7 +241,7 @@ export const blm = [
     title: "Written Piece",
     description: "The writer has not provided a description for this piece.",
     writing: (
-      <div class="container">
+      <div className="container">
         Suddenly, a sharp pain shoots up my cranium, digging its cold, gnarly
         fingers, penetrating deep into my skull. I shriek from the depths of my
         stomach in pain as something black covers my head, then it's beating me;
@@ -278,6 +278,28 @@ export const blm = [
         <br />
         Are you here? No, it's just what I've been trying to escape all this
         time. You have failed me.
+      </div>
+    ),
+  },
+];
+
+export const creativewriting = [
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1596055350/yam-website/creativewriting/jonathanli1.png",
+    artist: "Jonathan Li",
+    title: "Like the Jazz",
+    description: "The artist has not provided a description for this piece.",
+    writing: (
+      <div className="container">
+        <div className="row text-center justify-content-center">
+          <div className="col-12">
+            <img
+              src="https://res.cloudinary.com/masonwang/image/upload/v1596055350/yam-website/creativewriting/jonathanli1.png"
+              alt="Like the Jazz by Jonathan Li"
+            />
+          </div>
+        </div>
       </div>
     ),
   },

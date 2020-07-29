@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import artists from "../../data/artists";
-import { visualarts, photos, blm } from "../../data/galleries";
+import { visualarts, photos, blm, creativewriting } from "../../data/galleries";
 
 export default function Piece() {
   const notFound = (
@@ -22,6 +22,7 @@ export default function Piece() {
   if (category === "visualarts") data = visualarts;
   else if (category === "photography") data = photos;
   else if (category === "blm") data = blm;
+  else if (category === "creativewriting") data = creativewriting;
 
   const piece = data.find((image) => image.imageURL.endsWith(title));
   const artist = artists[piece.artist];
@@ -33,8 +34,8 @@ export default function Piece() {
   if (piece)
     return (
       <div className="piece page">
-        <div className="container">
-          <div className="row">
+        <div className="main-container container">
+          <div className="row d-none d-lg-block">
             <div className="col-12">
               <Link to={`/gallery/${category}`} className="button">
                 <i className="fa fa-arrow-left"></i> Back to all
@@ -42,6 +43,12 @@ export default function Piece() {
             </div>
           </div>
           <div className="row justify-content-center align-items-center">
+            <Link
+              to={`/gallery/${category}`}
+              className="button d-block d-lg-none"
+            >
+              <i className="fa fa-arrow-left"></i> Back to all
+            </Link>
             <div
               className={
                 "col-lg-6 col-12 text-center " +
@@ -100,7 +107,7 @@ export default function Piece() {
               }
             >
               {piece.writing ? (
-                <div className="card px-1 py-4 writing">{piece.writing}</div>
+                <div className="card px-2 py-4 writing">{piece.writing}</div>
               ) : (
                 <a
                   href={piece.imageURL}
@@ -110,7 +117,7 @@ export default function Piece() {
                   <Image
                     cloudName="masonwang"
                     publicId={piece.imageURL}
-                    className="img-fluid"
+                    className="img-fluid image"
                     style={{ backgroundColor: "#152828" }}
                   />
                 </a>

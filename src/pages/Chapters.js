@@ -9,7 +9,7 @@ export default function Chapters() {
       <SectionHero
         title="Chapters"
         subtitle="Register a YAM Chapter"
-        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595615623/yam-website/gallery/previews/chapters-cover.jpg"
+        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595541747/yam-website/gallery/previews/about-us-cover.jpg"
       />
       <WhyChapters />
       <OurChapters />

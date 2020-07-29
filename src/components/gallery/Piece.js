@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import artists from "../../data/artists";
-import { visualarts } from "../../data/galleries";
+import { visualarts, photos } from "../../data/galleries";
 
 export default function Piece() {
   const notFound = (
@@ -20,6 +20,7 @@ export default function Piece() {
 
   let data;
   if (category === "visualarts") data = visualarts;
+  else if (category === "photography") data = photos;
 
   const piece = data.find((image) => image.imageURL.endsWith(title));
   const artist = artists[piece.artist];
@@ -49,7 +50,7 @@ export default function Piece() {
                   <div className="other">
                     <p className="mb-2">
                       <b>
-                        Other pieces by this artist:
+                        Other pieces by {piece.artist}:
                         <br />
                       </b>
                     </p>
@@ -57,7 +58,7 @@ export default function Piece() {
                       <span key={index} className="mb-2 d-inline-block">
                         <Link
                           to={`/gallery/${category}/piece/${
-                            otherPiece.imageURL.split("/")[10]
+                            otherPiece.imageURL.split("/").slice(-1)[0]
                           }`}
                         >
                           <span className="otherPiece">{otherPiece.title}</span>

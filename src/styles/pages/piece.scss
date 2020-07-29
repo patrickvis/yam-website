@@ -1,0 +1,57 @@
+.piece {
+  .row {
+    padding: 2.5em 0;
+  }
+  .btn {
+    background-color: $gray-bright;
+    margin: 0.42em 0;
+    transition: 0.42s ease-in-out;
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+  .card {
+    border: 0;
+    box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.25);
+    h1 {
+      font-size: 1.69em;
+      color: $gray-dark;
+    }
+    h2 {
+      font-size: 1.9em;
+      .artist {
+        color: $theme;
+        font-weight: bold;
+      }
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+    a {
+      text-decoration: none;
+    }
+    .otherPiece {
+      display: block;
+      margin: 0 3px;
+      color: $gray-dark;
+      padding: 0.2em 1em;
+      border: $gray-dark 1px solid;
+      border-radius: 2em;
+      transition: 0.42s ease-in-out;
+      &:hover {
+        background-color: $gray-bright;
+        color: #555;
+      }
+    }
+  }
+  img {
+    height: 80vh;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.25em;
+    box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.25);
+  }
+}

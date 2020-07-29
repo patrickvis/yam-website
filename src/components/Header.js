@@ -25,7 +25,13 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <h1 id="navlogotext">YAM</h1>
+            <h1 id="navlogotext">
+              <img
+                src={require("../assets/logo.png")}
+                alt="logo"
+                height="25px"
+              />
+            </h1>
           </Link>
           {/* Hamburger Menu for collapse */}
           <button

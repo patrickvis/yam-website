@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
+import { Image } from "cloudinary-react";
+
 export default function AboutSection() {
   return (
     <div>
@@ -56,11 +58,11 @@ export default function AboutSection() {
                   </span>
                 </p>
               </div>
-              <div className="col-12 pt-2">
-                <Link to="/about" className="action-btn main-action  mx-2 mb-2">
+              <div className="pt-2 col-12">
+                <Link to="/about" className="action-btn main-action mx-2 mb-3">
                   About Us
                 </Link>
-                <Link to="/chapters" className="action-btn mx-2 mb-2">
+                <Link to="/chapters" className="action-btn mx-2 mb-3">
                   Register a Chapter
                 </Link>
               </div>
@@ -68,17 +70,13 @@ export default function AboutSection() {
           </div>
         </div>
       </section>
-      <section className="blm-about about-section text-center">
+      <section className="blm-about about-section text-lg-left text-center">
         <div className="container py-4 px-2">
           <div className="row align-content-center">
             <Fade duration={1738} delay={100}>
-              <div className="col-12">
+              <div className="col-12 col-lg-8">
                 <h1>BLM Virtual Art Gallery</h1>
-              </div>
-              <div className="col-12">
                 <h2>Freedom ~ Equality ~ Justice</h2>
-              </div>
-              <div className="col-12">
                 <p>
                   <b>Join the movement</b> against state-sanctioned violence and
                   racism. <b>Fight for your voice</b> by expressing justice
@@ -87,16 +85,23 @@ export default function AboutSection() {
                   Enter our virtual art gallery or donate to have your work
                   impact people nationwide.
                 </p>
-              </div>
-              <div className="col-12 pt-2">
                 <Link
                   to="/gallery/submit"
-                  className="action-btn main-action mx-2 mb-2"
+                  className="action-btn main-action ml-2 ml-md-0 mr-2 mb-3"
                 >
                   Fight for Your Voice
                 </Link>
-                <Link to="/chapters" className="action-btn mx-2 mb-2">
+                <Link to="/gallery/blm" className="action-btn mx-2 mb-3">
                   See Gallery
+                </Link>
+              </div>
+              <div className="d-none d-lg-block col-4">
+                <Link to="/gallery/blm">
+                  <Image
+                    cloudName="masonwang"
+                    publicId="https://res.cloudinary.com/masonwang/image/upload/v1596040322/blm_pcjs0v.png"
+                    className="img-fluid mt-5"
+                  />
                 </Link>
               </div>
             </Fade>

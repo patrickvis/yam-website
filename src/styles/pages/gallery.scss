@@ -77,7 +77,19 @@
       user-select: none;
       text-align: center;
       padding: 1em;
-      background-color: $theme-darker;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        filter: brightness(0.69);
+        background: $black-bright
+          url("https://res.cloudinary.com/masonwang/image/upload/v1595605529/yam-website/gallery/previews/submit-cover.jpg");
+      }
       h1 {
         padding: 0;
       }
@@ -214,7 +226,7 @@
 // GRID CSS
 .grid-layout {
   .img-col {
-    padding: 15px;
+    padding: 6.9px;
     &:hover {
       .gallery-image {
         transform: scale(1.1);
@@ -266,9 +278,9 @@
 .filter-grid {
   input {
     font-size: 1.2em;
-    padding: 0.5em 0.69em;
+    padding: 0.75em 1.2em;
     width: 100%;
-    border: $gray-bright 1px solid;
+    border: none;
     border-radius: 2.5em;
     box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.13);
     &:focus {

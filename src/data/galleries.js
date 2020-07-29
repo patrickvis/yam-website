@@ -15,13 +15,6 @@ export const visualarts = [
       "My pieces are inspired by portraits of people I know. I used graphite and watercolor of my pieces because watercolor brings out the color and character of the piece, while graphite helps bring out the depth and structure of the human face. I believe that applying knowledge from real-life to paper is important because it helps you identify unique characteristics that a person might possess, helps you to identify simple structures of the face, learn human proportions, and learn about the reflection of light/shadows. I also believe that shading is a challenge in the art world because it comes in many forms and is one of the most important elements that help bring your art piece to life and emulate the structure of your piece.",
   },
   {
-    imageURL: `${originalBase}shanichiu4.jpg`,
-    artist: "Shani Chiu",
-    title: "Portrait",
-
-    description: "The artist has not provided a description for this piece.",
-  },
-  {
     imageURL: `${originalBase}shanichiu5.jpg`,
     artist: "Shani Chiu",
     title: "Portrait",
@@ -84,6 +77,13 @@ export const visualarts = [
       "A simple charcoal sketch of an eagle, the challenge being that charcoal is for me, hard to work with, as I am not an expert in the specific techniques charcoal drawings tend to use (i.e smudging).",
   },
 
+  {
+    imageURL: `${originalBase}shanichiu4.jpg`,
+    artist: "Shani Chiu",
+    title: "Portrait",
+
+    description: "The artist has not provided a description for this piece.",
+  },
   {
     imageURL: `${originalBase}kadennguyen3.jpg`,
     artist: "Kaden Nguyen",

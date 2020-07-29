@@ -47,6 +47,14 @@ const artists = {
     age: 16,
     school: "Saratoga High School, CA",
   },
+  "Ethan Lin": {
+    age: 15,
+    school: "Saratoga High School, CA",
+  },
+  "Alex Yang and Lily Yang": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
 };
 
 export default artists;

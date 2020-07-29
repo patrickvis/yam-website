@@ -2,7 +2,13 @@ import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import { Image } from "cloudinary-react";
 import artists from "../../data/artists";
-import { visualarts, photos, blm, creativewriting } from "../../data/galleries";
+import {
+  visualarts,
+  photos,
+  blm,
+  creativewriting,
+  music,
+} from "../../data/galleries";
 
 export default function Piece() {
   const notFound = (
@@ -23,8 +29,12 @@ export default function Piece() {
   else if (category === "photography") data = photos;
   else if (category === "blm") data = blm;
   else if (category === "creativewriting") data = creativewriting;
+  else if (category === "music") data = music;
 
-  const piece = data.find((image) => image.imageURL.endsWith(title));
+  let piece;
+  if (category === "music")
+    piece = data.find((video) => video.youtubeLink.includes(title));
+  else piece = data.find((image) => image.imageURL.endsWith(title));
   const artist = artists[piece.artist];
   const otherPiecesByArtist = data.filter((image) => {
     if (image.imageURL !== piece.imageURL) return image.artist === piece.artist;
@@ -49,16 +59,11 @@ export default function Piece() {
             >
               <i className="fa fa-arrow-left"></i> Back to all
             </Link>
-            <div
-              className={
-                "col-lg-6 col-12 text-center " +
-                (!piece.writing && " text-lg-left")
-              }
-            >
+            <div className="col-lg-6 col-12 text-center">
               <div
                 className={
                   "card card-body text-center " +
-                  (!piece.writing && " text-lg-left")
+                  (!piece.writing && !piece.youtubeLink && " text-lg-left")
                 }
               >
                 <h1>{piece.title}</h1>
@@ -68,12 +73,13 @@ export default function Piece() {
                 </h2>
                 <h3>{artist.school}</h3>
                 <a
-                  href={piece.imageURL}
+                  href={piece.imageURL ? piece.imageURL : piece.youtubeLink}
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View image <i className="fa fa-external-link-square"></i>
+                  View {piece.youtubeLink ? "video" : "image"}{" "}
+                  <i className="fa fa-external-link-square"></i>
                 </a>
                 <p className="description">{piece.description}</p>
                 {otherPiecesByArtist.length > 0 && (
@@ -101,14 +107,15 @@ export default function Piece() {
             </div>
             <div
               className={
-                piece.writing
+                piece.writing || piece.youtubeLink
                   ? "img-col col-12 mt-4"
                   : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
               }
             >
-              {piece.writing ? (
+              {piece.writing && (
                 <div className="card px-2 py-4 writing">{piece.writing}</div>
-              ) : (
+              )}
+              {!piece.writing && piece.imageURL && (
                 <a
                   href={piece.imageURL}
                   target="_blank"
@@ -122,7 +129,19 @@ export default function Piece() {
                   />
                 </a>
               )}
-              {piece.writing && (
+              {piece.youtubeLink && (
+                <div className="container card card-body">
+                  <div className="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      className="embed-responsive-item"
+                      src={`https://www.youtube.com/embed/${title}?rel=0`}
+                      allowFullScreen
+                      style={{ background: "#152828", borderRadius: "0.2em" }}
+                    ></iframe>
+                  </div>
+                </div>
+              )}
+              {(piece.writing || piece.youtubeLink) && (
                 <div className="text-center mt-2">
                   <Link to={`/gallery/${category}`} className="button">
                     <i className="fa fa-arrow-left"></i> Back to all

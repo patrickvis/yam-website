@@ -8,7 +8,9 @@ export default function GridLayout(props) {
       {props.images.length > 0 ? (
         <div className="row no-gutters gallery-row justify-content-center">
           {props.images.map((img) => {
-            let id = /[^/]*$/.exec(img.imageURL)[0];
+            let id;
+            if (img.youtubeLink) id = youtube_parser(img.youtubeLink);
+            else id = /[^/]*$/.exec(img.imageURL)[0];
             return (
               <div
                 className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col"
@@ -21,7 +23,11 @@ export default function GridLayout(props) {
                 >
                   <Image
                     cloudName="masonwang"
-                    publicId={img.imageURL}
+                    publicId={
+                      img.youtubeLink
+                        ? `https://img.youtube.com/vi/${id}/0.jpg`
+                        : img.imageURL
+                    }
                     className="img-fluid gallery-image"
                     style={{ backgroundColor: "#152828" }}
                   />
@@ -42,4 +48,10 @@ export default function GridLayout(props) {
       )}
     </div>
   );
+}
+
+function youtube_parser(url) {
+  var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+  var match = url.match(regExp);
+  return match && match[7].length == 11 ? match[7] : false;
 }

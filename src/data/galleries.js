@@ -304,3 +304,30 @@ export const creativewriting = [
     ),
   },
 ];
+
+export const music = [
+  {
+    youtubeLink: "https://www.youtube.com/watch?v=zTMLly2U6Pg",
+    artist: "Ethan Lin",
+    title: "Brahms Rhapsody Op.119 No.4",
+    description: "No description provided for this piece.",
+  },
+  {
+    youtubeLink: "https://www.youtube.com/watch?v=fMywjl7_3Bw",
+    artist: "Ethan Lin",
+    title: "Bach Prelude and Fugue BWV 867",
+    description: "No description provided for this piece.",
+  },
+  {
+    youtubeLink: "https://www.youtube.com/watch?v=avb5zpA89yk",
+    artist: "Ethan Lin",
+    title: "Shostakovich Polka from “The Golden Age”",
+    description: "No description provided for this piece.",
+  },
+  {
+    youtubeLink: "https://www.youtube.com/watch?v=RuGz2e49GIM",
+    artist: "Alex Yang and Lily Yang",
+    title: "“A Lovely Night” and “City of Stars” from La La Land ",
+    description: "No description provided for this piece.",
+  },
+];

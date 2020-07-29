@@ -31,6 +31,10 @@ const artists = {
     age: 14,
     school: "Milpitas High School, CA",
   },
+  "Ethan Chang": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
 };
 
 export default artists;

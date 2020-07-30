@@ -13,7 +13,7 @@ export default function WhoWeAre() {
         <div className="row align-items-center">
           <div className="col">
             <p className="lead-p">
-              {tab}We a <b>501(c)(3) nonprofit organization</b> dedicated in
+              {tab}We are a <b>501(c)(3) nonprofit organization</b> dedicated in
               serving <b>today's youth</b> and <b>tomorrow's future. </b>
               <br className="d-block d-md-none" />
               The Youth Arts Movement is focused on{" "}
@@ -24,7 +24,7 @@ export default function WhoWeAre() {
             <p>
               {tab}Based in a community very much influenced in STEM, we saw the
               arts develop a stigma of instability and unintelligence. We’ve all
-              been there, your poetry award or art prize never seemed to stack
+              been there: your poetry award or art prize never seemed to stack
               up against a robotics championship. YAM strives to{" "}
               <b>close this gap between the STEM field and the arts</b>,
               emphasizing the importance of both in our society today.

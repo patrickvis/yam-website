@@ -33,7 +33,7 @@ export default function WhyChapters() {
         </div>
         <div className="col text-center mt-1">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqVcf35PSE7x49w0o1BHNlfkbq5CvPzTS9BwbGE_Bsfr13rA/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdnCJRjW0_nm3qyEhQfe67FbpevxyztOW1damH0WL0aOuOhuA/viewform?usp=send_form"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
@@ -41,7 +41,7 @@ export default function WhyChapters() {
             Existing Club
           </a>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfHO_Nnyo-N2dO5KdFosKhPfdFXlyBjBs2kYnhNn0dJblpy3A/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc1FtdOjB__B2vQa8BX5aV0GGMowcnZQ-Kc0IVtttxpDokOsg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"

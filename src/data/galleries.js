@@ -291,16 +291,11 @@ export const creativewriting = [
     title: "Like the Jazz",
     description: "The artist has not provided a description for this piece.",
     writing: (
-      <div className="container">
-        <div className="row text-center justify-content-center">
-          <div className="col-12">
-            <img
-              src="https://res.cloudinary.com/masonwang/image/upload/v1596055350/yam-website/creativewriting/jonathanli1.png"
-              alt="Like the Jazz by Jonathan Li"
-            />
-          </div>
-        </div>
-      </div>
+      <img
+        src="https://res.cloudinary.com/masonwang/image/upload/v1596055350/yam-website/creativewriting/jonathanli1.png"
+        alt="Like the Jazz by Jonathan Li"
+        className="img-fluid"
+      />
     ),
   },
 ];

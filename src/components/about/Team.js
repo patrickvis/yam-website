@@ -15,8 +15,10 @@ export default function Team() {
             <Profile
               key={member.name}
               name={member.name}
+              imageURL={member.imageURL}
               position={member.position}
               instagram={member.instagram}
+              instagram2={member.instagram2}
               linkedin={member.linkedin}
               github={member.github}
               facebook={member.facebook}

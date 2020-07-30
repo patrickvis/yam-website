@@ -12,7 +12,11 @@ export default function Profile(props) {
         <div className="member-img">
           <Image
             cloudName="masonwang"
-            publicId={`https://res.cloudinary.com/masonwang/image/upload/v1595421639/yam-website/team/${escapedName}`}
+            publicId={
+              props.imageURL
+                ? props.imageURL
+                : `https://res.cloudinary.com/masonwang/image/upload/v1595421639/yam-website/team/${escapedName}`
+            }
             className="img-fluid"
             style={{ backgroundColor: "#152828" }}
           />
@@ -43,6 +47,15 @@ export default function Profile(props) {
             {props.instagram && (
               <a
                 href={props.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-instagram"></i>
+              </a>
+            )}
+            {props.instagram2 && (
+              <a
+                href={props.instagram2}
                 target="_blank"
                 rel="noopener noreferrer"
               >

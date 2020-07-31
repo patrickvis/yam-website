@@ -48,6 +48,14 @@ const teamMembers = [
       "https://res.cloudinary.com/masonwang/image/upload/v1596133128/yam-website/team/nalin-chopra.jpg",
   },
   {
+    name: "Linda Zhao",
+    position: "Graphics President",
+    instagram: "https://instagram.com/lindazhqo?igshid=18k3rxzoorff0",
+    linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1595422647/yam-website/team/linda-zhao.jpg",
+  },
+  {
     name: "Katie Chen",
     position: "Outreach and West Coast Branch President",
     linkedin: "https://www.linkedin.com/in/katie-chen-3a8b83177/",
@@ -57,14 +65,6 @@ const teamMembers = [
     name: "Tiffany Lieu",
     position: "Marketing Manager",
     linkedin: "https://wwww.instagram.com/tfaffniy?igshid=ywfykngjeirx",
-  },
-  {
-    name: "Linda Zhao",
-    position: "Graphic Designer",
-    instagram: "https://instagram.com/lindazhqo?igshid=18k3rxzoorff0",
-    linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
-    imageURL:
-      "https://res.cloudinary.com/masonwang/image/upload/v1595422647/yam-website/team/linda-zhao.jpg",
   },
   {
     name: "Nandini Desai",

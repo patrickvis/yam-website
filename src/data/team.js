@@ -28,6 +28,11 @@ const teamMembers = [
     instagram: "https://www.instagram.com/masonwang025/",
   },
   {
+    name: "Charlie Williams",
+    position: "CMO",
+    linkedin: "https://linkedin.com/in/charlie-williams-1bb4021b3",
+  },
+  {
     name: "Linda Zhao",
     position: "Graphics President",
     instagram: "https://instagram.com/lindazhqo?igshid=18k3rxzoorff0",
@@ -42,11 +47,6 @@ const teamMembers = [
     instagram2: "https://www.instagram.com/behrylium/",
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1596132782/yam-website/team/grace-kuo.jpg",
-  },
-  {
-    name: "Charlie Williams",
-    position: "CMO",
-    linkedin: "https://linkedin.com/in/charlie-williams-1bb4021b3",
   },
   {
     name: "Nalin Chopra",

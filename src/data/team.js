@@ -40,7 +40,13 @@ const teamMembers = [
     position: "CMO",
     linkedin: "https://linkedin.com/in/charlie-williams-1bb4021b3",
   },
-
+  {
+    name: "Nalin Chopra",
+    position: "Sponsorship Manager",
+    linkedin: "https://www.linkedin.com/in/nalinchopra",
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1596133128/yam-website/team/nalin-chopra.jpg",
+  },
   {
     name: "Katie Chen",
     position: "Outreach and West Coast Branch President",
@@ -59,13 +65,6 @@ const teamMembers = [
     linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1595422647/yam-website/team/linda-zhao.jpg",
-  },
-  {
-    name: "Nalin Chopra",
-    position: "Sponsorship Manager",
-    linkedin: "https://www.linkedin.com/in/nalinchopra",
-    imageURL:
-      "https://res.cloudinary.com/masonwang/image/upload/v1596133128/yam-website/team/nalin-chopra.jpg",
   },
   {
     name: "Nandini Desai",

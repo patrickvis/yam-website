@@ -7,15 +7,20 @@
 
   .navbar-brand {
     color: $light-bright;
+    margin: 0;
+    padding: 0;
     #navlogotext {
       position: relative;
       top: 0.15em;
       text-transform: none;
-      font-size: 1.2em;
+      font-size: 1em;
       font-weight: bold;
       -moz-user-select: none;
       -webkit-user-select: none;
       user-select: none;
+      img {
+        height: 2em;
+      }
     }
   }
 

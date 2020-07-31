@@ -33,7 +33,7 @@ export default function WhyChapters() {
         </div>
         <div className="col text-center mt-1">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdnCJRjW0_nm3qyEhQfe67FbpevxyztOW1damH0WL0aOuOhuA/viewform?usp=send_form"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdnCJRjW0_nm3qyEhQfe67FbpevxyztOW1damH0WL0aOuOhuA/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"

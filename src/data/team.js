@@ -28,6 +28,14 @@ const teamMembers = [
     instagram: "https://www.instagram.com/masonwang025/",
   },
   {
+    name: "Linda Zhao",
+    position: "Graphics President",
+    instagram: "https://instagram.com/lindazhqo?igshid=18k3rxzoorff0",
+    linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1595422647/yam-website/team/linda-zhao.jpg",
+  },
+  {
     name: "Grace Kuo",
     position: "Program Manager",
     instagram: "https://www.instagram.com/gwaciek/",
@@ -46,14 +54,6 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/nalinchopra",
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1596133128/yam-website/team/nalin-chopra.jpg",
-  },
-  {
-    name: "Linda Zhao",
-    position: "Graphics President",
-    instagram: "https://instagram.com/lindazhqo?igshid=18k3rxzoorff0",
-    linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
-    imageURL:
-      "https://res.cloudinary.com/masonwang/image/upload/v1595422647/yam-website/team/linda-zhao.jpg",
   },
   {
     name: "Katie Chen",

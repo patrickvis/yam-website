@@ -80,8 +80,7 @@ export default function Footer() {
               ~{" "}
               <Link to="/gallery/blm" className="underline">
                 BLM Gallery
-              </Link>{" "}
-              ~{" "}
+              </Link>
             </p>
             <p className="copyright">
               &copy; Copyright 2020 Youth Arts Movement. All Rights Reserved.

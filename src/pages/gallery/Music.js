@@ -10,7 +10,7 @@ export default function Music() {
     <div className="page">
       <SectionHero
         title="Music"
-        subtitle="YAM Photgraphy Gallery"
+        subtitle="YAM Music Gallery"
         imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595458064/yam-website/gallery/previews/music-cover.jpg"
       />
       <div className="container filter-grid pt-5">

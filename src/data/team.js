@@ -86,6 +86,13 @@ const teamMembers = [
     position: "Graphic Designer",
     linkedin: "https://www.instagram.com/elkanaid/",
   },
+  {
+    name: "Carolann Dong",
+    position: "Graphic Designer",
+    linkedin: "https://www.instagram.com/carolanndong/",
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597014960/yam-website/team/carolann-dong.jpg",
+  },
 ];
 
 export default teamMembers;

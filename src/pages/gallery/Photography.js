@@ -10,7 +10,7 @@ export default function Photography() {
     <div className="page">
       <SectionHero
         title="Photos"
-        subtitle="YAM Photgraphy Gallery"
+        subtitle="YAM Photography Gallery"
         imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595458064/yam-website/gallery/previews/photography-cover.jpg"
       />
       <div className="container filter-grid pt-5">

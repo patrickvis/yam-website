@@ -3,6 +3,26 @@ const artists = {
     age: 15,
     school: "Saratoga High School, CA",
   },
+  "Linette Hoffman": {
+    age: 15,
+    school: "The Harker School, CA",
+  },
+  "Edward Ieong": {
+    age: 15,
+    school: "Milpitas High School, CA",
+  },
+  "Vivian Bi": {
+    age: 15,
+    school: "The Harker School, CA",
+  },
+  "Austina Xu": {
+    age: 15,
+    school: "The Harker School, CA",
+  },
+  "Sophia Jacobs": {
+    age: 17,
+    school: "Riverdale Country School, NY",
+  },
   "Shani Chiu": {
     age: 16,
     school: "Saratoga High School, CA",

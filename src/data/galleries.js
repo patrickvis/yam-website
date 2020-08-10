@@ -8,8 +8,17 @@ export const visualarts = [
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597023191/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-b_cmnhla.png",
     artist: "Linda Zhao",
-    title: "Nature Painting",
+    title: "Clearing",
     description: "The artist has not provided a description for this piece.",
+  },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597024863/yam-website/gallery/visualarts/new%20submissions/austinaxu1.jpg",
+    artist: "Austina Xu",
+    title: "Graduation Piece",
+    description:
+      "This piece was my graduation painting for my art studio. I was really drawn to this somewhat fantasy-like, vintage theme. I used a phonograph, which is essentially an old record player, to portray the years I have spent there. To me, those memories remind me of an old song, one that becomes richer and better with every listen. ",
   },
   {
     imageURL: `${origVisualBase}shanichiu2.png`,
@@ -45,6 +54,14 @@ export const visualarts = [
     description: "The artist has not provided a description for this piece.",
   },
   {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597025206/yam-website/gallery/visualarts/new%20submissions/vivianbi1.jpg",
+    artist: "Vivian Bi",
+    title: "Silence of the Lambs",
+    description:
+      "After watching Silence of the Lambs, I was inspired by the moths and the dead head seen in the film. I have this piece posted on my Instagram, @honeybiart.",
+  },
+  {
     imageURL: `${origVisualBase}shanichiu3.jpg`,
     artist: "Shani Chiu",
     title: "Portrait",
@@ -68,7 +85,7 @@ export const visualarts = [
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-a_xmyi4j.jpg",
     artist: "Linda Zhao",
-    title: "Portrait",
+    title: "Charcoal Collection",
     description: "The artist has not provided a description for this piece.",
   },
   {
@@ -99,9 +116,17 @@ export const visualarts = [
   },
   {
     imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597025694/yam-website/gallery/visualarts/new%20submissions/vivianbi2.jpg",
+    artist: "Vivian Bi",
+    title: "Animal Crossing",
+    description:
+      "I really like beetles aesthetically so I wanted to make art with one. It represents how heartbroken I feel when beetles fly away in Animal Crossing. I have it posted on my Instagram, @honeybiart.",
+  },
+  {
+    imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-d_niswj8.jpg",
     artist: "Linda Zhao",
-    title: "Portrait",
+    title: "Charcoal Collection",
     description: "The artist has not provided a description for this piece.",
   },
   {
@@ -214,15 +239,16 @@ export const visualarts = [
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-c_ygpbb8.jpg",
     artist: "Linda Zhao",
-    title: "Mouth",
+    title: "Charcoal Collection",
     description: "The artist has not provided a description for this piece.",
   },
   {
     imageURL:
-      "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang9_jzlw0m.jpg",
-    artist: "Mason Wang",
-    title: "Flower",
-    description: "Copied from one of the paintings in my house.",
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023673/yam-website/gallery/visualarts/new%20submissions/sophiajacobs1.jpg",
+    artist: "Sophia Jacobs",
+    title: "The Powerful Mind of Innocence",
+    description:
+      "This piece examines the discredited intelligence of innocence and the flaws in how childhood dissolves in the hands of knowledge. Why, as we are supposed to be growing wiser and learning more, do we inhibit our minds with rules and boundaries? Why are we allowed to do and say certain things as a child but not as a teenager or adult - what does innocence excuse?  Is knowledge always power? Or does it blind us to the freedom of exploration? ... I want the viewer to believe they can once again unleash their mind to the vast realm of possibility. We may not be able to regain innocence and discard knowledge, but we can inspire ourselves to dream once more.",
   },
   {
     imageURL:
@@ -230,6 +256,14 @@ export const visualarts = [
     artist: "Mason Wang",
     title: "Flower Farm",
     description: "One of my first oil paintings.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597026111/yam-website/gallery/visualarts/new%20submissions/LinetteHoffman.png",
+    artist: "Linette Hoffman",
+    title: "Paper Cutting",
+    description:
+      "Inspired by ancient chinese paper cutting I too wanted to create art with only cut pieces of paper. With only a limited amount of colors and many small details, I was challenged to maintain depth and a central focus with only post-it notes without making the collage confusing and chaotic. ",
   },
   {
     imageURL:
@@ -251,6 +285,13 @@ let origPhotoBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1596049090/yam-website/photography/";
 
 export const photos = [
+  {
+    imageURL: `${origPhotoBase}ethanchang1.jpg`,
+    artist: "Edward Ieong",
+    title: "Shoreline",
+    description:
+      "The photographer has not provided a description for this piece.",
+  },
   {
     imageURL: `${origPhotoBase}ethanchang1.jpg`,
     artist: "Ethan Chang",

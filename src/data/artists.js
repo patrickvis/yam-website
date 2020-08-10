@@ -1,4 +1,8 @@
 const artists = {
+  "Mason Wang": {
+    age: 15,
+    school: "Saratoga High School, CA",
+  },
   "Shani Chiu": {
     age: 16,
     school: "Saratoga High School, CA",

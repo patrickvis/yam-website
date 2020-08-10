@@ -11,6 +11,19 @@ export const visualarts = [
     description: "The artist has not provided a description for this piece.",
   },
   {
+    imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597020893/yam-website/gallery/visualarts/mason/masonwang12_ofwdvb.jpg`,
+    artist: "Mason Wang",
+    title: "Adrift at Sea",
+    description: "My favorite oil painting because of the colors.",
+  },
+  {
+    imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597020890/yam-website/gallery/visualarts/mason/masonwang1_o9p9cf.jpg`,
+    artist: "Mason Wang",
+    title: "Portrait Sketch",
+    description:
+      "A portrait of someone I have never met, for practice purposes.",
+  },
+  {
     imageURL: `${origVisualBase}christinelee1.jpg`,
     artist: "Christine Lee",
     title: "Portrait",
@@ -60,6 +73,12 @@ export const visualarts = [
   },
 
   {
+    imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597021161/yam-website/gallery/visualarts/mason/masonwang2_hlqv5b.jpg`,
+    artist: "Mason Wang",
+    title: "Portrait Sketch",
+    description: "Pencil sketch of someone I do not know.",
+  },
+  {
     imageURL: `${origVisualBase}rishabhanand1.jpg`,
     artist: "Rishabh Anand",
     title: "Pencil Sketch",
@@ -73,13 +92,26 @@ export const visualarts = [
       "The piece is called “Number 6.” It is an homage to a member of the 12-member Kpop group known as LOONA. It is an oil painting that is meant to display a futuristic, ethereal concept, characterized by high saturation and vibrance. The artist in the painting, Kim Lip, debuted 6th out of all 12 members with the hit-single, “Eclipse,” a K R&B masterpiece. The painting is aesthetically regal in order to match the concept of this particular member. She is engulfed in a warm lighting which is a reference to her representative color, red.",
   },
   {
+    imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597020890/yam-website/gallery/visualarts/mason/masonwang4_ak8sig.jpg`,
+    artist: "Mason Wang",
+    title: "Still Life Sketch",
+    description: "A still life pencil sketch.",
+  },
+  {
     imageURL: `${origVisualBase}lancewong1.jpg`,
     artist: "Lance Wong",
     title: "Eagle (Pencil Sketch)",
     description:
       "A simple charcoal sketch of an eagle, the challenge being that charcoal is for me, hard to work with, as I am not an expert in the specific techniques charcoal drawings tend to use (i.e smudging).",
   },
-
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang6_dxr9ie.jpg",
+    artist: "Mason Wang",
+    title: "Mouth Sketch",
+    description:
+      "Learning the shape and structure of a mouth before drawing a portrait.",
+  },
   {
     imageURL: `${origVisualBase}shanichiu4.jpg`,
     artist: "Shani Chiu",
@@ -95,6 +127,12 @@ export const visualarts = [
       "The painting is called “Chungking Express,” named after the movie from which this scene is based. It is an oil portrait that portrays complex layers and painting techniques. This was a challenge for me as I typically paint in very saturated colors.",
   },
   {
+    imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597020893/yam-website/gallery/visualarts/mason/masonwang11_wai9hr.jpg`,
+    artist: "Mason Wang",
+    title: "A Friend's Cat",
+    description: "One of my good friends asked me to draw their cat.",
+  },
+  {
     imageURL: `${origVisualBase}lancewong2.jpg`,
     artist: "Lance Wong",
     title: "River Landscape (Pastel)",
@@ -107,6 +145,14 @@ export const visualarts = [
     title: "Plants (Plastic Sheet)",
     description:
       "A creative experiment for me, where I created a set of plants in vivid colors against a dark background. I created this using a plastic sheet. I painted one side with a plethora of bright colors, and slathered ink on the opposite side. Using a stick, I scratched the images into the dried ink to create the piece. I had no idea where this particular project would go, but it appeared to be a success.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020891/yam-website/gallery/visualarts/mason/masonwang5_bdkyay.jpg",
+    artist: "Mason Wang",
+    title: "Eye Sketch",
+    description:
+      "Learning the shape and structure of an eye before drawing a portrait.",
   },
   {
     imageURL: `${origVisualBase}kellyding1.jpg`,
@@ -128,6 +174,28 @@ export const visualarts = [
     title: "Kids Play, Parents Protect",
     description:
       "This piece is titled “Kids Play, Parents Protect.” This is an artwork I created for a project about “Growth.” The baby elephant represents kids while the adult elephants represent adults. The earthquake in my artwork is a representation of a disaster or a problem in life. The baby elephant, unaware of what is going on, continues playing with his soccer ball. My artwork includes utility poles falling and the adult elephants blocks it from hitting the baby. This artwork symbolizes that people grow and come to realize they are responsible for more things they never have to care about as a child. A child depends on others to be protected and is unaware of dangers. Overtime, they will have to take over their parent’s job of protecting a child. Everyone will come to a time when there are people or things that they love and cherish, and that is when they learn about responsibilities and protection.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020894/yam-website/gallery/visualarts/mason/masonwang8_hb2bzw.jpg",
+    artist: "Mason Wang",
+    title: "Nature",
+    description:
+      "A first drawing after about a year and a half of not drawing at all. ",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang9_jzlw0m.jpg",
+    artist: "Mason Wang",
+    title: "Flower",
+    description: "Copied from one of the paintings in my house.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang3_gmz20t.jpg",
+    artist: "Mason Wang",
+    title: "Nick Fury",
+    description: "One of my first portrait sketches.",
   },
 ];
 

@@ -286,8 +286,9 @@ let origPhotoBase =
 
 export const photos = [
   {
-    imageURL: `${origPhotoBase}ethanchang1.jpg`,
-    artist: "Edward Ieong",
+    imageURL: ``,
+    artist:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597026453/yam-website/photography/edwardieong.jpg",
     title: "Shoreline",
     description:
       "The photographer has not provided a description for this piece.",

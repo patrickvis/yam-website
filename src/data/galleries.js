@@ -5,6 +5,13 @@ let origVisualBase =
 
 export const visualarts = [
   {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023191/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-b_cmnhla.png",
+    artist: "Linda Zhao",
+    title: "Nature Painting",
+    description: "The artist has not provided a description for this piece.",
+  },
+  {
     imageURL: `${origVisualBase}shanichiu2.png`,
     artist: "Shani Chiu",
     title: "Portrait",
@@ -58,6 +65,13 @@ export const visualarts = [
     description: "The artist has not provided a description for this piece.",
   },
   {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-a_xmyi4j.jpg",
+    artist: "Linda Zhao",
+    title: "Portrait",
+    description: "The artist has not provided a description for this piece.",
+  },
+  {
     imageURL: `${origVisualBase}christinelee2.jpg`,
     artist: "Christine Lee",
     title: "Portrait",
@@ -71,7 +85,6 @@ export const visualarts = [
     description:
       "This piece titled “Current” is roughly 22×30 inches and it is for graduating an art studio I’ve gone to for a large part of my life. It is a mixed media piece with marker, pastel, watercolor, acrylic, ink, and gold leaf. The girl in the middle symbolizes who I am. To break it down, her dress merges into my old art pieces and a wolf’s tail, meaning that my past struggles and effort is always part of what my art is today. You can see her drawing the end of the wolf’s tail— which symbolizes that despite artistic expression being such a scary thing for me, it also protects me and makes me feel comfortable and safe. A lot of the other smaller components are for visuals. This piece took me around 15 hours, and it really emphasizes that artists use a ton of effort to create something they’re proud of and it takes years for them to build themselves up in order to be proud and keep improving. It challenges the misconception that art is easy and effortless and really points out the journey an artist takes.",
   },
-
   {
     imageURL: `https://res.cloudinary.com/masonwang/image/upload/v1597021161/yam-website/gallery/visualarts/mason/masonwang2_hlqv5b.jpg`,
     artist: "Mason Wang",
@@ -82,6 +95,13 @@ export const visualarts = [
     imageURL: `${origVisualBase}rishabhanand1.jpg`,
     artist: "Rishabh Anand",
     title: "Pencil Sketch",
+    description: "The artist has not provided a description for this piece.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-d_niswj8.jpg",
+    artist: "Linda Zhao",
+    title: "Portrait",
     description: "The artist has not provided a description for this piece.",
   },
   {
@@ -117,6 +137,13 @@ export const visualarts = [
     artist: "Shani Chiu",
     title: "Portrait",
 
+    description: "The artist has not provided a description for this piece.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-e_ohzmfi.jpg",
+    artist: "Linda Zhao",
+    title: "Tiger",
     description: "The artist has not provided a description for this piece.",
   },
   {
@@ -185,6 +212,13 @@ export const visualarts = [
   },
   {
     imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597023184/yam-website/gallery/visualarts/lindazhao%20more/lindazhao-c_ygpbb8.jpg",
+    artist: "Linda Zhao",
+    title: "Mouth",
+    description: "The artist has not provided a description for this piece.",
+  },
+  {
+    imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang9_jzlw0m.jpg",
     artist: "Mason Wang",
     title: "Flower",
@@ -192,10 +226,24 @@ export const visualarts = [
   },
   {
     imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020893/yam-website/gallery/visualarts/mason/masonwang7_iwkcke.jpg",
+    artist: "Mason Wang",
+    title: "Flower Farm",
+    description: "One of my first oil paintings.",
+  },
+  {
+    imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597020892/yam-website/gallery/visualarts/mason/masonwang3_gmz20t.jpg",
     artist: "Mason Wang",
     title: "Nick Fury",
     description: "One of my first portrait sketches.",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/masonwang/image/upload/v1597020894/yam-website/gallery/visualarts/mason/masonwang10_ydsvy9.jpg",
+    artist: "Mason Wang",
+    title: "Ink",
+    description: "One of my first pen drawings.",
   },
 ];
 

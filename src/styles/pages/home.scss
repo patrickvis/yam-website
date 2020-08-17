@@ -276,6 +276,7 @@
         background-color: $gray-dark;
         color: $light-bright;
         filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+        border: 0;
         &:hover {
           border: 0;
           filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));

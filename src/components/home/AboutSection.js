@@ -59,11 +59,15 @@ export default function AboutSection() {
                 </p>
               </div>
               <div className="pt-2 col-12">
-                <Link to="/about" className="action-btn main-action mx-2 mb-3">
+                <button
+                  className="action-btn main-action mx-2 mb-3"
+                  data-toggle="modal"
+                  data-target="#newsletterModal"
+                >
+                  Join Newsletter
+                </button>
+                <Link to="/about" className="action-btn mx-2 mb-3">
                   About Us
-                </Link>
-                <Link to="/chapters" className="action-btn mx-2 mb-3">
-                  Register a Chapter
                 </Link>
               </div>
             </Fade>

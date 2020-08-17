@@ -4,6 +4,26 @@
   padding: 2.5em 0 1em 0;
   transition: 0.55s ease;
 
+  .join-newsletter {
+    .action-btn {
+      &:hover {
+        cursor: pointer;
+      }
+      margin: 0.42em 2px 1em 2px;
+      background-color: black;
+      border: 0.15em $light-bright solid;
+      color: $light-bright;
+      filter: drop-shadow(6px 6px 0 rgba(255, 255, 255, 0.69));
+      &:hover {
+        filter: drop-shadow(7px 9px 0 rgba(255, 255, 255, 0.6));
+      }
+      &.main-action {
+        background-color: $light-bright;
+        color: black;
+      }
+    }
+  }
+
   .social {
     font-size: 2em;
     a {

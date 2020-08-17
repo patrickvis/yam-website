@@ -22,6 +22,7 @@ import Footer from "./components/Footer";
 import Piece from "./components/gallery/Piece";
 
 import { db } from "./data/firebase";
+import NewsletterModal from "./components/NewsletterModal";
 
 function debounce(fn, ms) {
   let timer;
@@ -100,6 +101,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
+      <NewsletterModal />
       <HeaderContextProvider>
         <Header />
         <div className="App">

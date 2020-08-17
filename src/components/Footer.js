@@ -37,6 +37,17 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        <div className="join-newsletter">
+          <button
+            className="action-btn"
+            data-toggle="modal"
+            data-target="#newsletterModal"
+          >
+            Join newsletter
+          </button>
+        </div>
+
         <div className="row">
           <div className="col-12">
             <p className="email">

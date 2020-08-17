@@ -10,6 +10,7 @@
 @import "./pages/submit.scss";
 @import "./pages/chapters.scss";
 @import "./pages/piece.scss";
+@import "./pages/modal.scss";
 
 *::selection {
   background-color: $gray-bright;
@@ -31,9 +32,11 @@ body {
 
 a,
 button,
-div[role="link"] {
+div[role="link"],
+.btn {
   text-decoration: none;
   outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;

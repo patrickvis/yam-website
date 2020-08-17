@@ -1,0 +1,30 @@
+#newsletterModal {
+  * {
+    &:focus,
+    &:active {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+  .btn {
+    outline: none;
+    border: none;
+    background-color: $gray;
+    -webkit-tap-highlight-color: transparent !important;
+    &:hover {
+      background-color: $gray-dark;
+    }
+  }
+
+  .btn-primary {
+    background-color: $theme;
+    &:hover {
+      background-color: $theme-darker;
+    }
+    &:disabled {
+      &:hover {
+        background-color: $theme;
+      }
+    }
+  }
+}

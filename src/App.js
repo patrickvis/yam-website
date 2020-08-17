@@ -36,7 +36,6 @@ function debounce(fn, ms) {
 }
 
 function App() {
-  console.log(db);
   const [animationComplete, setAnimationComplete] = useState(false);
   const completeAnimation = () => {
     setAnimationComplete(true);
@@ -101,7 +100,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
-      <NewsletterModal />
+      <NewsletterModal db={db} />
       <HeaderContextProvider>
         <Header />
         <div className="App">

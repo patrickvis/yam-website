@@ -1,15 +1,17 @@
 import React from "react";
 import { useState } from "react";
+import firebase from "firebase";
 
-export default function NewsletterModal() {
+export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
     message: "Stay updated.",
     email: "",
   });
+
   return (
     <div
-      className="modal fade"
+      className="modal fade mt-3"
       id="newsletterModal"
       tabIndex="-1"
       role="dialog"
@@ -33,7 +35,10 @@ export default function NewsletterModal() {
           </div>
           <div className="modal-body email-modal-body">
             <form
-              onSubmit={() => addEmailToFirebase(state, updateState)}
+              onSubmit={(e) => {
+                e.preventDefault();
+                addEmailToFirebase(state, updateState, props.db);
+              }}
               className="pb-1"
             >
               <input
@@ -60,7 +65,7 @@ export default function NewsletterModal() {
             <button
               type="button"
               className="btn btn-primary"
-              onClick={() => addEmailToFirebase(state, updateState)}
+              onClick={() => addEmailToFirebase(state, updateState, props.db)}
               disabled={state.emailAdded}
             >
               Submit
@@ -72,7 +77,15 @@ export default function NewsletterModal() {
   );
 }
 
-function addEmailToFirebase(state, updateState) {
+function addEmailToFirebase(state, updateState, db) {
+  if (!state.email) {
+    updateState({
+      ...state,
+      message: "You have not entered an email address.",
+    });
+    return;
+  }
+
   if (!/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/.test(state.email)) {
     updateState({
       ...state,
@@ -81,6 +94,11 @@ function addEmailToFirebase(state, updateState) {
     return;
   }
 
+  db.collection("mailing-list")
+    .doc("YiTg4mDbzdYGRVCfr2CJ")
+    .update({
+      emails: firebase.firestore.FieldValue.arrayUnion(state.email),
+    });
   updateState({
     ...state,
     message: "Success! You have been added to our mailing list.",

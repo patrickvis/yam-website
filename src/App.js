@@ -21,6 +21,8 @@ import Music from "./pages/gallery/Music";
 import Footer from "./components/Footer";
 import Piece from "./components/gallery/Piece";
 
+import { db } from "./data/firebase";
+
 function debounce(fn, ms) {
   let timer;
   return () => {
@@ -33,6 +35,7 @@ function debounce(fn, ms) {
 }
 
 function App() {
+  console.log(db);
   const [animationComplete, setAnimationComplete] = useState(false);
   const completeAnimation = () => {
     setAnimationComplete(true);

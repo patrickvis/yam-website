@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "cloudinary-react": "^1.6.2",
+    "firebase": "^7.18.0",
     "gsap": "^3.4.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",

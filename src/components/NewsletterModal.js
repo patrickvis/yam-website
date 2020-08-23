@@ -5,7 +5,7 @@ import firebase from "firebase";
 export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
-    message: "Stay updated.",
+    message: "Join the YAM Newsletter to stay updated!",
     email: "",
   });
 
@@ -85,8 +85,7 @@ function addEmailToFirebase(state, updateState, db) {
     });
     return;
   }
-
-  if (!/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/.test(state.email)) {
+  if (!validateEmail(state.email)) {
     updateState({
       ...state,
       message: "You have entered an invalid email address!",
@@ -99,9 +98,15 @@ function addEmailToFirebase(state, updateState, db) {
     .update({
       emails: firebase.firestore.FieldValue.arrayUnion(state.email),
     });
+
   updateState({
     ...state,
     message: "Success! You have been added to our mailing list.",
     emailAdded: true,
   });
+}
+
+function validateEmail(email) {
+  const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  return re.test(String(email).toLowerCase());
 }

@@ -39,6 +39,9 @@ function App() {
   const [animationComplete, setAnimationComplete] = useState(false);
   const completeAnimation = () => {
     setAnimationComplete(true);
+    setTimeout(() => {
+      document.getElementById("activate-newsletter-modal").click();
+    }, 1738);
   };
   // routes
   const routes = [
@@ -101,6 +104,17 @@ function App() {
     <div className="App">
       <ScrollToTop />
       <NewsletterModal db={db} />
+      <button
+        data-toggle="modal"
+        data-target="#newsletterModal"
+        id="activate-newsletter-modal"
+        style={{
+          position: "fixed",
+          top: "0",
+          left: "0",
+          height: 0,
+        }}
+      ></button>
       <HeaderContextProvider>
         <Header />
         <div className="App">

@@ -83,7 +83,7 @@ div[role="link"],
   min-height: calc(calc(var(--vh, 1vh) * 100) - 62px);
   margin-top: 62px;
   .lead-p {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: $black;
     b {
       color: $theme-darker;
@@ -91,7 +91,7 @@ div[role="link"],
     }
   }
   p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #555;
     b {
       color: #444;
@@ -100,7 +100,7 @@ div[role="link"],
 }
 
 .action-btn {
-  font-size: 1.5em;
+  font-size: 1.25em;
   padding: 0.3em 1em;
   border-radius: 2px;
   font-weight: 500;

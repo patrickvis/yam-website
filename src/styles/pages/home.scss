@@ -219,25 +219,25 @@
         font-family: "Courgette", -apple-system, BlinkMacSystemFont, "Segoe UI",
           "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
           "Helvetica Neue", sans-serif;
-        font-size: 2.1em;
+        font-size: 1.8em;
         @include media("<=lg") {
-          font-size: 1.6em;
+          font-size: 1.5em;
         }
         @include media("<=md") {
-          font-size: 1.7em;
+          font-size: 1.6em;
         }
         @include media("<=sm") {
-          font-size: 1.6em;
+          font-size: 1.5em;
         }
       }
 
       p {
-        font-size: 1.6em;
+        font-size: 1.3em;
         @include media("<=md") {
-          font-size: 1.5em;
+          font-size: 1.2em;
         }
         @include media("<=sm") {
-          font-size: 1.3em;
+          font-size: 1.15em;
         }
         b {
           color: $theme-darker;

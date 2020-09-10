@@ -185,16 +185,10 @@
     max-width: 100vw;
     overflow-x: hidden;
     .row {
-      min-height: calc(100 * var(--vh, 1vh));
       overflow-x: hidden;
       position: relative;
-      @include media(">=md") {
-        min-height: calc(75 * var(--vh, 1vh));
-      }
-      @include media(">=lg") {
-        min-height: calc(69 * var(--vh, 1vh));
-      }
-
+      padding-top: 2em;
+      padding-bottom: 2em;
       h1 {
         font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI",
           "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",

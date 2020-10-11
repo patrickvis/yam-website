@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 // import Events from "./pages/Events";
 import Chapters from "./pages/Chapters";
+import Projects from "./pages/Projects";
 import Gallery from "./pages/gallery/Gallery";
 import Submit from "./pages/gallery/Submit";
 import VisualArts from "./pages/gallery/VisualArts";
@@ -56,6 +57,7 @@ function App() {
     { path: "/about", Component: About },
     // { path: "/events", Component: Events },
     { path: "/chapters", Component: Chapters },
+    { path: "/projects", Component: Projects },
     { path: "/gallery", Component: Gallery },
     { path: "/gallery/submit", Component: Submit },
     { path: "/gallery/visualarts", Component: VisualArts },

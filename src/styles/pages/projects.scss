@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.sponsors {
+	padding: 20px 40px 40px ;
+    // max-width: max-content;    
+
+    border-right: 3px solid $theme;
+    border-left: 3px solid $theme;
+
+	&__image {
+        
+		display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        margin: 0px 50px 0 0%;
+        // padding-left: 20px;
+        // size: 50%;
+        transition: transform .2s;
+        
+    }
+    
+    &__image:hover {
+        transform: scale(1.1);
+    }
+
+	&__text {
+		display: inline-block;
+        width: 50%;
+        // margin-right: auto;
+        margin: 20px 0px 0 0%;
+        padding-right: 20px;
+		@media (max-width: 620px) {
+			width: 100%;
+		}
+	}
+}

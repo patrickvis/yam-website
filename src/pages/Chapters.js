@@ -2,6 +2,7 @@ import React from "react";
 import SectionHero from "../components/SectionHero";
 import WhyChapters from "../components/chapters/WhyChapters";
 import OurChapters from "../components/chapters/OurChapters";
+// import Team from "../components/about/Team"
 
 export default function Chapters() {
   return (
@@ -13,6 +14,7 @@ export default function Chapters() {
       />
       <WhyChapters />
       <OurChapters />
+      {/* <Team /> */}
     </div>
   );
 }

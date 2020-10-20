@@ -10,12 +10,12 @@ export default function OurChapters() {
           <h1>Our Chapters</h1>
         </div>
         <div className="row justify-content-center text-center">
-
+        
         <div class="card">
           <img src={require("../../assets/Chapters/saratogahigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
             <h4><b>Writers Club</b></h4> 
-            <p>Saratoga High</p> 
+            <p>Saratoga High School</p> 
           </div>
         </div>
 
@@ -23,7 +23,7 @@ export default function OurChapters() {
           <img src={require("../../assets/Chapters/lynbrookhigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
             <h4><b>LAC</b></h4> 
-            <p>Lynbrook High</p> 
+            <p>Lynbrook High School</p> 
           </div>
         </div>
 
@@ -31,7 +31,7 @@ export default function OurChapters() {
           <img src={require("../../assets/Chapters/milpitashigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
             <h4><b>YAM Art Club</b></h4> 
-            <p>Milpitas High</p> 
+            <p>Milpitas High School</p> 
           </div>
         </div>
 
@@ -39,7 +39,7 @@ export default function OurChapters() {
           <img src={require("../../assets/Chapters/arcadiahigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
             <h4><b>Art Club</b></h4> 
-            <p>Arcadia High</p> 
+            <p>Arcadia High School</p> 
           </div>
         </div>
 
@@ -47,7 +47,63 @@ export default function OurChapters() {
           <img src={require("../../assets/Chapters/westmonthigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
             <h4><b>Westmont Art Club</b></h4> 
-            <p>Westmont High</p> 
+            <p>Westmont High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/losgatoshigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Lghs Art Club</b></h4> 
+            <p>Los Gatos High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/amhigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Amhs Dance Club</b></h4> 
+            <p>Alexander Mackenzie High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/msu.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>MSU Writing Club</b></h4> 
+            <p>Montana State University</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/lwhigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Lick-Wilmerding Art Club</b></h4> 
+            <p>Lick-Wilmerding High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/ethigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Creative Writing Club</b></h4> 
+            <p>Evanston Township High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/etechhigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>National Art Honor Society</b></h4> 
+            <p>Eastern Technical High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/andrewhillhigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Art to Hearts</b></h4> 
+            <p>Andrew P. Hill High School</p> 
           </div>
         </div>
 

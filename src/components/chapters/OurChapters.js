@@ -14,8 +14,8 @@ export default function OurChapters() {
         <div class="card">
           <img src={require("../../assets/Chapters/saratogahigh.png")} alt="location" style={{width:"100%"}}></img>
           <div class="container">
-            <h4><b>Writers Club</b></h4> 
-            <p>Saratoga High School</p> 
+            <h4><b>Saratoga High School</b></h4> 
+            {/* <p>Saratoga High School</p>  */}
           </div>
         </div>
 

@@ -48,7 +48,19 @@ export default function WhyChapters() {
           >
             New Club
           </a>
+          
         </div>
+        <div className="col text-center mt-1">
+          <a
+            href="https://docs.google.com/document/d/1LBOeqq_rQno21fa6YKERfmpWM4MnMXxV4OueE-gKjIE/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="action-btn mx-2 mb-2"
+          >
+            More Information
+          </a>
+        </div>
+        
       </div>
     </>
   );

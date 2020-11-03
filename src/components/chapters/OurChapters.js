@@ -107,6 +107,46 @@ export default function OurChapters() {
           </div>
         </div>
 
+        <div class="card">
+          <img src={require("../../assets/Chapters/SantaClaraHighSchool.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Santa Clara High School Calligraphy Club</b></h4> 
+            <p>Santa Clara High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/vannuys.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Van Nuys High School Calligraphy Club</b></h4> 
+            <p>Van Nuys High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/npsinr.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>CHITRAKAARAN</b></h4> 
+            <p>NPS - Indiranagar</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/mrghs.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Mac Robertson's Girls' High School Art Club</b></h4> 
+            <p>Mac Robertson's Girls' High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/campolindo.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Campolindo High School Calligraphy Club</b></h4> 
+            <p>Campolindo High School</p> 
+          </div>
+        </div>
+
           {/* <div className="col-12">
             <p className="lead-p">
               Currently, YAM has 5 chapters: Writer's Club at{" "}

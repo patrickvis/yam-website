@@ -21,6 +21,7 @@ import Photography from "./pages/gallery/Photography";
 import Music from "./pages/gallery/Music";
 import Footer from "./components/Footer";
 import Piece from "./components/gallery/Piece";
+import Sponsorship from "./pages/Sponsorship";
 
 import { db } from "./data/firebase";
 import NewsletterModal from "./components/NewsletterModal";
@@ -56,6 +57,7 @@ function App() {
     },
     { path: "/about", Component: About },
     // { path: "/events", Component: Events },
+    { path: "/sponsorship", Component: Sponsorship },
     { path: "/chapters", Component: Chapters },
     { path: "/projects", Component: Projects },
     { path: "/gallery", Component: Gallery },

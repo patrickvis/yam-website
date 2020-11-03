@@ -1,0 +1,43 @@
+import React from "react";
+
+export default function WhyChapters() {
+  const tab = (
+    <span className="d-none d-md-inline">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  );
+
+  return (
+    <>
+      <div className="section-header">
+        <h1>Be a Sponsor!</h1>
+      </div>
+      <div className="container pb-5">
+        <div className="row text-center text-md-left">
+          <div className="col">
+            <p>
+              {tab}Thank you so much in your interest in sponsoring us! We are currently working on our <b>art kit drive</b> and would appreciate any financial support. All donations are <b>tax-deductible.</b> If interested contact <a href="mailto:brook@youthartsmovement.org">brook@youthartsmovement.org</a>.
+            </p>
+
+            {/* <p>
+              {tab}By registering your chapter, officers and members{" "}
+              <b>still have the freedom</b> to perform individual club functions
+              in meetings however they like. The YAM will guide, mentor, and
+              give opportunities to chapters.{" "}
+              <b>As a registered chapter, you must uphold YAM mission</b> of
+              empowering youth voices through the arts.
+            </p> */}
+          </div>
+        </div>
+        <div className="col text-center mt-1">
+          <a
+            href="https://drive.google.com/drive/u/0/folders/1OOwYaKBRKgYOtcVwd7-HEMLS7tdgUQgc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="action-btn main-action mx-2 mb-2"
+          >
+            Sponsorship Prospectus
+          </a>
+        </div>
+      </div>
+    </>
+  );
+}

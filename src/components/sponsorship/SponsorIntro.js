@@ -29,7 +29,7 @@ export default function WhyChapters() {
         </div>
         <div className="col text-center mt-1">
           <a
-            href="https://drive.google.com/drive/u/0/folders/1OOwYaKBRKgYOtcVwd7-HEMLS7tdgUQgc"
+            href="https://drive.google.com/file/d/1ZQIp0c1G6v3zdUmyEn69JMR8z4q8Ns7l/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"

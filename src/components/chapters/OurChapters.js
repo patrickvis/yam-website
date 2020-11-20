@@ -147,6 +147,14 @@ export default function OurChapters() {
           </div>
         </div>
 
+        <div class="card">
+          <img src={require("../../assets/Chapters/vannuys.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Art For All</b></h4> 
+            <p>Van Nuys High School</p> 
+          </div>
+        </div>
+
           {/* <div className="col-12">
             <p className="lead-p">
               Currently, YAM has 5 chapters: Writer's Club at{" "}

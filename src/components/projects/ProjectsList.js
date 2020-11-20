@@ -52,8 +52,48 @@ export default function ProjectsList() {
             >
               Learn More
             </a>
+          </div>
 
-            
+          <a href="https://laplumamvhs.weebly.com/"><img class="sponsors__image" src={require("../../assets/Projects/lapluma.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
+          <div class="sponsors__text">
+            <h2>La Pluma</h2>
+            <p>La Pluma is Monta Vista's only creative writing and art magazine. They've created a platform for artists to not only express themselves but connect with others. We can't wait to start an exciting journey with our students!</p>
+            <a
+              href="https://laplumamvhs.weebly.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="action-btn main-action mx-2 mb-2"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <a href="https://www.lovenotepoetry.com/"><img class="sponsors__image" src={require("../../assets/Projects/lovenote.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
+          <div class="sponsors__text">
+            <h2>Love Note</h2>
+            <p>LoveNote is dedicated to spreading self love through poetry; love for yourself and others is cultivated through discovering what we have in common. Love note’s principles are of self love through the arts and we are ecstatic to work with them!</p>
+            <a
+              href="https://www.lovenotepoetry.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="action-btn main-action mx-2 mb-2"
+            >
+              Learn More
+            </a>
+          </div>
+
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.happy-art.org%2F&e=ATN-5pusB8DQTpQdmalfxZ6uf4gFQOTG2cAsDOKTm9qk4TfBRMlRFrJYEr57TSomMN_cAsTJRsvfkhhpZORe_w4&s=1"><img class="sponsors__image" src={require("../../assets/Projects/happyart.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
+          <div class="sponsors__text">
+            <h2>HappyArt</h2>
+            <p>HappyArt is an organization trying to spread love, kindness, and most importantly happiness around communities. HappyArt's goal is to help support all those who need help and create a movement to empower others to do good in their communities.</p>
+            <a
+              href="https://l.instagram.com/?u=https%3A%2F%2Fwww.happy-art.org%2F&e=ATN-5pusB8DQTpQdmalfxZ6uf4gFQOTG2cAsDOKTm9qk4TfBRMlRFrJYEr57TSomMN_cAsTJRsvfkhhpZORe_w4&s=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="action-btn main-action mx-2 mb-2"
+            >
+              Learn More
+            </a>
           </div>
 
         </div>

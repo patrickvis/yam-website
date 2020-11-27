@@ -131,9 +131,9 @@
           filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
         }
         &.main-action {
-          background-color: $theme-bright;
+          background-color: $theme;
           &:hover {
-            background-color: $theme-brighter;
+            background-color: $theme-bright;
           }
         }
       }

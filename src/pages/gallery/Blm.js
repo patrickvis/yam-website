@@ -11,7 +11,7 @@ export default function Blm() {
       <SectionHero
         title="BLM"
         subtitle="YAM BLM Gallery"
-        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595458065/yam-website/gallery/previews/blm-cover.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/v1606499230/Galleries/blm_qcrwye.jpg"
       />
       <div className="container filter-grid pt-5">
         <input

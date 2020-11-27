@@ -70,13 +70,13 @@ div[role="link"],
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $theme;
+  background: #4b6f90;
   transition: all 0.55s ease;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $theme-bright;
+  background: #c2d8b9;
 }
 
 .page {
@@ -221,7 +221,7 @@ a.underline {
     text-align: center;
     width: 3.5em;
     height: 0.55em;
-    background-color: $theme;
+    background-color: #4b6f90;
     margin: 0.42em auto 0.69em auto;
   }
 }
@@ -231,5 +231,5 @@ a.underline {
 }
 
 .theme {
-  color: $theme;
+  color: #4b6f90;
 }

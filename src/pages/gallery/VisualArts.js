@@ -11,7 +11,7 @@ export default function VisualArts() {
       <SectionHero
         title="Visual Arts"
         subtitle="YAM Visual Arts Gallery"
-        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/v1606499306/Galleries/varts_wi0hjp.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:231/v1609134679/Galleries/image0_tgqijc.jpg"
       />
       <div className="container filter-grid pt-5">
         <input

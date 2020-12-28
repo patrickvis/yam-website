@@ -11,7 +11,7 @@ export default function Music() {
       <SectionHero
         title="Music"
         subtitle="YAM Music Gallery"
-        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/v1606503250/Galleries/music_zlu9ja.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:150/v1609135088/Galleries/image1_lcnlz9.jpg"
       />
       <div className="container filter-grid pt-5">
         <input

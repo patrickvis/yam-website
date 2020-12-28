@@ -11,7 +11,7 @@ export default function Photography() {
       <SectionHero
         title="Writing"
         subtitle="YAM Creative Writing Gallery"
-        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/v1606503308/Galleries/writing_blez4t.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:150/v1609136526/Galleries/image3_oj2ezb.jpg"
       />
       <div className="container filter-grid pt-5">
         <input

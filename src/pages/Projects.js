@@ -2,6 +2,7 @@ import React from "react";
 import SectionHero from "../components/SectionHero";
 import CurrentProjects from "../components/projects/CurrentProjects";
 import ProjectsList from "../components/projects/ProjectsList";
+import Speakers from "../components/projects/Speakers";
 
 export default function Projects() {
   return (
@@ -12,6 +13,7 @@ export default function Projects() {
         imageURL="https://res.cloudinary.com/masonwang/image/upload/v1596048499/yam-website/gallery/previews/chapters-cover.jpg"
       />
       <CurrentProjects />
+      <Speakers />
       <ProjectsList />
     </div>
   );

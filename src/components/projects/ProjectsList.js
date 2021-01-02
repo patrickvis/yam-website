@@ -4,7 +4,7 @@ import "../../styles/pages/projects.scss";
 
 export default function ProjectsList() {
   return (
-    <div className="gray-bg">
+    // <div className="gray-bg">
       <div className="container pb-5">
         <div className="section-header">
           <h1>Partnerships</h1>
@@ -100,6 +100,6 @@ export default function ProjectsList() {
 
         
       </div>
-    </div>
+    // </div>
   );
 }

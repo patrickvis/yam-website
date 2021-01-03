@@ -14,7 +14,7 @@ export default function WhyChapters() {
         <div className="row text-center text-md-left">
           <div className="col">
             <p>
-              {tab}Thank you so much in your interest in sponsoring us! We are currently working on our <b>art kit drive</b> and would appreciate any financial support. All donations are <b>tax-deductible.</b> If interested contact <a href="mailto:jonathan@youthartsmovement.org">brook@youthartsmovement.org</a>.
+              {tab}Thank you so much in your interest in sponsoring us! We are currently working on our <b>art kit drive</b> and would appreciate any financial support. All donations are <b>tax-deductible.</b> If interested contact <a href="mailto:jonathan@youthartsmovement.org">jonathan@youthartsmovement.org</a>.
             </p>
 
             {/* <p>

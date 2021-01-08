@@ -154,11 +154,11 @@ export default function Header() {
                   Projects
                 </Link>
               </li>
-              <li className={"nav-item " + (path === "/sponsorship" && "active")}>
+              {/* <li className={"nav-item " + (path === "/sponsorship" && "active")}>
                 <Link className="nav-link" to="/sponsorship">
                   Sponsorship
                 </Link>
-              </li>
+              </li> */}
               {/* <li className={"nav-item " + (path === "/events" && "active")}>
                 <Link className="nav-link" to="/events">
                   Events

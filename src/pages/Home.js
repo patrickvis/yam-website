@@ -5,6 +5,8 @@ import { heroAnimation } from "../animations/homeAnimations";
 import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
+import SponsorIntro from "../components/sponsorship/SponsorIntro";
+
 
 export default function Home({ animationComplete, completeAnimation }) {
   // disabling header
@@ -27,6 +29,7 @@ export default function Home({ animationComplete, completeAnimation }) {
       {!animationComplete && <Overlay />}
       <Hero />
       <AboutSection />
+      <SponsorIntro />
     </div>
   );
 }

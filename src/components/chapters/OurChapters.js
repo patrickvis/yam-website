@@ -155,6 +155,22 @@ export default function OurChapters() {
           </div>
         </div>
 
+        <div class="card">
+          <img src={require("../../assets/Chapters/dublinHigh.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Art Club</b></h4> 
+            <p>Dublin High School</p> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img src={require("../../assets/Chapters/fairview.png")} alt="location" style={{width:"100%"}}></img>
+          <div class="container">
+            <h4><b>Fairview Art Club </b></h4> 
+            <p>Fairview High School</p> 
+          </div>
+        </div>
+
           {/* <div className="col-12">
             <p className="lead-p">
               Currently, YAM has 5 chapters: Writer's Club at{" "}

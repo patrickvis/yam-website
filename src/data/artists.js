@@ -79,6 +79,34 @@ const artists = {
     age: 16,
     school: "Saratoga High School, CA",
   },
+
+  "Gavin Heraldo": {
+    age: 15,
+    school: "Milpitas High School, CA",
+  },
+
+  "Aidan Kwok": {
+    age: 14,
+    school: "Saratoga high school, CA",
+  },
+  "Shriya Pattapu": {
+    age: 16,
+    school: "Van Nuys High School, CA",
+  },
+  "Mo Koelle": {
+    age: 14,
+    school: "Milpitas High School, CA",
+  },
+
+  "Kailey Hu": {
+    age: 15,
+    school: "Leland Highschool, CA",
+  },
+
+  "Elizabeth Zheng": {
+    age: 16,
+    school: "Upper Dublin High School, PA",
+  },
 };
 
 export default artists;

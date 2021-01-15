@@ -279,7 +279,54 @@ export const visualarts = [
     title: "Ink",
     description: "One of my first pen drawings.",
   },
+
+  
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610697909/Galleries/VA/306D6234-2957-473C-8ECE-9873B3BD1899_-_Shriya_Pattapu_omwrga.jpg",
+    artist: "Shriya Pattapu",
+    title: "Body Form and Structure",
+    description: "I wanted to experiment with body form and structure. i’ve always found body forms interesting and i’ve never drawn them and it to experiment i made this. ",
+  },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698330/Galleries/VA/9CEA7092-0BB8-4D0E-BD62-2E776D150B3C_-_Kailey_Hu_h2w2ya.png",
+    artist: "Kailey Hu",
+    title: "A Mystical Morning at the Dojo",
+    description: "This piece is called a mystical morning at the dojo. It’s inspired by Japanese gardens, Japanese culture, as well as the artist heikala on Instagram. In the picture, there is a meteor that suddenly landed spat in the middle of a bundle of ancient rocks. The meteor “actives” them to create a magical feel to this art. The challenge was the control of the black brush pen because it was difficult at first, but after awhile I got the hang of it. ",
+  },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698525/Galleries/VA/Untitled_Artwork_-_liz_z_mec3d2.jpg",
+    artist: "Elizabeth Zheng",
+    title: "Planes",
+    description: "This piece was inspired by the inktober theme, 'throw'. I wanted to represent a feeling of nostalgia and I played around with the different angles in this painting. ",
+  },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698616/Galleries/VA/Zheng_Liz_-_liz_z_cqfa9j.jpg",
+    artist: "Elizabeth Zheng",
+    title: "Secret Relationship",
+    description: "This piece tells a story of two male lovers as they meet in secret. Afraid of being shamed by others, they wear masks to keep their relationship a secret. The tear portrays that, behind the mask, both are hurt, and longing for acceptance. ",
+  },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698705/Galleries/VA/Zheng_Liz_copy_-_liz_z_yr6p9c.jpg",
+    artist: "Elizabeth Zheng",
+    title: "Of Whispers",
+    description: "This piece aims to capture the subject in her most vulnerable moment. The painting of the women represents the feeling of fading from reality after being sexually assaulted. The torn dress and her arms wrapped around herself represents loneliness, isolation, and fear as she slowly loses herself to her feelings.",
+  },
 ];
+
+
+
+
+
+
 
 let origPhotoBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1596049090/yam-website/photography/";
@@ -327,6 +374,30 @@ export const photos = [
     title: "City Night",
     description:
       "The photographer has not provided a description for this piece.",
+  },
+
+  {
+    imageURL: "https://res.cloudinary.com/dmpjsarum/image/upload/v1610697724/Galleries/photography/DSC02090_-_Aidan_Kwok_buykvr.jpg",
+    artist: "Aidan Kwok",
+    title: "Trees over a stream",
+    description:
+      "The photographer has not provided a description for this piece.",
+  },
+
+  {
+    imageURL: "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698809/Galleries/photography/DSC03034-Edit-4_-_Aidan_Kwok_wi0evd.jpg",
+    artist: "Aidan Kwok",
+    title: "Float",
+    description:
+      "Float, it is just a person floating in the air",
+  },
+
+  {
+    imageURL: "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698896/Galleries/photography/edit_best_-_Aidan_Kwok_jl7hdp.jpg",
+    artist: "Aidan Kwok",
+    title: "Mountains",
+    description:
+      "Mountains don't remember",
   },
 ];
 
@@ -462,6 +533,27 @@ export const creativewriting = [
       </div>
     ),
   },
+
+  {
+    imageURL:
+      "https://res.cloudinary.com/dmpjsarum/image/upload/v1610698163/Galleries/writing/Screen_Shot_2021-01-15_at_12.08.57_AM_gy9ks2.png",
+    artist: "Mo Koelle",
+    title: "World's End",
+    description: "'World's End' is a short story inspired by worldly events, and is a take on what the end of life on Earth could look like.",
+    writing: (
+      <div className="container p-0 m-0">
+        <div className="row no-gutters">
+          <div className="col">
+            <img
+              src="https://res.cloudinary.com/dmpjsarum/image/upload/v1610698163/Galleries/writing/Screen_Shot_2021-01-15_at_12.08.57_AM_gy9ks2.png"
+              alt="Like the Jazz by Jonathan Li"
+              className="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    ),
+  },
 ];
 
 export const music = [
@@ -487,6 +579,12 @@ export const music = [
     youtubeLink: "https://www.youtube.com/watch?v=RuGz2e49GIM",
     artist: "Alex Yang and Lily Yang",
     title: "“A Lovely Night” and “City of Stars” from La La Land ",
+    description: "No description provided for this piece.",
+  },
+  {
+    youtubeLink: "https://youtu.be/1dMZzvaMGuw",
+    artist: "Gavin Heraldo",
+    title: "'Stay' by Post Malone",
     description: "No description provided for this piece.",
   },
 ];

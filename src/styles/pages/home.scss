@@ -9,10 +9,11 @@
     .hero-bg {
       height: 100%;
       background: $black-bright
-        url("https://res.cloudinary.com/dmpjsarum/image/upload/e_grayscale/v1610695574/steamboat_and_little_airplane_by_hunternif-d9545hq_w13dzf.jpg");
+        url("https://res.cloudinary.com/dmpjsarum/image/upload/e_grayscale/v1610751383/image0_udom8e.png");
       @include media("<=md") {
         background: $black-bright
-          url("https://res.cloudinary.com/masonwang/image/upload/v1595467829/yam-website/hero/lg-color.jpg");
+        url(https://res.cloudinary.com/dmpjsarum/image/upload/v1610751383/image0_udom8e.png);
+          // url("https://res.cloudinary.com/masonwang/image/upload/v1595467829/yam-website/hero/lg-color.jpg");
         background-size: cover;
       }
       background-size: cover;

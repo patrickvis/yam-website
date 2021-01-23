@@ -69,7 +69,7 @@ export default function Hero() {
           <Brusher
             options={{
               image:
-                "https://res.cloudinary.com/dmpjsarum/image/upload/v1610751383/image0_udom8e.png", // Path of the image to be used as a brush
+                "https://res.cloudinary.com/dmpjsarum/image/upload/v1611354453/imvdfage0_qkgows.png", // Path of the image to be used as a brush
               brushStyle: "round", // Brush style (round, square, butt)
               keepCleared: true,
               brushSize: 55,

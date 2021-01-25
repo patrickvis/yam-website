@@ -117,13 +117,13 @@ const teamMembers = [
       imageURL:
         "https://res.cloudinary.com/masonwang/image/upload/v1597014960/yam-website/team/carolann-dong.jpg",
     },
-    {
-      name: "Hannah Su",
-      position: "Outreach",
-      linkedin: "https://www.linkedin.com/in/hannah-s-62402b1a4/",
-      imageURL:
-        "https://res.cloudinary.com/dmpjsarum/image/upload/v1604035069/Team/Screen_Shot_2020-10-29_at_10.17.31_PM_kxx5wa.png",
-    },
+    // {
+    //   name: "Hannah Su",
+    //   position: "Outreach",
+    //   linkedin: "https://www.linkedin.com/in/hannah-s-62402b1a4/",
+    //   imageURL:
+    //     "https://res.cloudinary.com/dmpjsarum/image/upload/v1604035069/Team/Screen_Shot_2020-10-29_at_10.17.31_PM_kxx5wa.png",
+    // },
 ];
 
 export default teamMembers;

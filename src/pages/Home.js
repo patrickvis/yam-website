@@ -5,7 +5,7 @@ import { heroAnimation } from "../animations/homeAnimations";
 import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
-import SponsorIntro from "../components/sponsorship/SponsorIntro";
+import SponsorIntro from "../components/competition/SponsorIntro";
 
 
 export default function Home({ animationComplete, completeAnimation }) {

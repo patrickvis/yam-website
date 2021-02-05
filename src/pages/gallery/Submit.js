@@ -9,7 +9,7 @@ export default function Submit() {
       <SectionHero
         title="Submit Art"
         subtitle="Express Your Voice Through Art"
-        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1595605529/yam-website/gallery/previews/submit-cover.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:100/v1612564911/Pages/68fb53deeec7203e2b6aedabb081965d-d6mi5to_xz9smc.jpg"
       />
       <SubmitButtons />
       <Guidelines />

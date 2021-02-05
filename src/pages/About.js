@@ -9,7 +9,7 @@ export default function About() {
       <SectionHero
         title="About YAM"
         subtitle="The Youth Arts Movement"
-        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1596048499/yam-website/gallery/previews/chapters-cover.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:100/v1612564883/Pages/pasted_image_0_4_f1iqg4.png"
       />
       <WhoWeAre />
       <Team />

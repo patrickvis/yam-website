@@ -10,7 +10,7 @@ export default function Projects() {
       <SectionHero
         title="Projects"
         subtitle=""
-        imageURL="https://res.cloudinary.com/masonwang/image/upload/v1596048499/yam-website/gallery/previews/chapters-cover.jpg"
+        imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:100/v1612564926/Pages/anime-illustration-landscape-sea-wallpaper-preview_pqnu23.jpg"
       />
       <CurrentProjects />
       <Speakers />

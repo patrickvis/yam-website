@@ -41,6 +41,21 @@ export default function Speakers() {
                 </a>
             </div>
             </div>
+
+            <div class="card">
+            <img src={require("../../assets/Projects/speakers/GregBrown.png")} alt="location" style={{width:"100%"}}></img>
+            <div class="container">
+                <h4><b>Greg Brown</b></h4>
+                <a
+                        href="https://www.writerstrust.com/authors/greg-brown/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="action-btn mx-2 mb-2"
+                    >
+                        Read More
+                </a>
+            </div>
+            </div>
         </div>
         
       </div>

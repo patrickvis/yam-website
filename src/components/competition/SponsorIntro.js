@@ -40,6 +40,8 @@ export default function WhyChapters() {
             Sponsorship Prospectus
           </a>
           <div class="grid">
+            <div><img src="https://www.halberesford.com/content/images/2018/07/null.png" alt=""></img></div>
+            <div><img src="https://www.halberesford.com/content/images/2018/07/null.png" alt=""></img></div>
             <div><img src="https://i.pinimg.com/originals/50/55/4e/50554e7975371dbbdc8b5a39d39f0cb8.png" alt=""></img></div>
           </div>
 

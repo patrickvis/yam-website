@@ -156,7 +156,7 @@ export default function Header() {
               </li>
               <li className={"nav-item " + (path === "/competition" && "active")}>
                 <Link className="nav-link" to="/competition">
-                  Competition
+                  Events
                 </Link>
               </li>
               {/* <li className={"nav-item " + (path === "/events" && "active")}>

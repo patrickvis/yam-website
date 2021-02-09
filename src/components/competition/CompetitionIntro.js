@@ -15,9 +15,9 @@ export default function CompetitionIntro() {
       <div className="container pb-5">
         <div className="row text-center text-md-left">
           <div className="col">
-            <p>
+            {/* <p>
               {tab}Thank you so much in your interest in "A Movement for the Visual Arts Winter 2021". Here are some more details.
-            </p>
+            </p> */}
 
             <main>
                 <ol class="gradient-list">

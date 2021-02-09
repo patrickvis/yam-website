@@ -73,20 +73,20 @@ export default function CompetitionIntro() {
               </a> */}
             </div>
 
-            <a><img class="sponsors__imageCompetition" src="https://cdn0.iconfinder.com/data/icons/round-ui-icons/512/tick_red.png" height="230" alt="Key2Music"></img></a>
+            {/* <a><img class="sponsors__imageCompetition" src="https://cdn0.iconfinder.com/data/icons/round-ui-icons/512/tick_red.png" height="230" alt="Key2Music"></img></a> */}
             <div class="sponsors__textSubmit">
-              <h2>Submit!</h2>
+              <h2></h2>
               <a
                 href="https://forms.gle/5HjVbbiYcXpmrnoh8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="action-btn main-action mx-2 mb-2"
               >
-                Form
+                Submit Your Artwork!
               </a>
             </div>
 
-            <a><img class="sponsors__imageCompetition" src="https://icons.iconarchive.com/icons/iconarchive/blue-election/1024/Election-Donate-Outline-icon.png" height="200" alt="Key2Music"></img></a>
+            {/* <a><img class="sponsors__imageCompetition" src="https://icons.iconarchive.com/icons/iconarchive/blue-election/1024/Election-Donate-Outline-icon.png" height="200" alt="Key2Music"></img></a>
             <div class="sponsors__textSubmit">
               <h2>Donate to YAM!</h2>
               <a
@@ -97,7 +97,7 @@ export default function CompetitionIntro() {
               >
                 GoFundme
               </a>
-            </div>
+            </div> */}
 
             {/* <p>
               {tab}Thank you so much in your interest in "A Movement for the Visual Arts Winter 2021". Here are some more details.

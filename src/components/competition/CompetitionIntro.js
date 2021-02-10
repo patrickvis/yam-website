@@ -17,7 +17,7 @@ export default function CompetitionIntro() {
       <div className="container pb-5">
         {/* <div className="row text-center text-md-left"> */}
           <div class="sponsors">
-            <a><img class="sponsors__imageCompetition" src="https://image.flaticon.com/icons/png/512/1809/1809172.png" height="200" alt="Key2Music"></img></a>
+            <img class="sponsors__imageCompetition" src="https://image.flaticon.com/icons/png/512/1809/1809172.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
               <h2>Submissions open from <b>January 22 to February 22</b></h2>
               {/*
@@ -31,7 +31,7 @@ export default function CompetitionIntro() {
               </a> */}
             </div>
 
-            <a><img class="sponsors__imageCompetition" src="https://cdn.iconscout.com/icon/free/png-512/theme-8-461757.png" height="200" alt="Key2Music"></img></a>
+            <img class="sponsors__imageCompetition" src="https://cdn.iconscout.com/icon/free/png-512/theme-8-461757.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
               <h2>Theme: Personal expression/passion; No materials</h2>
               {/*
@@ -45,7 +45,7 @@ export default function CompetitionIntro() {
               </a> */}
             </div>
 
-            <a><img class="sponsors__imageCompetition" src="https://freeiconshop.com/wp-content/uploads/edd/image-flat.png" height="200" alt="Key2Music"></img></a>
+            <img class="sponsors__imageCompetition" src="https://freeiconshop.com/wp-content/uploads/edd/image-flat.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
               <h2>Divisions: <b>Visual Arts</b></h2>
               {/*
@@ -59,7 +59,7 @@ export default function CompetitionIntro() {
               </a> */}
             </div>
 
-            <a><img class="sponsors__imageCompetition" src="https://www.shareicon.net/data/512x512/2016/07/08/792753_cup_512x512.png" height="200" alt="Key2Music"></img></a>
+            <img class="sponsors__imageCompetition" src="https://www.shareicon.net/data/512x512/2016/07/08/792753_cup_512x512.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
               <h2>1st place: <b>$100</b>{tab}2nd place: <b>$50</b></h2>
               {/*
@@ -75,7 +75,6 @@ export default function CompetitionIntro() {
 
             {/* <a><img class="sponsors__imageCompetition" src="https://cdn0.iconfinder.com/data/icons/round-ui-icons/512/tick_red.png" height="230" alt="Key2Music"></img></a> */}
             <div class="sponsors__textSubmit">
-              <h2></h2>
               <a
                 href="https://forms.gle/5HjVbbiYcXpmrnoh8"
                 target="_blank"

@@ -19,7 +19,7 @@ export default function CompetitionIntro() {
           <div class="sponsors">
             <img class="sponsors__imageCompetition" src="https://image.flaticon.com/icons/png/512/1809/1809172.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
-              <h2>Submissions open from <b>January 22 to February 22</b></h2>
+              <h2>Submissions open from <b>February 12 to March 12</b></h2>
               {/*
               {/* <a
                 href=""
@@ -33,7 +33,7 @@ export default function CompetitionIntro() {
 
             <img class="sponsors__imageCompetition" src="https://cdn.iconscout.com/icon/free/png-512/theme-8-461757.png" height="200" alt="Key2Music"></img>
             <div class="sponsors__textCompetition">
-              <h2>Theme: Personal expression/passion; No materials</h2>
+              <h2>Show us something you are passionate about! Create an art piece that illustrates something you love and/or believe in.</h2>
               {/*
               {/* <a
                 href=""

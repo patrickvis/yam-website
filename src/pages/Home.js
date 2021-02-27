@@ -6,6 +6,8 @@ import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
 import SponsorIntro from "../components/competition/SponsorIntro";
+import { Link } from "react-router-dom";
+
 
 
 export default function Home({ animationComplete, completeAnimation }) {
@@ -29,6 +31,9 @@ export default function Home({ animationComplete, completeAnimation }) {
       {!animationComplete && <Overlay />}
       <Hero />
       <AboutSection />
+      <Link to="/competition">
+        <img src={require("../assets/home/banner_2.png")} alt = "Competition Page" className = "comp-advert"></img>
+      </Link>
       <SponsorIntro />
     </div>
   );

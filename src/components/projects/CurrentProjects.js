@@ -36,7 +36,7 @@ export default function CurrentProjects() {
               </div>
             </div>
             
-            <div id="slideshow"> 
+            <div id="slideshow" style={{width: "100%"}}> 
               <div class="slide-wrapper"> 
                 <div class="slide"> 
                   <img src={require("../../assets/Projects/AMASlides/pic1.png")} alt="" class = 'slideImg'></img> 

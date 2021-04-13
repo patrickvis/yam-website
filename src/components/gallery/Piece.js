@@ -62,7 +62,7 @@ export default function Piece() {
             <div className="col-lg-6 col-12 text-center">
               <div
                 className={
-                  "card card-body text-center " +
+                  "card-gallery card-body text-center " +
                   (!piece.writing && !piece.youtubeLink && " text-lg-left")
                 }
               >
@@ -113,7 +113,7 @@ export default function Piece() {
               }
             >
               {piece.writing && (
-                <div className="card px-2 py-4 writing">{piece.writing}</div>
+                <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}
               {!piece.writing && piece.imageURL && (
                 <a

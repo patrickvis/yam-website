@@ -32,7 +32,7 @@ export default function Home({ animationComplete, completeAnimation }) {
       <Hero />
       <AboutSection />
       <Link to="/competition">
-        <img src={require("../assets/home/banner_2.png")} alt = "Competition Page" className = "comp-advert"></img>
+        <img src={require("../assets/home/banner_2.png")} alt = "Competition Page" className = "comp-advert" style={{width: "100%"}}></img>
       </Link>
       <SponsorIntro />
     </div>

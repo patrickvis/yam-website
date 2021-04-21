@@ -108,7 +108,3 @@ export default function Speakers() {
     </div>
   );
 }
-
-git clone https://github.com/MasonWang025/CS-Club-Website.git
-npm install
-npm start

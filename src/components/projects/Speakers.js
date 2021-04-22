@@ -62,7 +62,7 @@ export default function Speakers() {
             <div class="container">
                 <h4><b>Jeff Martin</b></h4>
                 <a
-                        href="https://www.writerstrust.com/authors/greg-brown/"
+                        href="https://www.theyoungwriters.org/artists/jeff-martin"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="action-btn mx-2 mb-2"
@@ -77,22 +77,7 @@ export default function Speakers() {
             <div class="container">
                 <h4><b>Ryan Williams</b></h4>
                 <a
-                        href="https://www.writerstrust.com/authors/greg-brown/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="action-btn mx-2 mb-2"
-                    >
-                        Read More
-                </a>
-            </div>
-            </div>
-
-            <div class="card">
-            <img src={require("../../assets/Projects/speakers/StaceyMatson.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
-                <h4><b>Stacey Matson</b></h4>
-                <a
-                        href="https://www.writerstrust.com/authors/greg-brown/"
+                        href="https://www.saatchiart.com/Xintalene"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="action-btn mx-2 mb-2"

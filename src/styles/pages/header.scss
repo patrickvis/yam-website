@@ -18,7 +18,7 @@
       -webkit-user-select: none;
       user-select: none;
       img {
-        height: 1.6em;
+        height: 2.0em;
       }
     }
   }
@@ -112,7 +112,7 @@
       border: 0.069px $black solid;
     }
     .dropdown-item {
-      color: $gray;
+      color: $white;
       transition: 0.69s ease;
       &.active {
         color: $light-bright;
@@ -127,6 +127,18 @@
 
   .active .nav-link {
     color: $light-bright;
+  }
+  .donate-btn {
+    margin-left: 15px;
+    padding: 8px 30px 8px 30px;
+    font-weight: 600;
+    &.active {
+      background-color: $gray;
+      transition: inherit;
+    }
+    &:hover {
+      background-color: $green;
+    }
   }
 }
 

@@ -13,8 +13,6 @@ export default function Projects() {
         imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:0/v1612564926/Pages/anime-illustration-landscape-sea-wallpaper-preview_pqnu23.jpg"
       />
       <CurrentProjects />
-      <Speakers />
-      <ProjectsList />
     </div>
   );
 }

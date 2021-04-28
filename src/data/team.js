@@ -9,6 +9,7 @@ const teamMembers = [
       position: "Co-founder and CFO",
       instagram: "https://www.instagram.com/jonathan_jli/",
       facebook: "https://www.facebook.com/jonathan.li.758399",
+      imageURL: "https://res.cloudinary.com/yam18/image/upload/v1619581237/YAM%20TEAM/Jonathan_HeadShot_xfd9ce.jpg"
     },
     {
       name: "Isabella Lee",
@@ -19,6 +20,15 @@ const teamMembers = [
       name: "Ethan Lin",
       position: "Secretary",
       instagram: "https://www.instagram.com/ethan._lin/",
+    },
+    {
+      name: "Kiran Reddy",
+      position: "CTO",
+      instagram: "https://www.instagram.com/kiranred6y_/",
+      linkedin: "https://www.linkedin.com/in/saikiran75/",
+      github: "https://github.com/kiranreddy75",
+      imageURL:
+        "https://res.cloudinary.com/yam18/image/upload/v1619580907/YAM%20TEAM/Kiran_HeadShot_ivyo1r.jpg",
     },
     {
       name: "Shreyas Rana",
@@ -58,25 +68,12 @@ const teamMembers = [
         "https://res.cloudinary.com/dmpjsarum/image/upload/v1604034921/Team/Screen_Shot_2020-10-29_at_10.14.57_PM_fgay1z.png",
     },
     {
-      name: "Grace Meyer",
-      position: "Grant Manager",
-      instagram: "https://www.instagram.com/gracee.aem/",
-      imageURL:
-        "https://res.cloudinary.com/dmpjsarum/image/upload/v1604034567/Team/Screen_Shot_2020-10-29_at_10.09.06_PM_c1wrgf.png",
-    },
-    {
       name: "Nalin Chopra",
       position: "Sponsorship Manager",
       linkedin: "https://www.linkedin.com/in/nalinchopra",
       imageURL:
         "https://res.cloudinary.com/masonwang/image/upload/v1596133128/yam-website/team/nalin-chopra.jpg",
     },
-  // {
-  //   name: "Katie Chen",
-  //   position: "Outreach and West Coast Branch President",
-  //   linkedin: "https://www.linkedin.com/in/katie-chen-3a8b83177/",
-  //   instagram: "https://www.instagram.com/katiechnn/",
-  // },
     {
       name: "Tiffany Lieu",
       position: "Marketing Manager",
@@ -105,11 +102,6 @@ const teamMembers = [
       imageURL:
         "https://res.cloudinary.com/masonwang/image/upload/v1596133353/yam-website/team/joanna-lu_cub5fm.jpg",
     },
-  // {
-  //   name: "Diana Le",
-  //   position: "Graphic Designer",
-  //   linkedin: "https://www.instagram.com/elkanaid/",
-  // },
     {
       name: "Carolann Dong",
       position: "Graphic Designer",
@@ -117,13 +109,6 @@ const teamMembers = [
       imageURL:
         "https://res.cloudinary.com/masonwang/image/upload/v1597014960/yam-website/team/carolann-dong.jpg",
     },
-    // {
-    //   name: "Hannah Su",
-    //   position: "Outreach",
-    //   linkedin: "https://www.linkedin.com/in/hannah-s-62402b1a4/",
-    //   imageURL:
-    //     "https://res.cloudinary.com/dmpjsarum/image/upload/v1604035069/Team/Screen_Shot_2020-10-29_at_10.17.31_PM_kxx5wa.png",
-    // },
 ];
 
 export default teamMembers;

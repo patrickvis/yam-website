@@ -27,9 +27,10 @@ export default function Header() {
           <Link className="navbar-brand" to="/">
             <h1 id="navlogotext">
               <img
-                src={require("../assets/logo.png")}
+                src={require("../assets/yamLogo.png")}
                 alt="logo"
                 height="25px"
+                title="Youth Arts Movement"
               />
             </h1>
           </Link>
@@ -51,9 +52,59 @@ export default function Header() {
 
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav ml-auto">
-              <li className={"nav-item " + (path === "/" && "active")}>
-                <Link className="nav-link" to="/">
-                  Home <span className="sr-only">(current)</span>
+              <li
+                className={
+                  "nav-item dropdown " +
+                  (path.startsWith("/about") && "active")
+                }
+              >
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="/about"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  About Us
+                </Link>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/about/story" && "active")
+                    }
+                    to="/about/story"
+                  >
+                    Our Story
+                  </Link>
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/about/team" && "active")
+                    }
+                    to="/about/team"
+                  >
+                    Our Team
+                  </Link>
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/about/partners" && "active")
+                    }
+                    to="/about/partners"
+                  >
+                    Our Partners
+                  </Link>
+                </div>
+              </li>
+              <li className={"nav-item " + (path === "/projects" && "active")}>
+                <Link className="nav-link" to="/projects">
+                  Our Work
+                </Link>
+              </li>
+              <li className={"nav-item " + (path === "/chapters" && "active")}>
+                <Link className="nav-link" to="/chapters">
+                  Our Chapters
                 </Link>
               </li>
               <li
@@ -100,7 +151,7 @@ export default function Header() {
                     }
                     to="/gallery/blm"
                   >
-                    BLM Gallery
+                    Social Justice Gallery
                   </Link>
                   <Link
                     className={
@@ -139,31 +190,59 @@ export default function Header() {
                   </Link>
                 </div>
               </li>
-              <li className={"nav-item " + (path === "/about" && "active")}>
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
-              <li className={"nav-item " + (path === "/chapters" && "active")}>
-                <Link className="nav-link" to="/chapters">
-                  Chapters
-                </Link>
-              </li>
-              <li className={"nav-item " + (path === "/projects" && "active")}>
-                <Link className="nav-link" to="/projects">
-                  Projects
-                </Link>
-              </li>
-              <li className={"nav-item " + (path === "/competition" && "active")}>
-                <Link className="nav-link" to="/competition">
+              <li
+                className={
+                  "nav-item dropdown " +
+                  (path.startsWith("/events") && "active")
+                }
+              >
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="/events"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Events
                 </Link>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link
+                    className={
+                      "dropdown-item " +
+                      (path === "/events/overview" && "active")
+                    }
+                    to="/events/overview"
+                  >
+                    Overview
+                  </Link>
+                  <div className="dropdown-divider"></div>
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/events/yamtalks" && "active")
+                    }
+                    to="/events/yamtalks"
+                  >
+                    YAMtalks
+                  </Link>
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/events/yamcompetes" && "active")
+                    }
+                    to="/events/yamcompetes"
+                  >
+                    YAMCompetes
+                  </Link>
+                </div>
               </li>
-              {/* <li className={"nav-item " + (path === "/events" && "active")}>
-                <Link className="nav-link" to="/events">
-                  Events
-                </Link>
-              </li> */}
+              <li>
+                <a type="button"
+                  className="btn btn-secondary donate-btn mb-2"
+                  href="https://charity.gofundme.com/o/en/campaign/helping-to-close-the-gap" target="blank">
+                  Donate
+              </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -13,9 +13,9 @@ export default function Hero() {
           <div className="title">
             <div className="line">
               <h1 className="m-0">
-                <span className="letter">Y</span>
-                <span className="letter">A</span>
-                <span className="letter">M</span>
+                <span className="letter theme-peach">Y</span>
+                <span className="letter theme-green">A</span>
+                <span className="letter theme-blue">M</span>
               </h1>
             </div>
           </div>

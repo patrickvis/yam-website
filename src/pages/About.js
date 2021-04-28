@@ -1,6 +1,5 @@
 import React from "react";
-import Team from "../components/about/Team";
-import WhoWeAre from "../components/about/WhoWeAre";
+import OurStory from "../components/about/OurStory";
 import SectionHero from "../components/SectionHero";
 
 export default function About() {
@@ -11,8 +10,7 @@ export default function About() {
         subtitle="The Youth Arts Movement"
         imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/e_blur:0/v1612564883/Pages/pasted_image_0_4_f1iqg4.png"
       />
-      <WhoWeAre />
-      <Team />
+      <OurStory />
     </div>
   );
 }

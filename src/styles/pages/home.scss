@@ -54,6 +54,15 @@
           .letter {
             display: inline-block;
           }
+          .theme-peach {
+            color: $theme-peach;
+          }
+          .theme-green {
+            color: $theme-green;
+          }
+          .theme-blue {
+            color: $theme-bluegit stat;
+          }
         }
       }
 
@@ -207,6 +216,15 @@
         }
         .theme {
           color: $theme-darker;
+        }
+        .theme-peach {
+          color: #e88e67;
+        }
+        .theme-green {
+          color: #9fc379;
+        }
+        .theme-blue {
+          color: #8191d8;
         }
       }
 

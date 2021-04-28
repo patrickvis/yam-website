@@ -6,7 +6,7 @@ export default function Speakers() {
   return (
     <div className="gray-bg">
       <div className="container pb-5">
-        <div className="section-header">
+        <div className="section-header"  style={{marginTop: "5%"}}>
           <h1>Speaker Series</h1>
         </div>
         <div className="row justify-content-center text-center">

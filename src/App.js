@@ -25,6 +25,9 @@ import competition from "./pages/Competition";
 
 import { db } from "./data/firebase";
 import NewsletterModal from "./components/NewsletterModal";
+import ProjectsList from "./components/projects/ProjectsList";
+import Team from "./components/about/Team";
+import Speakers from "./components/projects/Speakers";
 
 function debounce(fn, ms) {
   let timer;
@@ -55,9 +58,12 @@ function App() {
         completeAnimation: completeAnimation,
       },
     },
-    { path: "/about", Component: About },
-    // { path: "/events", Component: Events },
-    { path: "/competition", Component: competition },
+    { path: "/about/story", Component: About },
+    { path: "/about/team", Component: Team },
+    { path: "/about/partners", Component: ProjectsList },
+    { path: "/events/yamcompetes", Component: competition },
+    { path: "/events/yamtalks", Component: Speakers },
+    { path: "/events/overview", Component: competition },
     { path: "/chapters", Component: Chapters },
     { path: "/projects", Component: Projects },
     { path: "/gallery", Component: Gallery },
@@ -66,7 +72,7 @@ function App() {
     { path: "/gallery/blm", Component: Blm },
     { path: "/gallery/creativewriting", Component: CreativeWriting },
     { path: "/gallery/photography", Component: Photography },
-    { path: "/gallery/music", Component: Music },
+    { path: "/gallery/music", Component: Music }
   ];
 
   const [dimensions, setDimensions] = useState({

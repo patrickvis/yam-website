@@ -76,7 +76,7 @@ export default function CompetitionIntro() {
             {/* <a><img class="sponsors__imageCompetition" src="https://cdn0.iconfinder.com/data/icons/round-ui-icons/512/tick_red.png" height="230" alt="Key2Music"></img></a> */}
             <div class="sponsors__textSubmit">
               <a
-                href="/gallery/competition"
+                href="/events/yamcompetes"
                 rel="noopener noreferrer"
                 className="action-btn main-action mx-2 mb-2"
               >

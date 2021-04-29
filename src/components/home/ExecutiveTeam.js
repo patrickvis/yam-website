@@ -1,7 +1,6 @@
 import React from "react";
 import Profile from "../about/Profile";
 import executiveTeamMembers from "../../data/executiveTeam";
-import teamMembers from "../../data/team";
 
 export default function ExecutiveTeam() {
   return (

@@ -6,9 +6,6 @@ import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
 import SponsorIntro from "../components/competition/SponsorIntro";
-import { Link } from "react-router-dom";
-
-
 
 export default function Home({ animationComplete, completeAnimation }) {
   // disabling header

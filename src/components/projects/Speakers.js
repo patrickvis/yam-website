@@ -57,7 +57,7 @@ export default function Speakers() {
             </div>
             </div>
 
-            {/* <div class="card">
+            <div class="card">
             <img src={require("../../assets/Projects/speakers/JeffMartin.png")} alt="location" style={{width:"100%"}}></img>
             <div class="container">
                 <h4><b>Jeff Martin</b></h4>
@@ -70,9 +70,9 @@ export default function Speakers() {
                         Read More
                 </a>
             </div>
-            </div> */}
+            </div>
 
-            {/* <div class="card">
+            <div class="card">
             <img src={require("../../assets/Projects/speakers/RyanWilliams.png")} alt="location" style={{width:"100%"}}></img>
             <div class="container">
                 <h4><b>Ryan Williams</b></h4>
@@ -85,7 +85,7 @@ export default function Speakers() {
                         Read More
                 </a>
             </div>
-            </div> */}
+            </div>
 
         </div>
         

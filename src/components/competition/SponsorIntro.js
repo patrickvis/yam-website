@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/pages/Sponsors.scss";
 
 
-export default function WhyChapters() {
+export default function Sponsors() {
   const tab = (
     <span className="d-none d-md-inline">&nbsp;&nbsp;&nbsp;&nbsp;</span>
   );
@@ -40,19 +40,13 @@ export default function WhyChapters() {
             Sponsorship Prospectus
           </a>
           <div className="grid">
-            <div><img src="https://www.halberesford.com/content/images/2018/07/null.png" alt=""></img></div>
+          <div>
+            <div><img src="https://res.cloudinary.com/yam18/image/upload/v1619916273/YAM%20ASSETS/visva_wordmark_cbojhe.svg" alt=""></img></div></div>
             <div><img src="https://www.halberesford.com/content/images/2018/07/null.png" alt=""></img></div>
             <div><img src="https://i.pinimg.com/originals/50/55/4e/50554e7975371dbbdc8b5a39d39f0cb8.png" alt=""></img></div>
+            <div><img src="https://www.halberesford.com/content/images/2018/07/null.png" alt=""></img></div>
+            <div><img src="https://res.cloudinary.com/yam18/image/upload/v1619916273/YAM%20ASSETS/fredrix-logo-230_yzig9h.jpg" alt=""></img></div>
           </div>
-
-          {/* <a
-            href="https://drive.google.com/file/d/1ZQIp0c1G6v3zdUmyEn69JMR8z4q8Ns7l/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="action-btn main-action mx-2 mb-2"
-          >
-            Sponsorship Prospectus
-          </a> */}
         </div>
       </div>
     </>

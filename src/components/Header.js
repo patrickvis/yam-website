@@ -52,6 +52,16 @@ export default function Header() {
 
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav ml-auto">
+              <li className={"nav-item " + (path === "/projects" && "active")}>
+                <Link className="nav-link" to="/projects">
+                  Our Work
+                </Link>
+              </li>
+              <li className={"nav-item " + (path === "/chapters" && "active")}>
+                <Link className="nav-link" to="/chapters">
+                  Our Chapters
+                </Link>
+              </li>
               <li
                 className={
                   "nav-item dropdown " +
@@ -96,16 +106,6 @@ export default function Header() {
                     Our Partners
                   </Link>
                 </div>
-              </li>
-              <li className={"nav-item " + (path === "/projects" && "active")}>
-                <Link className="nav-link" to="/projects">
-                  Our Work
-                </Link>
-              </li>
-              <li className={"nav-item " + (path === "/chapters" && "active")}>
-                <Link className="nav-link" to="/chapters">
-                  Our Chapters
-                </Link>
               </li>
               <li
                 className={

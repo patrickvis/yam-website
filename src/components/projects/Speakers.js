@@ -12,9 +12,9 @@ export default function Speakers() {
         <div className="row justify-content-center text-center">
 
 
-            <div class="card">
+            <div className="card">
             <img src={require("../../assets/Projects/speakers/JohnCaserta.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
+            <div className="container">
                 <h4><b>John Caserta</b></h4>
                 <a
                         href="https://www.risd.edu/people/john-caserta/"
@@ -27,9 +27,9 @@ export default function Speakers() {
             </div>
             </div>
             
-            <div class="card">
+            <div className="card">
             <img src={require("../../assets/Projects/speakers/MarieOtsuka.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
+            <div className="container">
                 <h4><b>Marie Otsuka</b></h4>
                 <a
                         href="https://www.risd.edu/people/marie-otsuka/"
@@ -42,9 +42,9 @@ export default function Speakers() {
             </div>
             </div>
 
-            <div class="card">
+            <div className="card">
             <img src={require("../../assets/Projects/speakers/GregBrown.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
+            <div className="container">
                 <h4><b>Greg Brown</b></h4>
                 <a
                         href="https://www.writerstrust.com/authors/greg-brown/"
@@ -57,9 +57,9 @@ export default function Speakers() {
             </div>
             </div>
 
-            <div class="card">
+            <div className="card">
             <img src={require("../../assets/Projects/speakers/JeffMartin.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
+            <div className="container">
                 <h4><b>Jeff Martin</b></h4>
                 <a
                         href="https://www.theyoungwriters.org/artists/jeff-martin"
@@ -72,9 +72,9 @@ export default function Speakers() {
             </div>
             </div>
 
-            <div class="card">
+            <div className="card">
             <img src={require("../../assets/Projects/speakers/RyanWilliams.png")} alt="location" style={{width:"100%"}}></img>
-            <div class="container">
+            <div className="container">
                 <h4><b>Ryan Williams</b></h4>
                 <a
                         href="https://www.saatchiart.com/Xintalene"

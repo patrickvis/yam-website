@@ -125,7 +125,7 @@ export default function Piece() {
                     cloudName="masonwang"
                     publicId={piece.imageURL}
                     className="img-fluid image"
-                    style={{ backgroundColor: "#152828" }}
+                    style={{ backgroundColor: "#152828", maxwidth : "100%", height: "auto" }}
                   />
                 </a>
               )}

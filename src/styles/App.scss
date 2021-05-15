@@ -228,6 +228,28 @@ a.underline {
   }
 }
 
+.section-header-inline {
+  text-align: center;
+  position: relative;
+  margin-bottom: 1.5em;
+  h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+  &::after {
+    content: "";
+    display: block;
+    text-align: center;
+    width: 3.5em;
+    height: 0.55em;
+    background-color: #4b6f90;
+    margin: 0.42em auto 0.69em auto;
+  }
+}
+
 .gray-bg {
   background: $gray-brightest;
 }

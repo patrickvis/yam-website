@@ -26,18 +26,26 @@ export default function AboutSection() {
                 <div className="col-lg-12 col-sm-12">
                   <ExecutiveTeam />
                 </div>
-                <div className="col-lg-12 col-sm-12">
-                  <p>
-                    We are dedicated to magnifying the voices of the unheard.
-                    Too often do we see the work of young artists marginalized
-                    in society and shrouded in a stigma of instability and unintelligence;
-                    we want to provide students the platform of creative expression and recognition they deserve.
-                    YAM strives to close this gap between the STEM field and the arts, emphasizing the importance of
-                    both in our society today. The Youth Arts Movement is focused on providing a platform for your
-                    voice through music, art, literature, and all aspects of the arts.
-                    </p>
-                  <p>Reach out to us, we’d love to hear from you!</p>
-                  <p className="email">
+              </div>
+            </Fade>
+            <Fade duration={1738} delay={100}>
+            <div className="col-lg-12 col-sm-12">
+                  <div className="section-header-inline">
+                    <h1>Our Mission</h1>
+                  </div>
+                  <p className="lead-p">
+                    We are dedicated to magnifying the voices of the unheard. Too often did we see the same story;
+                    young artists and writers taking a begrudged back seat. From school funding to basic recognition,
+                    we realized a fundamental appreciation for art was missing from schools near and far from our founding
+                    place of Saratoga, CA.
+                  </p>
+                  <p className="lead-p">
+                    We founded the Youth Arts Movement as a response to such imbalance, seeking to showcase student
+                    artwork and provide opportunities to the young artists who needed it most. YAM strives to close this
+                    gap between the STEM field and the arts, emphasizing the importance of both in our society today.
+                  </p>
+                  {/* <p>Reach out to us, we’d love to hear from you!</p> */}
+                  {/* <p className="email">
                     <span className="d-none d-sm-block">
                       <a
                         href="mailto:official@youthartsmovement.org"
@@ -66,26 +74,25 @@ export default function AboutSection() {
                         @youthartsmovement.org
                     </a>
                     </span>
-                  </p>
+                  </p> */}
                   <div className="pt-2 col-12">
                     <a type="button"
                       className="action-btn main-action mx-2 mb-3"
                       href="https://charity.gofundme.com/o/en/campaign/helping-to-close-the-gap" target="blank">
                       Support Us
-                  </a>
+                    </a>
                     <Link to="/about/story" className="action-btn mx-2 mb-3">
                       Our Story
-                </Link>
-                    <button
+                    </Link>
+                    {/* <button
                       className="action-btn main-action mx-2 mb-3"
                       data-toggle="modal"
                       data-target="#newsletterModal"
                     >
                       Join Newsletter
-                </button>
+                    </button> */}
                   </div>
                 </div>
-              </div>
             </Fade>
           </div>
         </div>

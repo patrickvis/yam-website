@@ -8,7 +8,7 @@ Contact: <a href="mailto:mason@youthartsmovement.org">mason@youthartsmovement.or
 
 To run the code:
 ```
-git clone https://github.com/MasonWang025/CS-Club-Website.git
+git clone https://github.com/MasonWang025/yam-website.git
 npm install
 npm start
 ```

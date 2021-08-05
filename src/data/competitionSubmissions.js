@@ -38,7 +38,7 @@ const competitionSubmissions = [
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131949/yamCompetesSubmissions/KaileyHu.webp",
     artist: "Kailey Hu",
     title: "",
-    description: "",
+    description: "In my gouache piece, I painted one of my all-time favorite birds: the cardinal. Though I don't exactly recall when my admiration for them started, there is a memory involving a cardinal which I vividly remember from when I used to live in Texas. I spent most of my childhood in Texas, and thinking of it now, those days were much more relaxing and calming compared to my busy life now. One afternoon, after school was let out, I ran out to meet up with my mom and noticed the brightest red bird perching on a bare branch. The fusions of its saturated red contrasted with the emerald green tree has stuck with me; even when I moved to California. My blissful and innocent childhood has almost been erased from my memory, especially since my present life is filled with school, homework, and extracurricular activities. Now, I tend to associate the beautiful cardinal bird with my younger childhood, and days when I didn't feel as burdened with work.",
   },
   
   {
@@ -200,41 +200,44 @@ const competitionSubmissions = [
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131900/yamCompetesSubmissions/ElizabethZheng.webp",
     artist: "Elizabeth Zheng",
     title: "",
-    description: "",
+    description: "I love traveling to the city. Seeing big buildings, flashing lights, and busy streets is my favorite pastime. However, the most intriguing thing is seeing the people; each person carries their own individual story. This woman I drew reminds me of my own mom -- not physically, but in respect to her work ethic. When I spoke to her in chinese she was humble, and told me stories about her grandchildren. Her words touched me, and although short, the brevity of our conversation made me realize how much I truly loved the city and the millions of stories it holds.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131990/yamCompetesSubmissions/NavyaDesai.webp",
     artist: "Navya Desai",
     title: "",
-    description: "",
+    description: "Ballet is something that I have done for 10+ years and I wanted to show case my passion through this drawing. I'm the subject of this drawing, and the reference picture was actually taken last year while doing a digital performance.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628132030/yamCompetesSubmissions/SanaJahangir1.webp",
     artist: "Sana Jahangir",
     title: "",
-    description: "",
+    description: "I believe everything around me is beautiful . Adding colors make them even more vibrant and prettier.I love painting my own body .People believe this is something temporary and they can't store this artwork because it gets washed away. In my opinion , if a thing gives you joy and peace then you should never focus on it's pros and cons. Just do it. Do it for yourself. Do it for your own happiness. Don't even think about any second thought. This is how Picasso created 50,000 artworks!",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628132084/yamCompetesSubmissions/SanaJahangir2.webp",
     artist: "Sana Jahangir",
     title: "",
-    description: "",
+    description: "Everyone has their own opinions about career. I believe in following your passion . Choose a career that you love because if you don't , you'll never overcome the regret. I am a science student that loves to create beautiful paintings and sketches. I've always enjoyed experimenting with different colors. I'm an artist by passion and also trying to make it my profession. This artwork includes all the beautiful paintings I made and this is what I love to do.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628132127/yamCompetesSubmissions/SophieChen.webp",
     artist: "Sophie Chen",
     title: "",
-    description: "",
+    description: "The world may be ending but that doesn’t mean there isn’t a safe space for living.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628132170/yamCompetesSubmissions/JulianChristianSimmons.webp",
     artist: "Julian Christian Simmons",
     title: "",
-    description: "",
-  },
+    description: "I wanted to draw YAM as a character and here we are! Kinda proud of this one.",
+  }
   
+]
+
+export default competitionSubmissions;

@@ -3,35 +3,35 @@ const competitionSubmissions = [
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131552/yamCompetesSubmissions/Anica%20Liu.webp",
     artist: "Anica Liu",
     title: "",
-    description: "",
+    description: "I believe that vulnerability is key to becoming at peace with yourself. When you expose and acknowledge your most vulnerable parts of yourself, you experience a form of self growth like no other. Since willow trees symbolize a sense of belonging and safety, I drew a willow tree growing out of a person's head. In drawing the person exposing their back as well as including the exposed tree roots and heart-shaped trunk, I wanted to convey a feeling of fragility or defenselessness.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131413/yamCompetesSubmissions/KathrynBediako.webp",
     artist: "Kathryn Bediako",
     title: "",
-    description: "",
+    description: "Art depicting the Egungun festival, celebrated by the Yoruban festival specific to Nigeria.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131287/yamCompetesSubmissions/JessieZhu.webp",
     artist: "Jessie Zhu",
     title: "",
-    description: "",
+    description: "This oil painting is inspired by a scene in The Greatest Showman movie that depicts elephants and animals performing in circus. I painted it with the intention to encourage more protection of animals by not cruelly killing them for their body parts and not watching animal performances.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131586/yamCompetesSubmissions/SophiaKagan1.webp",
     artist: "Sophia Kagan",
     title: "",
-    description: "",
+    description: "Autism in women isn’t talked about as much as autism in men, which is why for so long I did not understand my autism. This year has been a period of personal discovery about my autistic identity. This portrait isn’t as much about me as it is about conveying the beauty of autism in women. This painting depicts my autistic identity and the discovery of how beautiful neurodiversity is. The colorful abstract elements in the background symbolize the amazing things that can come out from being autistic. I used a multitude of colors to express the colorfulness and diversity of neuro-diverse individuals.  I mixed abstract and realism styles in my work to show that autistic people have access to “autistic superpowers” that are unique to them. Neurodiversity and disability rights is something I am passionate about.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131856/yamCompetesSubmissions/IrisLiu.webp",
     artist: "Iris Liu",
     title: "",
-    description: "",
+    description: "This painting is a street view in Europe and I chose this piece because I am passionate about traveling!",
   },
   
   {
@@ -45,154 +45,155 @@ const competitionSubmissions = [
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131773/yamCompetesSubmissions/KaelynnTan.webp",
     artist: "Kaelynn Tan",
     title: "",
-    description: "",
+    description: "My artwork is of an elusive panda hiding among bamboo. Pandas are one of my favorite animals that are unfortunately endangered. Being passionate about wildlife, I wanted to capture the beauty of pandas to promote their protection. ",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628130435/yamCompetesSubmissions/lindaWong.webp",
-    artist: "Linda Wong",
+    artist: "Lance Wong",
     title: "",
-    description: "",
+    description: "An acrylic work of my instrument of choice, the cello, painted on a collage surface of various book pages, music scores, construction paper, and tissue paper. 
+",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628130854/yamCompetesSubmissions/nehaVedaprahash.webp",
     artist: "Neha Vedaprahash",
-    title: "",
-    description: "",
+    title: "Lady by the Hudson River",
+    description: "This is a modern take on the famous painting “Lady by A River” by the artist Raja Ravi Varma. Indian women in New York take an evening stroll by the river wearing a saree and sneakers. Indians abroad keep Indian culture alive more than people in India do! In this painting, the takeaway culture of America is depicted along with the beautiful Manhattan Skyline in the background as seen from The Hudson River bank.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628130904/yamCompetesSubmissions/KaushikTalur.webp",
     artist: "Kaushik Talur",
     title: "",
-    description: "",
+    description: "My artwork is about : Plz save earth!! Use dustbin don't through waste outside, don't use plastic bags!! Save environment save earth ...",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628130985/yamCompetesSubmissions/KaushikTalur2.webp",
     artist: "Kaushik Talur",
     title: "",
-    description: "",
+    description: "Avoid drugs. And save your life",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131014/yamCompetesSubmissions/KaushikTalur3.webp",
     artist: "Kaushik Talur",
     title: "",
-    description: "",
+    description: "MUSIC is a peace of art. That goes in the ears straight to the heart.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131049/yamCompetesSubmissions/KaushikTalur4.webp",
     artist: "Kaushik Talur",
     title: "",
-    description: "",
+    description: "Be alone..!! Sometimes it's better to be alone. Nobody can hurt you... Learn to be alone with your thoughts and feelings...",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131075/yamCompetesSubmissions/KaushikTalur5.webp",
     artist: "Kaushik Talur",
     title: "",
-    description: "",
+    description: "For ever problem dieing is not a solution. No one notices your tears. No one notices your sadness. No one notices your pains, but they all notices your mistakes! For ever problems there is a solution. Be cool and think ",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131107/yamCompetesSubmissions/SravyaNagalakunta.webp",
     artist: "Sravya Nagalakunta",
-    title: "",
-    description: "",
+    title: "Voyage of Life",
+    description: "Life is a journey. It is not how it ends that matters, but the journey it takes to get there. The journey of life is never complete without a friend to share the memories. With a blink of an eye, our chapter and these we need to fulfill our greatest desires before our childhood innocence is lost beneath the old soul. I believe in living life to the fullest.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131221/yamCompetesSubmissions/Amanda.webp",
     artist: "Amanda",
     title: "",
-    description: "",
+    description: "I’m passionate about the ocean and preserving the life that lives in it. These marine animals are hunted and harmed by human activity and we as a species should be knowledgeable of the damage were causing. ",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131248/yamCompetesSubmissions/Eyl%C3%BCl%C3%87elikk%C4%B1ran.webp",
     artist: "Eylül Çelikkıran",
     title: "",
-    description: "",
+    description: "Be free, don't be addicted to technology.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131321/yamCompetesSubmissions/CindyZhou.webp",
     artist: "Cindy Zhou",
     title: "",
-    description: "",
+    description: "I wanted to demonstrate my love for traveling by portraying the beautiful sceneries i saw when i was there, also combining my love for art by demonstrate me doing a still life when I was there. The artwork commemorates the time prior to the pandemic and the carefree life where I didnt appreciate the small things in life.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131353/yamCompetesSubmissions/HansenTao1.webp",
     artist: "Hansen Tao",
     title: "",
-    description: "",
+    description: "Besides my passion for visual art, I also enjoys instrumental music, specifically playing my French horn. Practicing an instrument could sometimes be a redundant process and the one who has always been staying with me while I practiced was my dog. Everytime I went into my room to start my practice session, he would sit outside and wait until I finish. Therefore, I decided to create this piece demonstrating two of my important companions in life, my dog and my horn, whom I have spent and enjoy spending a lot of time with.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131381/yamCompetesSubmissions/HansenTao2.webp",
     artist: "HansenTao",
     title: "",
-    description: "",
+    description: "One of the activities I especially enjoy doing is traveling. Everytime I am able to travel somewhere far I feel exited and extremely relaxed. I created this watercolor painting during my trip to Utah, when I visited arches national park.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131448/yamCompetesSubmissions/LorenPante.webp",
     artist: "Loren Pante",
     title: "",
-    description: "",
+    description: "I have always been so hard on myself, as an artist, a student, and as a human. However, I have learned that failure is truly inevitable and you can’t dodge it. Failure gives you your character and helps you grow, which is what I wanted to convey through this piece. (prismacolors and black markers were used for this piece)",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131478/yamCompetesSubmissions/JadeSupnet.webp",
     artist: "Jade Supnet",
     title: "",
-    description: "",
+    description: "The ability to garden is beautiful to me. To nourish plants and flowers allows me to see its progress.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131515/yamCompetesSubmissions/AnoushkaGarg.webp",
     artist: "Anoushka Garg",
     title: "",
-    description: "",
+    description: "The artwork represents: if I can hide the animals, maybe I can save them. I support animal rights and am very passionate about raising awareness on animal cruelty and injustice. I am a vegan, and volunteer with various organisations where I use my art to raise awareness and question morals and ethics. This piece of work is a playful composition of various animals that are harmed for our food, beauty and fashion products. These are animals are all hidden in the little girls hair who is hiding them, in the hope that she can save them.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131620/yamCompetesSubmissions/SophiaKagan2.webp",
     artist: "Sophia Kagan",
     title: "",
-    description: "",
+    description: "This work is an abstract acrylic painting. It depicts my cat Pablo sitting on my mother’s lap; I am fond of both Pablo and my mom as they are part of my family. When I observed this scene, I took a quick sketch of what I saw and then abstracted that sketch, leading to an acrylic painting. I used vibrant colors that reflect the sweet and tender relationship between my mom and my cat Pablo.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131656/yamCompetesSubmissions/SheenaLai.webp",
     artist: "Sheena Lai",
-    title: "",
-    description: "",
+    title: "Blissful Lethargy",
+    description: "It illustrates my love for naps, but moreover, the wonderful feeling of waking up from a nap in the summer, with rays of warm sunlight peeking through the window blinds. Although I am groggy as I awaken, I feel well-rested, and as I stretch my stiff body, my spirit feels full.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131697/yamCompetesSubmissions/JasmineSerna.webp",
     artist: "Jasmine Serna",
     title: "",
-    description: "",
+    description: "Mikusona is a depiction of the virtual idol, Miku Hatsune, that represents myself. The fandom-wide concept was created to spread the importance of diversity and inclusiveness, because Miku is a character for everyone to love regardless of who you are.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131735/yamCompetesSubmissions/SwayambaraSarkar.webp",
     artist: "Swayambara Sarkar",
     title: "",
-    description: "",
+    description: "This painting is about healing with the time and love of nature which helps a broken person to live life once again. This was painted while on being total depression and while on the process of the healing.",
   },
   
   {
     imageURL: "https://res.cloudinary.com/nikkic/image/upload/v1628131812/yamCompetesSubmissions/Simone%22Mo%22Koelle.webp",
     artist: "Simone Mo Koelle",
     title: "",
-    description: "",
+    description: "This is a recreation of our school's Youth Arts Movement club mascot. I'm submitting this piece because this club means a lot to me. It has encouraged me to pick up drawing again, and everyone's feedback makes me feel more confident about what I create. The idea came from a question about what a human version of our hamster mascot might look like, and this is what I envisioned.",
   },
   
   {

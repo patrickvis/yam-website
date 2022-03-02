@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { Image } from "cloudinary-react";
-import ExecutiveTeam from "./ExecutiveTeam";
 
 export default function AboutSection() {
   return (
@@ -23,9 +22,6 @@ export default function AboutSection() {
                   We’re a 501(c)3 <b>a nonprofit organization</b>  dedicated to providing young artists a platform and community
                 for creative expression, collaboration, and communication.
                 </p>
-                <div className="col-lg-12 col-sm-12">
-                  <ExecutiveTeam />
-                </div>
               </div>
             </Fade>
             <Fade duration={1738} delay={100}>

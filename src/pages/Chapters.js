@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHero from "../components/SectionHero";
 import WhyChapters from "../components/chapters/WhyChapters";
-import OurChapters from "../components/chapters/OurChapters";
+// import OurChapters from "../components/chapters/OurChapters";
 // import Team from "../components/about/Team"
 
 export default function Chapters() {
@@ -14,7 +14,7 @@ export default function Chapters() {
         // imageURL="https://res.cloudinary.com/dmpjsarum/image/upload/v1603608876/image0_krzgoj.jpg"
       />
       <WhyChapters />
-      <OurChapters />
+      {/* <OurChapters /> */}
       {/* <Team /> */}
     </div>
   );

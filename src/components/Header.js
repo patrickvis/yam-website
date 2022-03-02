@@ -208,7 +208,7 @@ export default function Header() {
                   Events
                 </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link
+                  {/* <Link
                     className={
                       "dropdown-item " +
                       (path === "/events/overview" && "active")
@@ -217,7 +217,7 @@ export default function Header() {
                   >
                     Overview
                   </Link>
-                  <div className="dropdown-divider"></div>
+                  <div className="dropdown-divider"></div> */}
                   <Link
                     className={
                       "dropdown-item " + (path === "/events/yamtalks" && "active")
@@ -225,14 +225,6 @@ export default function Header() {
                     to="/events/yamtalks"
                   >
                     YAMtalks
-                  </Link>
-                  <Link
-                    className={
-                      "dropdown-item " + (path === "/events/yamcompetes" && "active")
-                    }
-                    to="/events/yamcompetes"
-                  >
-                    YAMCompetes
                   </Link>
                 </div>
               </li>

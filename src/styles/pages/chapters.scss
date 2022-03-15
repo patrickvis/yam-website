@@ -3,14 +3,111 @@
     background-color: $gray-dark;
     color: $light-bright;
     filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.69));
+
     &:hover {
       border: 0;
       filter: drop-shadow(7px 9px 0 rgba(0, 0, 0, 0.6));
     }
+
     &.main-action {
       background-color: $theme;
+
       &:hover {
         background-color: $theme-bright;
+      }
+    }
+  }
+
+  .incentive-section {
+    padding-top: 1.5em;
+
+    .incentive-list-btn {
+      display: block;
+      margin-left: 0px;
+      margin-right: auto;
+      background-color: inherit;
+      border: 0;
+      font-size: 1.25em;
+
+      &:hover {
+        background-color: inherit;
+      }
+
+      &::after {
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+      }
+    }
+
+    .incentive-list {
+      max-height: 0px;
+      height: auto;
+      overflow: hidden;
+      transition: all .5s ease;
+
+      &.expand {
+        max-height: 1000px;
+      }
+    }
+
+    ul.incentive-list {
+      list-style: none;
+      margin: 1.75rem 0;
+      padding-left: 1rem;
+
+      >li {
+        text-align: left;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        min-height: 3rem;
+        padding: 0rem 1rem 1rem 1rem;
+        position: relative;
+
+        &::before,
+        &::after {
+          background: linear-gradient(135deg, $theme-blue 0%, $green 100%);
+          border-radius: 1rem;
+          content: '';
+          height: 1rem;
+          left: -.5rem;
+          overflow: hidden;
+          position: absolute;
+          top: 0.25rem;
+          width: 1rem;
+        }
+
+        &::before {
+          align-items: flex-end;
+          // content: counter(gradient-counter);
+          // color: $black;
+          display: flex;
+          // font: 900 1.5em/1 'Montserrat';
+          justify-content: flex-end;
+          padding: 0.125em 0.25em;
+          z-index: 1;
+        }
+
+        @for $i from 1 through 5 {
+          &:nth-child(10n+#{$i}):before {
+            background: linear-gradient(135deg, rgba($green, $i * 0.2) 0%, rgba($theme-peach, $i * 0.2) 100%);
+          }
+        }
+
+        @for $i from 6 through 10 {
+          &:nth-child(10n+#{$i}):before {
+            background: linear-gradient(135deg, rgba($green, 1 - (($i - 5) * 0.2)) 0%, rgba($theme-peach, 1 - (($i - 5) * 0.2)) 100%);
+          }
+        }
+
+        +li {
+          margin-top: 2rem;
+        }
       }
     }
   }

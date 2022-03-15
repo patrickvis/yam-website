@@ -5,22 +5,35 @@ import "../../styles/pages/projects.scss";
 export default function ProjectsList() {
   return (
     <div className="container pb-5">
-      <div className="section-header" style={{marginTop: "5%"}}>
+      <div className="section-header" style={{ marginTop: "5%" }}>
         <h1>Partnerships</h1>
       </div>
       <div class="sponsors">
-        <a href="https://www.arthubsd.com/"><img class="sponsors__image" src={require("../../assets/Projects/arthublogo.png")} alt="ArtHub" href="https://www.arthubsd.com/"></img></a>
+        <a href="https://www.visva.com/"><img class="sponsors__image" src={require("../../assets/Projects/visvalogo.svg")} alt="Visva" href="https://www.visva.com/"></img></a>
+        <div class="sponsors__text">
+          <h2>Visva</h2>
+          <p>Visva is a new type of content, community, and collaboration platform where vibes and tribes come together to make things happen. Visva helps people discover, build, &amps; manage their tribe. YAM exclusively uses the Visva platform and mobile app to manage embedded content on the YAM homepage, interact with prospective members and artists, and collaborate with existing chapters and members.</p>
+          <a
+            href="https://apps.apple.com/us/app/visva/id1210171833"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="action-btn main-action mx-2 mb-2"
+          >
+            Install
+          </a>
+        </div>
+        <a href="https://www.arthub.academy/"><img class="sponsors__image" src={require("../../assets/Projects/arthublogo.png")} alt="ArtHub" href="https://www.arthubsd.com/"></img></a>
         <div class="sponsors__text">
           <h2>Arthub</h2>
           <p>In partnership with Arthub, YAM is delighted to introduce art classes accessible to everyone! All of our classes are FREE to register and join. To enroll, simply click the register button and fill in the necessary information. We can't wait to start an exciting journey with our students!</p>
           <a
-            href="https://www.arthubsd.com/"
+            href="https://www.arthub.academy/"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
         </div>
 
         <a href="https://thedrawingstudiotds.org/"><img class="sponsors__image" src={require("../../assets/Projects/theDrawingStudio.png")} alt="The Drawing Studio" href="https://www.arthubsd.com/"></img></a>
@@ -34,7 +47,7 @@ export default function ProjectsList() {
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
 
 
         </div>
@@ -50,7 +63,7 @@ export default function ProjectsList() {
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
         </div>
 
         <a href="https://laplumamvhs.weebly.com/"><img class="sponsors__image" src={require("../../assets/Projects/lapluma.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
@@ -64,7 +77,7 @@ export default function ProjectsList() {
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
         </div>
 
         <a href="https://www.lovenotepoetry.com/"><img class="sponsors__image" src={require("../../assets/Projects/lovenote.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
@@ -78,7 +91,7 @@ export default function ProjectsList() {
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
         </div>
 
         <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.happy-art.org%2F&e=ATN-5pusB8DQTpQdmalfxZ6uf4gFQOTG2cAsDOKTm9qk4TfBRMlRFrJYEr57TSomMN_cAsTJRsvfkhhpZORe_w4&s=1"><img class="sponsors__image" src={require("../../assets/Projects/happyart.png")} alt="Key2Music" href="https://www.instagram.com/key2musicorg/"></img></a>
@@ -92,7 +105,7 @@ export default function ProjectsList() {
             className="action-btn main-action mx-2 mb-2"
           >
             Learn More
-            </a>
+          </a>
         </div>
 
       </div>

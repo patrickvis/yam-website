@@ -15,7 +15,7 @@ export default function WhyJoinChapter() {
             aria-expanded={showList}
             aria-controls="incentive-list"
           >
-            <span>Incentives to start your own Tribe</span>
+            <span>Incentives to start your own Chapter</span>
           </button>
         </div>
         <ul

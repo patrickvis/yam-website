@@ -29,19 +29,10 @@
       border: 0;
       font-size: 1.25em;
       position: relative;
-
-      &:hover, &:focus {
-        background-color: inherit;
-        &::before {
-          visibility: visible;
-          transform: scaleX(1);
-        }
-        
-      }
       
-      &::after {
+      &::before {
         display: inline-block;
-        margin-left: .255em;
+        margin-right: .255em;
         vertical-align: .255em;
         content: "";
         border-top: .3em solid;
@@ -50,8 +41,15 @@
         border-left: .3em solid transparent;
       }
       
-      
-      &::before {
+      &:hover, &:focus {
+        background-color: inherit;
+        &::after {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+      }
+
+      &::after {
         content: "";
         position: absolute;
         width: 100%;
@@ -88,8 +86,8 @@
         text-align: left;
         border-radius: 0.5rem;
         margin-top: 1rem;
-        min-height: 3rem;
-        padding: 0rem 1rem 1rem 1rem;
+        min-height: 1rem;
+        padding: 0rem 1rem 0rem 1rem;
         position: relative;
 
         &::before,
@@ -126,10 +124,6 @@
           &:nth-child(10n+#{$i}):before {
             background: linear-gradient(135deg, rgba($green, 1 - (($i - 5) * 0.2)) 0%, rgba($theme-peach, 1 - (($i - 5) * 0.2)) 100%);
           }
-        }
-
-        +li {
-          margin-top: 2rem;
         }
       }
     }

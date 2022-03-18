@@ -6,20 +6,32 @@ export default function Profile(props) {
   let firstName = props.name
     .substring(0, props.name.indexOf(" "))
     .toLowerCase();
+  const isCloudinary = props.imageURL?.includes('cloudinary') ?? true;
+
   return (
     <div className="col-lg-3 col-sm-6 d-flex align-items-stretch">
       <div className="member">
         <div className="member-img">
-          <Image
-            cloudName="masonwang"
-            publicId={
-              props.imageURL
-                ? props.imageURL
-                : `https://res.cloudinary.com/masonwang/image/upload/v1595421639/yam-website/team/${escapedName}`
-            }
-            className="img-fluid"
-            style={{ backgroundColor: "#152828" }}
-          />
+          {isCloudinary ? (
+            <Image
+              cloudName="masonwang"
+              publicId={
+                props.imageURL
+                  ? props.imageURL
+                  : `https://res.cloudinary.com/masonwang/image/upload/v1595421639/yam-website/team/${escapedName}`
+              }
+              className="img-fluid"
+              style={{ backgroundColor: "#152828" }}
+            />
+          ) : (
+            <div className="local-profile">
+              <img
+                className="img-fluid"
+                src={props.imageURL}
+                alt=""
+              />
+            </div>
+          )}
           <div className="social">
             {props.facebook && (
               <a

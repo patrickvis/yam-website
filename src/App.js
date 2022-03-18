@@ -21,7 +21,7 @@ import Photography from "./pages/gallery/Photography";
 import Music from "./pages/gallery/Music";
 import Footer from "./components/Footer";
 import Piece from "./components/gallery/Piece";
-import competition from "./pages/Competition";
+// import competition from "./pages/Competition";
 
 import { db } from "./data/firebase";
 import NewsletterModal from "./components/NewsletterModal";
@@ -61,9 +61,9 @@ function App() {
     { path: "/about/story", Component: About },
     { path: "/about/team", Component: Team },
     { path: "/about/partners", Component: ProjectsList },
-    { path: "/events/yamcompetes", Component: competition },
+    // { path: "/events/yamcompetes", Component: competition },
     { path: "/events/yamtalks", Component: Speakers },
-    { path: "/events/overview", Component: competition },
+    { path: "/events/overview", Component: Speakers },
     { path: "/chapters", Component: Chapters },
     { path: "/projects", Component: Projects },
     { path: "/gallery", Component: Gallery },

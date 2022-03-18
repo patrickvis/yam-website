@@ -8,7 +8,7 @@ export default function WhyJoinChapter() {
       <div className="container pb-5">
         <div>
           <button
-            className="incentive-list-btn"
+            className={`incentive-list-btn${showList ? ' expand' : ''}`}
             type="button"
             onClick={() => setShowList((prevShowList) => !prevShowList)}
             tabIndex={0}

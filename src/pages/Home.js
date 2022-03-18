@@ -5,6 +5,7 @@ import { heroAnimation } from "../animations/homeAnimations";
 import Overlay from "../components/other/Overlay";
 import { HeaderContext } from "../contexts/HeaderContext";
 import AboutSection from "../components/home/AboutSection";
+import Outreach from "../components/home/Outreach";
 import SponsorIntro from "../components/competition/SponsorIntro";
 
 export default function Home({ animationComplete, completeAnimation }) {
@@ -28,6 +29,7 @@ export default function Home({ animationComplete, completeAnimation }) {
       {!animationComplete && <Overlay />}
       <Hero />
       <AboutSection />
+      <Outreach />
       <SponsorIntro />
     </div>
   );

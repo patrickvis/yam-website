@@ -228,13 +228,6 @@ export default function Header() {
                   </Link>
                 </div>
               </li>
-              <li>
-                <a type="button"
-                  className="btn btn-secondary donate-btn mb-2"
-                  href="https://charity.gofundme.com/o/en/campaign/helping-to-close-the-gap" target="blank">
-                  Donate
-              </a>
-              </li>
             </ul>
           </div>
         </div>

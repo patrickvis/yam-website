@@ -55,7 +55,7 @@ const teamMembers = [
   {
     name: "David Rendon",
     position: "Secretary",
-    instagram: “https://www.instagram.com/paulina.maee",
+    instagram: “https://www.instagram.com/_a_simple_cactus_/",
     imageURL: require("../assets/team/davidrendon.png")
   }
 

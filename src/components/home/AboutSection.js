@@ -72,11 +72,6 @@ export default function AboutSection() {
                     </span>
                   </p> */}
                   <div className="pt-2 col-12">
-                    <a type="button"
-                      className="action-btn main-action mx-2 mb-3"
-                      href="https://charity.gofundme.com/o/en/campaign/helping-to-close-the-gap" target="blank">
-                      Support Us
-                    </a>
                     <Link to="/about/story" className="action-btn mx-2 mb-3">
                       Our Story
                     </Link>

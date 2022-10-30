@@ -4,7 +4,7 @@ const teamMembers = [
     position: "interim-CEO",
     instagram: "https://www.instagram.com/lindazhqo/",
     linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
-    imageURL: https://user-images.githubusercontent.com/22718430/196056887-0b2f7a4c-9a07-4401-80b9-a76152145f85.png
+    imageURL: "https://user-images.githubusercontent.com/22718430/196056887-0b2f7a4c-9a07-4401-80b9-a76152145f85.png
    },
 {
     name: "Diana Le",

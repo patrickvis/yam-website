@@ -42,22 +42,22 @@ const teamMembers = [
   {
     name: "Aaryahi Vaidya",
     position: "CTO",
-    instagram: “https://www.instagram.com/aari.vaidya/",
-    github: “https://github.com/aaryahiv?tab=repositories”,
-    linkedin: “https://www.linkedin.com/in/aaryahi-vaidya-110553242”,
+    instagram: "https://www.instagram.com/aari.vaidya/",
+    github: "https://github.com/aaryahiv?tab=repositories”,
+    linkedin: "https://www.linkedin.com/in/aaryahi-vaidya-110553242”,
     imageURL: "https://user-images.githubusercontent.com/22718430/196056754-3378fc00-2ff4-4339-8a7c-f90078d0eb7f.png",
   },
   {
     name: "Paulina Depaulo",
     position: "Finance Officer",
-    instagram: “https://www.instagram.com/paulina.maee",
+    instagram: "https://www.instagram.com/paulina.maee",
     imageURL: "https://user-images.githubusercontent.com/22718430/196056901-54730b64-c54c-4aca-a01d-e82b49f2bacc.png",
   },
   {
     name: "David Rendon",
     position: "Secretary",
-    instagram: “https://www.instagram.com/_a_simple_cactus_/",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056785-9a5b4e81-2ea5-4e9f-ba5b-9192c73eee4b.png",
+    instagram: "https://www.instagram.com/_a_simple_cactus_/",
+    imageURL: "https://user-images.githubusercontent.com/22718430/196056785-9a5b4e81-2ea5-4e9f-ba5b-9192c73eee4b.png",xx``
   }
 
 ];

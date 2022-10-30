@@ -279,7 +279,6 @@ export const visualarts = [
     title: "Ink",
     description: "One of my first pen drawings.",
   },
-
   
   {
     imageURL:
@@ -320,12 +319,63 @@ export const visualarts = [
     title: "Of Whispers",
     description: "This piece aims to capture the subject in her most vulnerable moment. The painting of the women represents the feeling of fading from reality after being sexually assaulted. The torn dress and her arms wrapped around herself represents loneliness, isolation, and fear as she slowly loses herself to her feelings.",
   },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1ICFi0s11OwY7K6czggDAqbMruXhcczJv",
+    artist: "Joseph Wang",
+    title: "Crocodile",
+    description: "It represents a crocodile; I don't know what else to say about it. ",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=168ug6YY6y2s5iaktP6cOhsuCjLWDbIqz",
+    artist: "Nadia Momtaz",
+    title: "Stuck, Sinking, and Left Behind",
+    description: "My acrylic painting called 'Stuck, Sinking, and Left Behind'",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1uv_Ij_X1dfJPpKLnS_tfttI0xgvMJKf7",
+    artist: "Nadia Momtaz",
+    title: "Lana Del Rey",
+    description: "Portrait drawing of my favorite artist, Lana Del Rey. ",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1u6dw3nRArBLbiIwnFfGqEiYcnUIiByYT",
+    artist: "Nadia Momtaz",
+    title: "Up Close and Personal",
+    description: "A self-portrait drawing called 'Up Close and Personal'.",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1psueNtuY0_pFMk78uy8rgEw-Rr9F0od2",
+    artist: "Janasia Seneque",
+    title: "Bunny Witch",
+    description: "This piece was inspired by a halloween party I attended 2-3 years ago. My costume was originally a bunny, but as time progressed, I had more additions to the costume than I could’ve imagined.",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1up-TywRs0ZnXhAbEJ5GtsUg6YAwbBqd1",
+    artist: "Gustavo A. Martinez Guzman",
+    title: "Parasite",
+    description: "In the illustration, there is a person inside the monster. The person is small and weak, and they acts like a parasite, it controls the monster. The monster is like a shell for protection. The parasite knows it’s weak so it must do whatever it can to make sure it doesn’t get hurt. It represents my fragility as human and the efforts I go to make sure I’m not broken. This artwork is inspired by the works of Kentaro Miura and Junji Ito.",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1OWEh7SRlIrm_0gU4szIFdIau7Rb6CFPc",
+    artist: "Anushka Tadikonda",
+    title: "Blissful",
+    description: "A girl finds solace in a time of extreme stress. The ray of light symbolizes the happy moments that come during hard times.",
+  },
+  {
+    imageURL:
+      "https://drive.google.com/open?id=1jvVb4DzNBL0iKgOWIsVRhFbR5sT7TvFx",
+    artist: "Letizia Lee",
+    title: "Complementary",
+    description: "My artwork is titled “Complementary” which is inspired by all the friendships I’ve made in my life because something I realized is that whatever energy you radiate will slowly attract people that have similar but most importantly complementary energy that, if mixed together, will complete you in some way.",
+  }
 ];
-
-
-
-
-
 
 
 let origPhotoBase =
@@ -399,6 +449,14 @@ export const photos = [
     description:
       "Mountains don't remember",
   },
+  
+  {
+    imageURL: "https://drive.google.com/open?id=1J5nDHtbl2VY76LT05eSpYK4J3b8dU0Sb",
+    artist: "Savannah Omari",
+    title: "Love Yourself",
+    description:
+      "Inspired by the album Love Yourself by BTS. A k-pop group who spreads a message about positivity and self-love. ",
+  }
 ];
 
 let origBLMBase =

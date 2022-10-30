@@ -43,8 +43,8 @@ const teamMembers = [
     name: "Aaryahi Vaidya",
     position: "CTO",
     instagram: "https://www.instagram.com/aari.vaidya/",
-    github: "https://github.com/aaryahiv?tab=repositories”,
-    linkedin: "https://www.linkedin.com/in/aaryahi-vaidya-110553242”,
+    github: "https://github.com/aaryahiv?tab=repositories",
+    linkedin: "https://www.linkedin.com/in/aaryahi-vaidya-110553242",
     imageURL: "https://user-images.githubusercontent.com/22718430/196056754-3378fc00-2ff4-4339-8a7c-f90078d0eb7f.png",
   },
   {

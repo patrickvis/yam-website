@@ -57,7 +57,7 @@ const teamMembers = [
     name: "David Rendon",
     position: "Secretary",
     instagram: "https://www.instagram.com/_a_simple_cactus_/",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056785-9a5b4e81-2ea5-4e9f-ba5b-9192c73eee4b.png",xx``
+    imageURL: "https://user-images.githubusercontent.com/22718430/196056785-9a5b4e81-2ea5-4e9f-ba5b-9192c73eee4b.png",
   }
 
 ];

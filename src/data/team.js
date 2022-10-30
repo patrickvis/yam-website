@@ -24,7 +24,7 @@ const teamMembers = [
     name: "Dylan Gee",
     position: "Finance Officer",
     instagram: "https://www.instagram.com/dyland_gee/",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056831-b66152f8-47f7-4b15-ae83-9285d85129b1.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/198888512-5d51430f-0c05-4b1c-aefd-e3be2434eb06.png",
   },
   {
     name: "Anushka Tadikonda",
@@ -37,7 +37,7 @@ const teamMembers = [
     name: "Hailey Luong",
     position: "Social Media Manager",
     instagram: "https://www.instagram.com/haileyxluong/",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056851-97e43aca-e7c6-4b3f-bda3-3e202a939bb6.png",
+    imageURL: "hhttps://user-images.githubusercontent.com/22718430/198888537-f261f93c-b232-489a-ab42-72ec4d7d229c.png",
   },
   {
     name: "Aaryahi Vaidya",
@@ -45,19 +45,19 @@ const teamMembers = [
     instagram: "https://www.instagram.com/aari.vaidya/",
     github: "https://github.com/aaryahiv?tab=repositories",
     linkedin: "https://www.linkedin.com/in/aaryahi-vaidya-110553242",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056754-3378fc00-2ff4-4339-8a7c-f90078d0eb7f.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/198888478-05d658a0-3746-45dd-b8a2-a32b6225bdae.png",
   },
   {
     name: "Paulina Depaulo",
     position: "Finance Officer",
     instagram: "https://www.instagram.com/paulina.maee",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056901-54730b64-c54c-4aca-a01d-e82b49f2bacc.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/198888546-8ea6f43f-9576-41ab-9079-155b2cd66384.png",
   },
   {
     name: "David Rendon",
     position: "Secretary",
     instagram: "https://www.instagram.com/_a_simple_cactus_/",
-    imageURL: "https://user-images.githubusercontent.com/22718430/196056785-9a5b4e81-2ea5-4e9f-ba5b-9192c73eee4b.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/198888502-fe855076-e57e-4178-8fc3-7446bd0431a2.png",
   }
 
 ];

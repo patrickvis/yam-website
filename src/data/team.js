@@ -1,14 +1,14 @@
 const teamMembers = [
    {
     name: "Linda Zhao",
-    position: "interim-CEO",
+    position: "CEO",
     instagram: "https://www.instagram.com/lindazhqo/",
     linkedin: "http://linkedin.com/in/linda-zhao-4250361b3 ",
     imageURL: "https://user-images.githubusercontent.com/22718430/196056887-0b2f7a4c-9a07-4401-80b9-a76152145f85.png",
   },
 {
     name: "Diana Le",
-    position: "Graphic Designer",
+    position: "Graphics President",
     instagram: "https://www.instagram.com/elkanaid/",
     linkedin: "http://www.linkedin.com/in/dianakle",
     imageURL: "https://user-images.githubusercontent.com/22718430/196056813-d4c0679b-2bea-4c5d-b348-4ffca10128d8.png",
@@ -35,9 +35,9 @@ const teamMembers = [
 
   {
     name: "Hailey Luong",
-    position: "Social Media Manager",
+    position: "Marketing & Outreach Officer",
     instagram: "https://www.instagram.com/haileyxluong/",
-    imageURL: "hhttps://user-images.githubusercontent.com/22718430/198888537-f261f93c-b232-489a-ab42-72ec4d7d229c.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/198888537-f261f93c-b232-489a-ab42-72ec4d7d229c.png",
   },
   {
     name: "Aaryahi Vaidya",
@@ -49,7 +49,7 @@ const teamMembers = [
   },
   {
     name: "Paulina Depaulo",
-    position: "Finance Officer",
+    position: "CFO",
     instagram: "https://www.instagram.com/paulina.maee",
     imageURL: "https://user-images.githubusercontent.com/22718430/198888546-8ea6f43f-9576-41ab-9079-155b2cd66384.png",
   },
@@ -58,6 +58,12 @@ const teamMembers = [
     position: "Secretary",
     instagram: "https://www.instagram.com/_a_simple_cactus_/",
     imageURL: "https://user-images.githubusercontent.com/22718430/198888502-fe855076-e57e-4178-8fc3-7446bd0431a2.png",
+  },
+  {
+    name: "Claire Ma",
+    position: "Social Media Manager",
+    instagram: "https://www.instagram.com/c1a1r3_0508/",
+    imageURL: "https://user-images.githubusercontent.com/22718430/200143938-6a6a01dc-9e18-4825-900c-c3c9156fb992.png",
   }
 
 ];

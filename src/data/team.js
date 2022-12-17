@@ -51,7 +51,7 @@ const teamMembers = [
     name: "Paulina Depaulo",
     position: "CFO",
     instagram: "https://www.instagram.com/paulina.maee",
-    imageURL: "https://user-images.githubusercontent.com/22718430/198888546-8ea6f43f-9576-41ab-9079-155b2cd66384.png",
+    imageURL: "https://user-images.githubusercontent.com/22718430/208269450-9e3868b7-b7db-480b-bd9f-84a5b462ae90.png",
   },
   {
     name: "David Rendon",

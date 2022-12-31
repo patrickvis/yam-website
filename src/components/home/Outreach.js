@@ -8,7 +8,7 @@ export default function Outreach() {
     <section className="outreach-section container">
       <div className="outreach-banners">
         <div>
-          /*
+          {/*
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfmoYQNX9JFVwcouBZ7a7WDf1RK_nfejDNgkTquQgHhW-Vsww/viewform"
             target="_blank"
@@ -16,7 +16,7 @@ export default function Outreach() {
           >
             <img src={require('../../assets/home/outreach/tech_graphic.png')} alt="Now hiring CTO" />
           </a>
-          */
+          */}
         </div>
         <div>
           <a

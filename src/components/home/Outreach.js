@@ -1,5 +1,6 @@
 import React from "react";
 
+/*
 export default function Outreach() {
   const [showList, setShowList] = React.useState(false);
   console.log('🚀 ~ Outreach ~ showList', showList);
@@ -56,3 +57,4 @@ export default function Outreach() {
     </section>
   )
 }
+*/

@@ -2,7 +2,8 @@ import React from "react";
 
 
 export default function Outreach() {
-  const [showList, setShowList] = React.useState(false);
+  // const [showList, setShowList] = React.useState(false);
+  const [showList] = React.useState(false);
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">

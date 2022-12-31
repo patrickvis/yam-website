@@ -6,9 +6,9 @@ export default function Outreach() {
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">
+      {/*
       <div className="outreach-banners">
-        <div>
-          {/*
+        <div> 
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfmoYQNX9JFVwcouBZ7a7WDf1RK_nfejDNgkTquQgHhW-Vsww/viewform"
             target="_blank"
@@ -16,7 +16,6 @@ export default function Outreach() {
           >
             <img src={require('../../assets/home/outreach/tech_graphic.png')} alt="Now hiring CTO" />
           </a>
-          */}
         </div>
         <div>
           <a
@@ -28,6 +27,7 @@ export default function Outreach() {
           </a>
         </div>
       </div>
+      */}
       <p>
         <button
           className={`incentive-list-btn${showList ? ' expand' : ''}`}

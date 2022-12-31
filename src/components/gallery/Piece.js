@@ -97,7 +97,7 @@ export default function Piece() {
                             otherPiece.imageURL.split("/").slice(-1)[0]
                           }`}
                         >
-                          <span className="otherPiece">{otherPiece.title}</span>
+                          <p> <span className="otherPiece">{otherPiece.title}</span> </p>
                         </Link>
                       </span>
                     ))}

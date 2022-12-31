@@ -27,7 +27,6 @@ export default function Outreach() {
           </a>
         </div>
       </div>
-      */}
       <p>
         <button
           className={`incentive-list-btn${showList ? ' expand' : ''}`}
@@ -56,6 +55,7 @@ export default function Outreach() {
 
         </ul>
       </p>
+      */}
     </section>
   )
 }

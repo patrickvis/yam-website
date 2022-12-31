@@ -6,7 +6,6 @@ export default function Outreach() {
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">
-      /*
       <div className="outreach-banners">
         <div>
           <a
@@ -27,7 +26,6 @@ export default function Outreach() {
           </a>
         </div>
       </div>
-      */
       <p>
         <button
           className={`incentive-list-btn${showList ? ' expand' : ''}`}

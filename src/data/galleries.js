@@ -374,6 +374,13 @@ export const visualarts = [
     artist: "Letizia Lee",
     title: "Complementary",
     description: "My artwork is titled “Complementary” which is inspired by all the friendships I’ve made in my life because something I realized is that whatever energy you radiate will slowly attract people that have similar but most importantly complementary energy that, if mixed together, will complete you in some way.",
+  },
+  {
+    imageURL:
+      "https://lh6.googleusercontent.com/P1RKfbFZ9AxnPMxjXactDVdc0KIMxr9gAalATylTsfk0qwB8o8CQKVD6JajGvhGMDHo=w2400",
+    artist: "Michelle Yuen",
+    title: "Portrait",
+    description: "The name of the piece is Portrait. It’s a color pencil drawing of a portrait.",
   }
 ];
 

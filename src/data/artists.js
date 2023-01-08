@@ -93,6 +93,7 @@ const artists = {
     age: 16,
     school: "Van Nuys High School, CA",
   },
+  
   "Mo Koelle": {
     age: 14,
     school: "Milpitas High School, CA",
@@ -110,11 +111,6 @@ const artists = {
   
    "Joseph Wang": {
     age: 14,
-    school: "Saratoga High School, CA",
-  },
-  
-  "Aidan Kwok": {
-    age: 15,
     school: "Saratoga High School, CA",
   },
   

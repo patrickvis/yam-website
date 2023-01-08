@@ -113,7 +113,7 @@ const artists = {
     school: "Saratoga High School, CA",
   },
   
-  "Aidan Kwok: {
+  "Aidan Kwok": {
     age: 15,
     school: "Saratoga High School, CA",
   },

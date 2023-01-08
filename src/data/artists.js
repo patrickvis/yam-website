@@ -107,6 +107,56 @@ const artists = {
     age: 16,
     school: "Upper Dublin High School, PA",
   },
+  
+   "Joseph Wang": {
+    age: 14,
+    school: "Saratoga High School, CA",
+  },
+  
+  "Aidan Kwok: {
+    age: 15,
+    school: "Saratoga High School, CA",
+  },
+  
+  "Sophie Qin": {
+    age: 12,
+    school: "Redwood Middle School, CA",
+  },
+  
+  "Nadia Momtaz": {
+    age: 15,
+    school: "Saint Margaret's Episcopal School, CA",
+  },
+   
+  "Janasia Seneque": {
+    age: 20,
+    school: "Georgia State University, GA",
+  },
+  
+  "Gustavo A. Martinez Guzman": {
+    age: 15,
+    school: "Milpitas High School, CA",
+  },
+  
+  "Savannah Omari": {
+    age: 14,
+    school: "Milpitas High School, CA",
+  },    
+   
+  "Anushka Tadikonda": {
+    age: 15,
+    school: "Saratoga High School, CA",
+  }, 
+       
+  "Letizia Lee": {
+    age: 17,
+    school: "Milpitas High School, CA",
+  },
+           
+  "Michelle Yuen": {
+    age: 14,
+    school: "Monta Vista High School, CA",
+  } 
 };
 
 export default artists;

@@ -152,6 +152,11 @@ const artists = {
   "Michelle Yuen": {
     age: 14,
     school: "Monta Vista High School, CA",
+  },
+  
+  "Anshika Mavi": {
+    age: 23,
+    school: "Jamia Milia Islamia University, Delhi, India ",
   } 
 };
 

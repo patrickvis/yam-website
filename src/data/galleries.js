@@ -381,6 +381,13 @@ export const visualarts = [
     artist: "Michelle Yuen",
     title: "Portrait",
     description: "The name of the piece is Portrait. It’s a color pencil drawing of a portrait.",
+  },
+  {
+    imageURL:
+      "https://lh6.googleusercontent.com/Wt019rO-yhFSnUvbZN949FkpePGqZ9SGwJmm1ljFKoCZ5IEYVJrL78HyX2mXVpiWCOg=w2400",
+    artist: "Anshika Mavi",
+    title: "Illustration",
+    description: "Everything that is unique to me inspired me to do this.",
   }
 ];
 

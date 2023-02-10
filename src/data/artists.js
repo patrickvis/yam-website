@@ -157,6 +157,11 @@ const artists = {
   "Anshika Mavi": {
     age: 23,
     school: "Jamia Milia Islamia University, Delhi, India ",
+  },
+  
+   "Amy Pan": {
+    age: 15,
+    school: "Saratoga High School, CA",
   } 
 };
 

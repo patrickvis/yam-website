@@ -6,6 +6,56 @@ let origVisualBase =
 export const visualarts = [
   {
     imageURL:
+      "https://lh3.googleusercontent.com/iMsxibsHK5q_JL2JeBWCHyEVnrfgMW6Y4DNSwFcXYaQm_y4QnAT6wbct1WfUAFMYyd8=w2400",
+    artist: "Amy Pan",
+    title: "Painting",
+    description: "Seashells are special to me because I feel calm whenever I see them. Seashells have a unique shape that makes them amazing amplifiers for ambient noises, including air. In fact, the ocean sound in seashells we hear is actually local noises already around you, but altered by the shell. This concept of amplifying the noises around me really touches me and that’s what I wanted to show in this piece.",
+  },
+  {
+    imageURL:
+      "https://lh6.googleusercontent.com/q4ZkGEQo3tYP37VLdzTXn7-ef0my8DqoHuaJV5givmsemvZIrJUn7HxybSJX-vzcQ8A=w2400",
+    artist: "Amy Pan",
+    title: "Painting",
+    description: "Stream of consciousness is a literary technique often used in modern literature to portray the inner workings of a character’s mind. I enjoy reading literature that are composed of the author’s stream of consciousness because it involves the narrator’s inner thoughts being presented in a “stream” of words and images that flow naturally, without interruption or logical order. When I started creating this piece, I did not have any plans or ideas. Instead, I started by laying blocks of color on the blank canvas and going with the flow. I used this painting to portray the chaotic nature of the mind as the thoughts move rapidly and often without any clear direction.",
+  },
+  {
+    imageURL:
+      "https://lh3.googleusercontent.com/_696wdGi7b7NtX-0U7BMQFdoYPGeN950K0Y2g32uDOQ0-7gK5NK4ZzDsS-S79pF9M1I=w2400",
+    artist: "Amy Pan",
+    title: "Painting",
+    description: "This is one of my first acrylic paintings when I started developing my painting skills. The composition of this piece is simple, yet my wide range of use of colors on the citrus symbolizes all the nourishment and nutrients that it absorbed from mother nature.",
+  },
+  {
+    imageURL:
+      "https://lh5.googleusercontent.com/lSqoBLZpNmDZCO0ImBVTqDFVvNugfZeKReUyFCW5yEQX48iY0tNz1hh4EhQKlJvaYW4=w2400",
+    artist: "Amy Pan",
+    title: "Illustration",
+    description: "The pencil and colored pencil drawing depicts a lonely boy in front of a mirror and next to a curtain. The drawings expresses a range of emotions, from sadness to anger and despair. The atmosphere of the drawing is melancholic and conveys a feeling of loneliness and longing. Much of the boy’s face is portrayed with pencil with the boy’s eyes in color, illustrating and emphasizing the intense sentiments in his eyes. While the boy himself is mostly in black and white, the reflection of him in the mirror is delineated in color to show his colorful inner world despite his cold appearance.",
+  },
+  {
+    imageURL:
+      "https://lh6.googleusercontent.com/HrWffFHX7WeakCZzEEdfq4nB-p-kH1iCBGwlXjqN6b4x1j68n61a0_OqEK-N31-E7Wk=w2400",
+    artist: "Amy Pan",
+    title: "Painting",
+    description: "The old man’s eyes conveys a wealth of experience, wisdom and understanding. In this acrylic painting, I try to communicate the emotions and sagacity in a gaze, piercing and intense, yet also warm and inviting. It’s a window into a lifetime of stories and knowledge.",
+  },
+  {
+    imageURL:
+      "https://lh4.googleusercontent.com/pVX6ayz50jnPcmvfiiRtQG2-OT3L7wG4EkuYwpgHCOe1MkYXfAPIICZAKY9kNVOS8UI=w2400",
+    artist: "Amy Pan",
+    title: "Painting",
+    description: "This artwork focuses on the relationship between the chaotic world and our senses and perceptions, exploring our place in the universe. I see this investigation as an adventure of therapy to balance my inner world and the turmoil from the outer world. I attempt to bring a sense of spirit or energy into my work. This piece both formally and conceptually envisions the microscopic world along with colorful imaginations. Through the use of a variety of colors, techniques, and different elements, the artwork seeks to explore the diversity and heterogeneity of the world we live in.",
+  },
+  {
+    imageURL:
+      "https://lh5.googleusercontent.com/elMvhl7aZhY9cz5Td3I1WRKJpC-azByFIIkpmIWUvHTUAgRrwgAF_0GA62m-kAK0gwg=w2400",
+    artist: "Amy Pan",
+    title: "Aesthetic",
+    description: "This is my first time using pen and ink to complete an original drawing. This drawing focuses on the idea of the change of aesthetic over time. I used different techniques such as stippling, cross hatching, and scumbling to make references to classical music, the statue of David by Michelangelo, bubblegum pop music, and different ways of listening to music.",
+  },
+  
+  {
+    imageURL:
       "https://lh6.googleusercontent.com/P1RKfbFZ9AxnPMxjXactDVdc0KIMxr9gAalATylTsfk0qwB8o8CQKVD6JajGvhGMDHo=w2400",
     artist: "Michelle Yuen",
     title: "Portrait",

@@ -6,6 +6,20 @@ let origVisualBase =
 export const visualarts = [
   {
     imageURL:
+      "https://lh6.googleusercontent.com/3oT4uFcrKzr6jwhJ--ytjzEuP-HBcGkS4bDYhTLbloKCf1fMgtcllgS91KwwuoLpu60=w2400",
+    artist: "Bethsy Roman",
+    title: "Save the Orangutans",
+    description: "'Save the Orangutans' represent the endangered orangutans. Orangutans, along with gorillas, and bonobos are threatened by hunting and habitat loss. My artwork displays a mother orangutan holding its child, terrified of the humans taking away their home. They disturbed the habitat with large, noisy clawing machines and removed the trees. Orangutans may soon become extinct if action isn’t done soon.",
+  },
+  {
+    imageURL:
+      "https://lh3.googleusercontent.com/XVWyn9XH8n0ZEycxqeK9OIlT_o2NLdxsCcO6GJomgTm0h0gaGHUMLThkn2GsRI8593w=w2400",
+    artist: "Bethsy Roman",
+    title: "You don't have to solve it alone",
+    description: "'You don't have to solve it alone' raises awareness for mental health. People from young teenagers to adults suffer from mental illness without even realizing, it, and sometimes are diagnosed too late. My artwork promotes young and older viewers who are dealing with this issue, letting them know they are not alone. Informing them that there are experts and organizations to help, and is a situation where you don't have to be ashamed of reaching for help. My artwork displays two hands placing puzzle pieces together on the young girl's head, representing aid to those who are dealing with mental health.",
+  },
+  {
+    imageURL:
       "https://lh3.googleusercontent.com/iMsxibsHK5q_JL2JeBWCHyEVnrfgMW6Y4DNSwFcXYaQm_y4QnAT6wbct1WfUAFMYyd8=w2400",
     artist: "Amy Pan",
     title: "Painting",

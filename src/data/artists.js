@@ -162,6 +162,11 @@ const artists = {
    "Amy Pan": {
     age: 15,
     school: "Saratoga High School, CA",
+  }, 
+  
+  "Bethsy Roman": {
+    age: 16,
+    school: "New West Charter, CA",
   } 
 };
 

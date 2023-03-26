@@ -4,6 +4,11 @@ import Fade from "react-reveal/Fade";
 import { Image } from "cloudinary-react";
 
 export default function AboutSection() {
+  
+  const [showList, setShowList] = React.useState(false);
+  const [showList] = React.useState(false);
+  console.log('🚀 ~ AboutSection ~ showList', showList);
+  
   return (
     <div>
       <section className="about about-section text-center">
@@ -95,7 +100,7 @@ export default function AboutSection() {
             //<Fade duration={1738} delay={100}>
               <div className="col-12 col-lg-8">
                   <div className="comp-banner">
-                     <img src={require("../../assets/home/outreach/writingcompetitiongraphic.png")} alt="location" style={{ width: "100%" }}></img>
+                     <img src={require("../../assets/home/outreach/writingcompetitiongraphic.png")} alt="now accepting applications" }></img>
                    </div>
                 <h1>YAM WritingFest</h1>
                 <h2>YAM's WritingFest has officially been launched!! 📝✨🖋️</h2>

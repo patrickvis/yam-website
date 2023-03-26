@@ -6,7 +6,7 @@ import { Image } from "cloudinary-react";
 export default function AboutSection() {
   
   const [showList, setShowList] = React.useState(false);
-  const [showList] = React.useState(false);
+  //const [showList] = React.useState(false);
   console.log('🚀 ~ AboutSection ~ showList', showList);
   
   return (

@@ -7,17 +7,18 @@ export default function Outreach() {
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">
-      {/*
-      <div className="outreach-banners">
+      {
+      <div className="graphic-competition-banner">
         <div> 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfmoYQNX9JFVwcouBZ7a7WDf1RK_nfejDNgkTquQgHhW-Vsww/viewform"
+            href="tinyurl.com/yamwritingfest"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={require('../../assets/home/outreach/tech_graphic.png')} alt="Now hiring CTO" />
+            <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
           </a>
         </div>
+/*
         <div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"

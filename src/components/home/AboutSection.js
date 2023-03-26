@@ -95,12 +95,11 @@ export default function AboutSection() {
       </section>
 
       <section className="writing-competition-section text-lg-left text-center">
-          // <div className="comp-banner">
-            //         <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
-        //  </div>
+          {/* <div className="comp-banner">
+                   <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
+        </div> */}
         <div className="container py-4 px-2">
           <div className="row align-content-center">
-            //<Fade duration={1738} delay={100}>
               <div className="col-12 col-lg-8">
   
                 <h1>YAM WritingFest</h1>
@@ -153,7 +152,6 @@ export default function AboutSection() {
                     SUBMISSION LINK
                 </a>
             </div>    
-            //</Fade>
           </div>
         </div>
       </section>

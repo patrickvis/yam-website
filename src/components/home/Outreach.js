@@ -18,7 +18,8 @@ export default function Outreach() {
             <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
           </a>
         </div>
-/*
+      </div>
+        /*
         <div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"

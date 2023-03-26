@@ -95,7 +95,7 @@ export default function AboutSection() {
             //<Fade duration={1738} delay={100}>
               <div className="col-12 col-lg-8">
                   <div className="comp-banner">
-                     <img src={require("/.../src/assets/home/outreach/writingcompetitiongraphic.png")} alt="location" style={{ width: "100%" }}></img>
+                     <img src={require("yam-website/src/assets/home/outreach/writingcompetitiongraphic.png")} alt="location" style={{ width: "100%" }}></img>
                    </div>
                 <h1>YAM WritingFest</h1>
                 <h2>YAM's WritingFest has officially been launched!! 📝✨🖋️</h2>

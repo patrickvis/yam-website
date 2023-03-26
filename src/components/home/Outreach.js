@@ -7,7 +7,7 @@ export default function Outreach() {
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">
-      {
+      {/*
       <div className="graphic-competition-banner">
         <div> 
           <a

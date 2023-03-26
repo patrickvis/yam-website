@@ -95,15 +95,16 @@ export default function AboutSection() {
       </section>
 
       <section className="writing-competition-section text-lg-left text-center">
+           <div className="comp-banner">
+                     <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
+          </div>
         <div className="container py-4 px-2">
           <div className="row align-content-center">
             //<Fade duration={1738} delay={100}>
               <div className="col-12 col-lg-8">
-                  <div className="comp-banner">
-                     <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
-                   </div>
+  
                 <h1>YAM WritingFest</h1>
-                <h2>YAM's WritingFest has officially been launched!! 📝✨🖋️</h2>
+                <h2>YAM's WritingFest has officially been launched!!🖋️</h2>
 
                 <p>
                   This is a writing contest in which applicants will be creating a poem or short story! Applicants will be graded on conventions, originality, and overall skills.
@@ -141,7 +142,7 @@ export default function AboutSection() {
                   Second place receives: $50USD
                   Third place receives: $25USD
 
-                  Thank you for your interest in our mission and happy writing! ✍️
+                  Thank you for your interest in our mission and happy writing!
                 </p>
                  <a
                     href="tinyurl.com/yamwritingfest"

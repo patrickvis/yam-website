@@ -91,13 +91,34 @@ export default function AboutSection() {
         </div>
       </section>
 
+{/*
+<div class="sponsors">
+              <img class="sponsors__image" src={require("../../assets/Projects/ama.png")} alt="Arts Made Accessible"></img>
+              <div class="sponsors__text">
+                <h2>Arts Made Accessible (AMA)</h2>
+                <p>Our mission is to support young artists and showcase their artwork. However, not every student has access to the resources needed for quality art exploration and education. We seek to supplement such students with the opportunities they do not have access to. With the aid of our various partnerships and sponsors, we are able to provide basic art materials to students across the country. If you are interested in sponsoring us visit the sponsoring page for more info!</p>
+                <a
+                  // href="https://www.arthubsd.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="action-btn main-action mx-2 mb-2"
+                >
+                  Learn More
+                </a> 
+              </div>
+            </div>
+*/}
+
       <section className="writing-competition-section text-lg-left text-center">
-        <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
-       
+       <div class="writingcomp">
+        <img class="comp_graphic" src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} align = "middle" alt="Now accepting submissions!"></img>
+      
+        {/*
         <div className="container py-4 px-2">
           <div className="row align-content-center">
               <div className="col-12 col-lg-8">
-  
+             */}
+            <div class="writingcomp__text">
                 <h1>YAM WritingFest</h1>
                  <p></p>            
                 <h3>YAM's WritingFest has officially been launched!!</h3>
@@ -153,9 +174,12 @@ export default function AboutSection() {
                     SUBMISSION LINK
                     </a>
                 </div>
+            
             </div>    
           </div>
-        </div>
+        {/*  
+          </div>
+        */}
       </section>
 
 <section className="blm-about about-section text-lg-left text-center">

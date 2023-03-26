@@ -95,21 +95,22 @@ export default function AboutSection() {
       </section>
 
       <section className="writing-competition-section text-lg-left text-center">
-          {/* <div className="comp-banner">
-                   <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
-        </div> */}
+        <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
+       
         <div className="container py-4 px-2">
           <div className="row align-content-center">
               <div className="col-12 col-lg-8">
   
                 <h1>YAM WritingFest</h1>
-                <h2>YAM's WritingFest has officially been launched!!</h2>
+                 <p></p>            
+                <h3>YAM's WritingFest has officially been launched!!</h3>
 
                 <p>
                   This is a writing contest in which applicants will be creating a poem or short story! Applicants will be graded on conventions, originality, and overall skills.
                   The form for submissions will close on April 30th, 2023 at 11:59PM so get in as many pieces as you can!
-                    <p>
-                    
+                </p>   
+                  {/*   <p>
+                
                     <button
                       className={`rules-list-btn${showList ? ' expand' : ''}`}
                       type="button"
@@ -143,14 +144,18 @@ export default function AboutSection() {
 
                   Thank you for your interest in our mission and happy writing!
                 </p>
-                 <a
-                    href="tinyurl.com/yamwritingfest"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="action-btn mx-2 mb-2"
-                  >
+                */}
+
+                <div className="container">
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSe2nJCQoRaRn91Cq7g2X_ifuRxQEfsBDk8jv09HZKhC9oio-Q/viewform"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="action-btn mx-2 mb-2"
+                    >
                     SUBMISSION LINK
-                </a>
+                    </a>
+                </div>
             </div>    
           </div>
         </div>

@@ -54,6 +54,7 @@ export default function TheRules() {
                   </a>
               </div>
 
+/*
   <div class="writingfestpics-wrapper"> 
       <div className="writingfestpics">
         <img class="comp_graphic1" src={require('../../assets/home/outreach/writingfest1.png')} align = "middle" alt="Now accepting submissions!"></img>
@@ -65,7 +66,7 @@ export default function TheRules() {
         <img class="comp_graphic3" src={require('../../assets/home/outreach/rulescomp.png')} align = "middle" alt="Rules"></img>
       </div>
   </div>
-
+*/
 
                                                 
   );

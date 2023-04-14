@@ -43,16 +43,7 @@ export default function TheRules() {
           </div>
         </div> 
       </div>
-              <div className="container">
-                  <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSe2nJCQoRaRn91Cq7g2X_ifuRxQEfsBDk8jv09HZKhC9oio-Q/viewform"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="action-btn mx-2 mb-2"
-                  >
-                  SUBMISSION LINK
-                  </a>
-              </div>
+             
                                                 
   );
 }

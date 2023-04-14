@@ -1,5 +1,8 @@
 import React, { useEffect, useContext } from "react";
 import Hero from "../components/home/Hero";
+import SectionHero from "../components/SectionHero";
+import TheRules from "../components/WritingFest/TheRules";
+
 
 
 export default function WritingFest() {

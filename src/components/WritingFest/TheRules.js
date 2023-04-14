@@ -12,6 +12,7 @@ export default function TheRules() {
       <div className="section-header">
         <h1>The Rules</h1>
       </div>
+    
       <div className="container pb-5">
         <div className="row text-center text-md-left">
           <div className="col">
@@ -36,28 +37,29 @@ export default function TheRules() {
                     Second place receives: $50USD
                     Third place receives: $25USD
 
-                    Thank you for your interest in our mission and happy writing!
-                  
+                    Thank you for your interest in our mission and happy writing!       
             </p>
-                <div className="container">
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSe2nJCQoRaRn91Cq7g2X_ifuRxQEfsBDk8jv09HZKhC9oio-Q/viewform"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="action-btn mx-2 mb-2"
-                    >
-                    SUBMISSION LINK
-                    </a>
-                </div>
+
+          </div>
+        </div> 
+      </div>
+              <div className="container">
+                  <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSe2nJCQoRaRn91Cq7g2X_ifuRxQEfsBDk8jv09HZKhC9oio-Q/viewform"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="action-btn mx-2 mb-2"
+                  >
+                  SUBMISSION LINK
+                  </a>
+              </div>
 
         <img class="comp_graphic1" src={require('../../assets/home/outreach/writingfest1.png')} align = "middle" alt="Now accepting submissions!"></img>
         <img class="comp_graphic2" src={require('../../assets/home/outreach/prizescomp.png')} align = "middle" alt="Prizes"></img>
         <img class="comp_graphic3" src={require('../../assets/home/outreach/rulescomp.png')} align = "middle" alt="Rules"></img>
 
         
-         </div>
-       </div> 
-      </div>
+
                                                 
   );
 }

@@ -43,7 +43,7 @@ export default function TheRules() {
           </div>
         </div> 
       </div>
-             
+    </>         
                                                 
   );
 }

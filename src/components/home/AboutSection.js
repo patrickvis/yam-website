@@ -121,6 +121,7 @@ export default function AboutSection() {
               <div className="col-12 col-lg-8">
              */}
             <div class="writingcomp__text">
+              <div className="col-lg-12 col-sm-12">
                 <h1>YAM WritingFest</h1>
                  <p></p>            
                 <h3>YAM's WritingFest has officially been launched!!</h3>
@@ -176,7 +177,7 @@ export default function AboutSection() {
                     SUBMISSION LINK
                     </a>
                 </div>
-            
+              </div>
             </div>    
           </div>
         {/*  

@@ -1,3 +1,4 @@
+/*
 import React, { useEffect, useContext } from "react";
 import Hero from "../components/home/Hero";
 import SectionHero from "../components/SectionHero";
@@ -17,3 +18,4 @@ export default function WritingFest() {
     </div>
   );
 }
+*/

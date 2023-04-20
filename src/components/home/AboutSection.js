@@ -109,7 +109,9 @@ export default function AboutSection() {
             </div>
 */}
 
-      <section className="writing-competition-section text-lg-left text-center">
+<section className="writing-competition-section text-center">
+  <div className="container py-4 px-2">
+    <div className="row align-content-center">
        <div class="writingcomp">
         <img class="comp_graphic" src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} align = "middle" alt="Now accepting submissions!"></img>
       
@@ -179,8 +181,10 @@ export default function AboutSection() {
           </div>
         {/*  
           </div>
-        */}
-      </section>
+     */}
+    </div>     
+  </div>
+</section>
 
 <section className="blm-about about-section text-lg-left text-center">
         <div className="container py-4 px-2">

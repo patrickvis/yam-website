@@ -9,7 +9,8 @@ export default function Outreach() {
     <section className="outreach-section container">
       {
        <div className="hiringgraphics"> 
-       //marketing 
+       
+    
           <div>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
@@ -20,7 +21,7 @@ export default function Outreach() {
             </a>
           </div>
 
-        //finance
+        
           <div>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
@@ -31,7 +32,7 @@ export default function Outreach() {
             </a>
           </div>
 
-         //graphics
+         
           <div>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
@@ -42,7 +43,7 @@ export default function Outreach() {
             </a>
           </div>
 
-        //tech
+        
           <div>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
@@ -53,7 +54,7 @@ export default function Outreach() {
             </a>
           </div>
 
-         //secretary
+         
           <div>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
@@ -64,7 +65,7 @@ export default function Outreach() {
             </a>
           </div>
      </div>
-/*
+
       <p>
         <button
           className={`incentive-list-btn${showList ? ' expand' : ''}`}
@@ -94,7 +95,7 @@ export default function Outreach() {
         </ul>
 
       </p>
-*/
+
       }
     </section>
   )

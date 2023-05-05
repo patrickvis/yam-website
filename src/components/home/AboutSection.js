@@ -109,17 +109,18 @@ export default function AboutSection() {
             </div>
 */}
 
+/*
 <section className="writing-competition-section text-center">
   <div className="container py-4 px-2">
     <div className="row align-content-center">
        <div class="writingcomp">
         <img class="comp_graphic" src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} align = "middle" alt="Now accepting submissions!"></img>
       
-        {/*
+        {
         <div className="container py-4 px-2">
           <div className="row align-content-center">
               <div className="col-12 col-lg-8">
-             */}
+             }
             <div class="writingcomp__text">
               <div className="col-lg-12 col-sm-12">
                 <h1>YAM WritingFest</h1>
@@ -130,7 +131,7 @@ export default function AboutSection() {
                   This is a writing contest in which applicants will be creating a poem or short story! Applicants will be graded on conventions, originality, and overall skills.
                   The form for submissions will close on April 30th, 2023 at 11:59PM so get in as many pieces as you can!
                 </p>   
-                  {/*   <p>
+                  {  <p>
                 
                     <button
                       className={`rules-list-btn${showList ? ' expand' : ''}`}
@@ -165,7 +166,7 @@ export default function AboutSection() {
 
                   Thank you for your interest in our mission and happy writing!
                 </p>
-                */}
+                }
 
                 <div className="container">
                     <a
@@ -180,12 +181,13 @@ export default function AboutSection() {
               </div>
             </div>    
           </div>
-        {/*  
+        {
           </div>
-     */}
+     }
     </div>     
   </div>
 </section>
+*/
 
 <section className="blm-about about-section text-lg-left text-center">
         <div className="container py-4 px-2">

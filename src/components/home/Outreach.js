@@ -2,34 +2,69 @@ import React from "react";
 
 
 export default function Outreach() {
-  // const [showList, setShowList] = React.useState(false);
+  const [showList, setShowList] = React.useState(false);
   const [showList] = React.useState(false);
   console.log('🚀 ~ Outreach ~ showList', showList);
   return (
     <section className="outreach-section container">
-      {/*
-      <div className="graphic-competition-banner">
-        <div> 
-          <a
-            href="tinyurl.com/yamwritingfest"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={require('../../assets/home/outreach/writingcompetitiongraphic.png')} alt="Now accepting submissions!" />
-          </a>
-        </div>
-      </div>
-        /*
-        <div>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={require('../../assets/home/outreach/outreach_graphic.png')} alt="now hiring application in bio" />
-          </a>
-        </div>
-      </div>
+      {
+       //<div className="hiringtraphics"> 
+       //marketing 
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require('../../assets/home/outreach/marketingoutreach.jpg')} alt="now hiring application in bio" />
+            </a>
+          </div>
+
+        //finance
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require('../../assets/home/outreach/financeoutreach.png')} alt="now hiring application in bio" />
+            </a>
+          </div>
+
+         //graphics
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require('../../assets/home/outreach/graphicsoutreach.png')} alt="now hiring application in bio" />
+            </a>
+          </div>
+
+        //tech
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require('../../assets/home/outreach/techoutreach.png')} alt="now hiring application in bio" />
+            </a>
+          </div>
+
+         //secretary
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={require('../../assets/home/outreach/secretaryoutrach.png')} alt="now hiring application in bio" />
+            </a>
+          </div>
+    //  </div>
+/*
       <p>
         <button
           className={`incentive-list-btn${showList ? ' expand' : ''}`}
@@ -57,8 +92,10 @@ export default function Outreach() {
           <li className="list-group">Get to partner with other organizations and individuals with similar goals/missions</li>
 
         </ul>
+
       </p>
-      */}
+*/
+      }
     </section>
   )
 }

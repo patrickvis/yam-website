@@ -28,7 +28,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/financeoutreach.PNG')} style={{ width: 300, height: 300 }} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/financeoutreach.PNG')} style={{ width: 600, height: 600 }} alt="now hiring application in bio" />
             </a>
           </div>
 

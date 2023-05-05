@@ -60,7 +60,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/secretaryoutrach.PNG')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/secretaryoutreach.PNG')} alt="now hiring application in bio" />
             </a>
           </div>
      </div>

@@ -8,7 +8,7 @@ export default function Outreach() {
   return (
     <section className="outreach-section container">
       {
-       //<div className="hiringtraphics"> 
+       <div className="hiringtraphics"> 
        //marketing 
           <div>
             <a
@@ -63,7 +63,7 @@ export default function Outreach() {
               <img src={require('../../assets/home/outreach/secretaryoutrach.png')} alt="now hiring application in bio" />
             </a>
           </div>
-    //  </div>
+     </div>
 /*
       <p>
         <button

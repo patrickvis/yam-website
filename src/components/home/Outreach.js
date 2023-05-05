@@ -8,7 +8,7 @@ export default function Outreach() {
   return (
     <section className="outreach-section container">
       {
-       <div className="hiringtraphics"> 
+       <div className="hiringgraphics"> 
        //marketing 
           <div>
             <a
@@ -16,7 +16,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/marketingoutreach.jpg')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/marketingoutreach.JPG')} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -27,7 +27,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/financeoutreach.png')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/financeoutreach.PNG')} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -38,7 +38,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/graphicsoutreach.png')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/graphicsoutreach.PNG')} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -49,7 +49,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/techoutreach.png')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/techoutreach.PNG')} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -60,7 +60,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/secretaryoutrach.png')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/secretaryoutrach.PNG')} alt="now hiring application in bio" />
             </a>
           </div>
      </div>

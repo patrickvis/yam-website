@@ -17,7 +17,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/marketingoutreach.JPG')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/marketingoutreach.JPG')} style={{ width: 550, height: 550 }} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -28,7 +28,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/financeoutreach.PNG')} style={{ width: 600, height: 600 }} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/financeoutreach.PNG')} style={{ width: 550, height: 550 }} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -39,7 +39,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/graphicsoutreach.PNG')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/graphicsoutreach.PNG')} style={{ width: 550, height: 550 }} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -50,7 +50,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/techoutreach.PNG')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/techoutreach.PNG')} style={{ width: 550, height: 550 }} alt="now hiring application in bio" />
             </a>
           </div>
 
@@ -61,7 +61,7 @@ export default function Outreach() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={require('../../assets/home/outreach/secretaryoutreach.PNG')} alt="now hiring application in bio" />
+              <img src={require('../../assets/home/outreach/secretaryoutreach.PNG')} style={{ width: 550, height: 550 }} alt="now hiring application in bio" />
             </a>
           </div>
      </div>

@@ -13,7 +13,7 @@ export default function Outreach() {
     
           <div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              href="https://forms.gle/sWRKfGPfRojY7AgUA"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ export default function Outreach() {
         
           <div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              href="https://forms.gle/Tn7Lb7JbC7AX3EYi8"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,7 +35,7 @@ export default function Outreach() {
          
           <div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              href="https://forms.gle/1atUgfDb4NGxAbTT8"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -46,7 +46,7 @@ export default function Outreach() {
         
           <div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              href="https://forms.gle/4PDLd6h1vARe9onf8"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,7 +57,7 @@ export default function Outreach() {
          
           <div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSetFEY2TltA6o5y9P0HJ2FFLbUohtdXo-lshrn4XEnGQJAbKQ/viewform"
+              href="https://forms.gle/YdXeRECVvUdmsZc98"
               target="_blank"
               rel="noopener noreferrer"
             >
